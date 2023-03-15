@@ -408,7 +408,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: unset;
+  justify-content: space-around;
 }
 .home-image03 {
   object-fit: cover;
