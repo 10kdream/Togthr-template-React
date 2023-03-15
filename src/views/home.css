@@ -408,7 +408,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: unset;
 }
 .home-image03 {
   object-fit: cover;
@@ -2266,12 +2266,6 @@
   .home-slider-track {
     width: 1414px;
     height: 785px;
-    margin-left: 0px;
-    padding-bottom: 13px;
-  }
-  .home-image05 {
-    width: 400px;
-    height: 400px;
   }
   .home-get-started {
     width: 1419px;
