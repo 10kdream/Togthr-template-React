@@ -409,11 +409,19 @@
   align-items: center;
   flex-direction: row;
 }
+.home-slide {
+  width: 400px;
+  height: 400px;
+}
 .home-image03 {
   width: 400px;
   height: 400px;
   object-fit: cover;
   aspect-ratio: 1;
+}
+.home-slide1 {
+  width: 400px;
+  height: 400px;
 }
 .home-image04 {
   width: 400px;
@@ -421,17 +429,29 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
+.home-slide2 {
+  width: 400px;
+  height: 400px;
+}
 .home-image05 {
   width: 400px;
   height: 400px;
   object-fit: cover;
   aspect-ratio: 1;
 }
+.home-slide3 {
+  width: 400px;
+  height: 400px;
+}
 .home-image06 {
   width: 400px;
   height: 400px;
   object-fit: cover;
   aspect-ratio: 1;
+}
+.home-slide4 {
+  width: 400px;
+  height: 400px;
 }
 .home-image07 {
   width: 400px;
