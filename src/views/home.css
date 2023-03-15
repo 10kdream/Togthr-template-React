@@ -2264,8 +2264,9 @@
 }
 @media(max-width: 1600px) {
   .home-slider-track {
-    width: var(--dl-size-size-xxlarge);
+    width: 1414px;
     height: 785px;
+    margin-left: 0px;
     padding-bottom: 13px;
   }
   .home-get-started {
