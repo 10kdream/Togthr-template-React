@@ -406,7 +406,7 @@
 }
 .home-slider-track {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   justify-content: initial;
 }
@@ -2292,10 +2292,12 @@
   .home-slide2 {
     width: 400px;
     height: 400px;
+    position: relative;
   }
   .home-slide3 {
     width: 400px;
     height: 400px;
+    position: relative;
   }
   .home-slide4 {
     width: 400px;
