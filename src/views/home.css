@@ -2288,10 +2288,6 @@
   object-fit: cover;
 }
 @media(max-width: 1600px) {
-  .home-slide1 {
-    width: 400px;
-    height: 400px;
-  }
   .home-slide2 {
     width: 400px;
     height: 400px;
