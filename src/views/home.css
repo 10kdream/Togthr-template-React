@@ -410,8 +410,8 @@
   flex-direction: row;
 }
 .home-slide {
-  width: 400px;
-  height: 400px;
+  width: fit-content;
+  height: fit-content;
 }
 .home-image03 {
   width: 400px;
@@ -420,8 +420,8 @@
   aspect-ratio: 1;
 }
 .home-slide1 {
-  width: 400px;
-  height: 400px;
+  width: inherit;
+  height: inherit;
 }
 .home-image04 {
   width: 400px;
@@ -2288,10 +2288,6 @@
   object-fit: cover;
 }
 @media(max-width: 1600px) {
-  .home-slide {
-    width: 400px;
-    height: 400px;
-  }
   .home-slide1 {
     width: 400px;
     height: 400px;
