@@ -173,7 +173,7 @@ const Home = (props) => {
           <div className="home-slider-container blaze-container">
             <div className="home-slider-track-container blaze-track-container">
               <div className="home-slider-track blaze-track">
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
