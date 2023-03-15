@@ -244,7 +244,8 @@ new BlazeSlider(el, {
         <section className="home-get-started">
           <div>
             <DangerousHTML
-              html={`<div class="blaze-slider">
+              html={`
+<div class="blaze-slider">
   <div class="blaze-container">
     <div class="blaze-track-container">
       <div class="blaze-track">
@@ -254,12 +255,35 @@ new BlazeSlider(el, {
         <div>4</div>
       </div>
     </div>
+    <!-- putting nav buttons and pagination in a custom structure -->
+    <div class="my-structure">
+      <button class="blaze-prev" aria-label="Go to previous slide"></button>
+      <div class="blaze-pagination"></div>
+      <button class="blaze-next" aria-label="Go to next slide"></button>
+    </div>
   </div>
 </div>
 
 <script>
-const el = document.querySelector('.blaze-slider')
-new BlazeSlider(el)</script>`}
+
+
+document.querySelectorAll('.blaze-slider').forEach(el => {
+  
+new BlazeSlider(el, {
+  all: {
+    enableAutoplay: true,
+    autoplayInterval: 2000,
+    transitionDuration: 300,
+    slidesToShow: 3,
+  },
+  '(max-width: 900px)': {
+    slidesToShow: 2,
+  },
+  '(max-width: 500px)': {
+    slidesToShow: 1,
+  },
+})
+})</script>`}
             ></DangerousHTML>
           </div>
         </section>
