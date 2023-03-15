@@ -4,14 +4,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import Home from './views/home'
-import Test from './views/test'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={Home} exact path="/" />
-        <Route component={Test} exact path="/test" />
       </div>
     </Router>
   )
