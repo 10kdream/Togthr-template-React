@@ -183,29 +183,22 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
+                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image04"
                   />
                 </div>
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
+                    src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
                     className="home-image05"
                   />
                 </div>
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image06"
-                  />
-                </div>
-                <div data-role="current-banner" className="banner">
-                  <img
-                    alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image07"
+                    className="home-image06"
                   />
                 </div>
               </div>
@@ -273,7 +266,7 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="/playground_assets/getstarted-800w.png"
-          className="home-image08"
+          className="home-image07"
         />
       </section>
       <section className="home-objectives">
@@ -384,7 +377,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/growth-1400w.png"
-            className="home-image09"
+            className="home-image08"
           />
         </div>
       </section>
@@ -394,7 +387,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/experience-1400w.png"
-            className="home-image10"
+            className="home-image09"
           />
         </div>
         <div className="home-content04">
@@ -693,11 +686,11 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="home-content07">
-          <div className="home-image11">
+          <div className="home-image10">
             <img
               alt="image"
               src="/playground_assets/data-1400w.png"
-              className="home-image12"
+              className="home-image11"
             />
           </div>
           <div className="home-accordion">
@@ -1036,7 +1029,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
-                className="home-image13"
+                className="home-image12"
               />
               <span className="home-text72">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -1123,7 +1116,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image14"
+                className="home-image13"
               />
             </button>
           </div>
