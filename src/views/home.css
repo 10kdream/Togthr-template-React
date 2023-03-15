@@ -401,14 +401,14 @@
 }
 .home-slider-track-container {
   display: flex;
-  align-items: center;
+  align-items: unset;
   flex-direction: row;
 }
 .home-slider-track {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: unset;
+  justify-content: center;
 }
 .home-image03 {
   object-fit: cover;
