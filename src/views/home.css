@@ -2266,6 +2266,7 @@
   .home-slider-track {
     width: 1600px;
     height: 785px;
+    padding-bottom: 13px;
   }
   .home-get-started {
     width: 1419px;
