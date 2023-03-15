@@ -2268,12 +2268,15 @@
     height: 785px;
   }
   .home-slide {
+    flex: 0;
     background-color: transparent;
   }
   .home-slide1 {
+    flex: 0;
     background-color: transparent;
   }
   .home-slide2 {
+    flex: 0;
     background-color: transparent;
   }
   .home-slide3 {
