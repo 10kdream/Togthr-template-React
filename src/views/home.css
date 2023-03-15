@@ -406,9 +406,9 @@
 }
 .home-slider-track {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: initial;
 }
 .home-slide {
   width: fit-content;
