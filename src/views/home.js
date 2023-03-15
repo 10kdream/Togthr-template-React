@@ -140,7 +140,7 @@ const Home = (props) => {
             <span className="home-caption02">Unde omnis iste</span>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header04">500K</h3>
+            <h3 className="home-header04">Assisting</h3>
             <span className="home-caption03">Accusantium doloremque</span>
           </div>
         </div>
