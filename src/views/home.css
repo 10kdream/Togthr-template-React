@@ -405,7 +405,7 @@
   flex-direction: row;
 }
 .home-slider-track {
-  display: flex;
+  display: inline;
   align-items: center;
   flex-direction: row;
 }
