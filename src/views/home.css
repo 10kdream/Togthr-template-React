@@ -405,9 +405,10 @@
   flex-direction: row;
 }
 .home-slider-track {
-  display: contents;
+  display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: flex-start;
 }
 .home-slide {
   width: fit-content;
