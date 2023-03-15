@@ -411,11 +411,11 @@
   justify-content: initial;
 }
 .home-image03 {
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-image04 {
-  object-fit: fill;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-image05 {
@@ -2259,6 +2259,10 @@
   object-fit: cover;
 }
 @media(max-width: 1600px) {
+  .home-slider-track {
+    width: 1600px;
+    height: 430px;
+  }
   .home-get-started {
     width: 1419px;
     height: 874px;
