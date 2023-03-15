@@ -173,42 +173,42 @@ const Home = (props) => {
           <div className="home-slider-container blaze-container">
             <div className="home-slider-track-container blaze-track-container">
               <div className="home-slider-track blaze-track">
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
                     className="home-image03"
                   />
                 </div>
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide1">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
                     className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide2">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image05"
                   />
                 </div>
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide3">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image06"
                   />
                 </div>
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide4">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
                     className="home-image07"
                   />
                 </div>
-                <div data-role="current-banner" className="banner">
+                <div data-role="current-banner" className="banner home-slide5">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
