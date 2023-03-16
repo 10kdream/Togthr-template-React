@@ -400,10 +400,11 @@
   flex-direction: column;
 }
 .home-slide {
-  flex: initial;
   background-color: var(--dl-color-primary-mygreen);
 }
 .home-image03 {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
@@ -411,6 +412,8 @@
   flex: initial;
 }
 .home-image04 {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
@@ -418,6 +421,8 @@
   flex: initial;
 }
 .home-image05 {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
@@ -425,11 +430,13 @@
   flex: initial;
 }
 .home-image06 {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
 .home-controls {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
