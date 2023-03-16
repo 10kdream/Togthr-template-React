@@ -185,11 +185,15 @@
 }
 
 
-
+.blaze-track-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 .blaze-track {
   width: auto;
   cursor: grabbing;
-  height: initial;
+  height: 300px;
   display: flex;
   align-items: center;
   flex-direction: row;

@@ -171,7 +171,7 @@ const Home = (props) => {
       <section className="home-slides">
         <div className="home-slider1 slider blaze-slider">
           <div className="home-slider-container blaze-container">
-            <div className="home-slider-track-container blaze-track-container">
+            <div className="blaze-track-container">
               <div className="blaze-track">
                 <div data-role="current-banner" className="home-slide banner">
                   <img
