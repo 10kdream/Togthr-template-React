@@ -443,18 +443,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-video {
-  width: 730px;
-  height: 465px;
-}
-.home-container08 {
-  flex: 0 0 auto;
-  width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 180px;
-  display: flex;
-  align-items: flex-start;
   justify-content: center;
 }
 .home-statistics {
@@ -552,7 +540,7 @@
   font-size: 16px;
   line-height: 24px;
 }
-.home-container09 {
+.home-container08 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -561,17 +549,6 @@
   position: relative;
   align-items: flex-start;
   justify-content: center;
-}
-.home-objectives {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
-  flex-direction: row;
-  justify-content: space-between;
 }
 .home-growth {
   width: 100%;
@@ -1033,6 +1010,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.home-container09 {
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
 .home-container10 {
   display: flex;
   align-items: center;
@@ -1040,12 +1023,6 @@
   justify-content: space-between;
 }
 .home-container11 {
-  display: flex;
-  align-items: center;
-  margin-right: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
-.home-container12 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1391,7 +1368,7 @@
   .home-controls {
     height: 97px;
   }
-  .home-container09 {
+  .home-container08 {
     height: auto;
   }
 }
@@ -1481,11 +1458,11 @@
   .home-blog {
     flex-direction: column;
   }
-  .home-container10 {
+  .home-container09 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .home-container11 {
+  .home-container10 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
@@ -1590,10 +1567,6 @@
   .home-caption3 {
     font-size: 14px;
     line-height: 21px;
-  }
-  .home-objectives {
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .home-growth {
     padding-top: var(--dl-space-space-threeunits);

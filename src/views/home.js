@@ -228,14 +228,12 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-container07">
-        <video
-          src="https://youtu.be/nusuZ1bneQM"
-          controls
-          poster="https://images.unsplash.com/photo-1678905029643-741e60ef88d5?ixid=Mnw5MTMyMXwwfDF8YWxsfDJ8fHx8fHwyfHwxNjc4OTc3MDU5&amp;ixlib=rb-4.0.3&amp;w=400"
-          className="home-video"
-        ></video>
+        <div>
+          <DangerousHTML
+            html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+          ></DangerousHTML>
+        </div>
       </div>
-      <div className="home-container08"></div>
       <section className="home-statistics">
         <div className="home-content">
           <div className="home-stat">
@@ -259,8 +257,7 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <div className="home-container09"></div>
-      <section className="home-objectives"></section>
+      <div className="home-container08"></div>
       <section className="home-growth">
         <div className="home-content1">
           <div className="home-header06">
@@ -439,16 +436,16 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-blog">
-        <div className="home-container10">
+        <div className="home-container09">
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
         </div>
-        <div className="home-container11">
+        <div className="home-container10">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container12">
+        <div className="home-container11">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName1"
