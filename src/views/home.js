@@ -228,10 +228,18 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-container07">
-        <div>
-          <DangerousHTML
-            html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
-          ></DangerousHTML>
+        <h1 className="home-text18">Live Sessions</h1>
+        <div className="home-container08">
+          <div className="home-div">
+            <DangerousHTML
+              html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+            ></DangerousHTML>
+          </div>
+          <div>
+            <DangerousHTML
+              html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4a-5UhhmJ2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+            ></DangerousHTML>
+          </div>
         </div>
       </div>
       <section className="home-statistics">
@@ -257,14 +265,14 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <div className="home-container08"></div>
+      <div className="home-container09"></div>
       <section className="home-growth">
         <div className="home-content1">
           <div className="home-header06">
             <div className="home-header07">
               <h2 className="home-heading2">
                 <span>Recording quality </span>
-                <span className="home-text19">audio.</span>
+                <span className="home-text20">audio.</span>
                 <br></br>
               </h2>
             </div>
@@ -288,8 +296,8 @@ new BlazeSlider(el, {
           </div>
           <div className="home-testimonial">
             <div className="home-content2">
-              <span className="home-text21">Testimonial</span>
-              <p className="home-text22">
+              <span className="home-text22">Testimonial</span>
+              <p className="home-text23">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.”
               </p>
@@ -335,7 +343,7 @@ new BlazeSlider(el, {
               <div className="home-header09">
                 <h2 className="home-heading3">
                   <span>A worlds class </span>
-                  <span className="home-text24">experience</span>
+                  <span className="home-text25">experience</span>
                 </h2>
               </div>
               <p className="home-caption6">
@@ -350,7 +358,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text25">
+                <span className="home-text26">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -360,7 +368,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text26">Lorem ipsum dolor sit amet</span>
+                <span className="home-text27">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
@@ -368,7 +376,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text27">
+                <span className="home-text28">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -378,7 +386,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text28">
+                <span className="home-text29">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -386,8 +394,8 @@ new BlazeSlider(el, {
           </div>
           <div className="home-testimonial1">
             <div className="home-content4">
-              <span className="home-text29">Testimonial</span>
-              <p className="home-text30">
+              <span className="home-text30">Testimonial</span>
+              <p className="home-text31">
                 “Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.”
               </p>
@@ -414,16 +422,7 @@ new BlazeSlider(el, {
         <div className="home-content5">
           <div className="home-header10">
             <h2 className="home-heading4">
-              <span>
-                Create your own
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text32">environment</span>
-              <span> now!</span>
+              <span className="home-text32">Get in touch</span>
               <br></br>
             </h2>
           </div>
@@ -436,16 +435,16 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-blog">
-        <div className="home-container09">
+        <div className="home-container10">
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
         </div>
-        <div className="home-container10">
+        <div className="home-container11">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container11">
+        <div className="home-container12">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName1"
@@ -461,7 +460,7 @@ new BlazeSlider(el, {
                 src="/playground_assets/logo.svg"
                 className="home-image10"
               />
-              <span className="home-text38">
+              <span className="home-text37">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -485,7 +484,7 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="home-navlink03">
-                    <span className="home-text39">Why</span>
+                    <span className="home-text38">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -539,7 +538,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text41">
+            <span className="home-text40">
               © 2022 togthr - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">

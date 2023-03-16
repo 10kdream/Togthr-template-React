@@ -438,12 +438,29 @@
   height: 24px;
 }
 .home-container07 {
-  width: 1436px;
-  height: 560px;
+  gap: var(--dl-space-space-twounits);
+  width: 1479px;
+  height: 446px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text18 {
+  color: #ffffff;
+  align-self: center;
+  text-align: center;
+}
+.home-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
   justify-content: center;
+}
+.home-div {
+  align-self: center;
 }
 .home-statistics {
   width: 100%;
@@ -540,7 +557,7 @@
   font-size: 16px;
   line-height: 24px;
 }
-.home-container08 {
+.home-container09 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -589,7 +606,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text19 {
+.home-text20 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -626,14 +643,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text21 {
+.home-text22 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.home-text22 {
+.home-text23 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: Playfair Display;
@@ -779,7 +796,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text24 {
+.home-text25 {
   font-family: Playfair Display;
 }
 .home-caption6 {
@@ -817,7 +834,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text25 {
+.home-text26 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -842,7 +859,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text26 {
+.home-text27 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -867,7 +884,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text27 {
+.home-text28 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -892,7 +909,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text28 {
+.home-text29 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -911,14 +928,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text29 {
+.home-text30 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.home-text30 {
+.home-text31 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: Playfair Display;
@@ -1010,12 +1027,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.home-container09 {
-  display: flex;
-  align-items: center;
-  margin-right: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
 .home-container10 {
   display: flex;
   align-items: center;
@@ -1023,6 +1034,12 @@
   justify-content: space-between;
 }
 .home-container11 {
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home-container12 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1066,7 +1083,7 @@
   width: 120px;
   object-fit: cover;
 }
-.home-text38 {
+.home-text37 {
   color: #7C7C80;
   line-height: 24px;
 }
@@ -1134,7 +1151,7 @@
 .home-navlink03:hover {
   opacity: .5;
 }
-.home-text39:hover {
+.home-text38:hover {
   opacity: .5;
 }
 .home-column1 {
@@ -1300,7 +1317,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text41 {
+.home-text40 {
   color: #7C7C80;
   font-size: 14px;
   line-height: 21px;
@@ -1368,7 +1385,7 @@
   .home-controls {
     height: 97px;
   }
-  .home-container08 {
+  .home-container09 {
     height: auto;
   }
 }
@@ -1430,7 +1447,7 @@
   .home-testimonial {
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text22 {
+  .home-text23 {
     max-width: 560px;
   }
   .home-images {
@@ -1458,11 +1475,11 @@
   .home-blog {
     flex-direction: column;
   }
-  .home-container09 {
+  .home-container10 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .home-container10 {
+  .home-container11 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
@@ -1592,7 +1609,7 @@
     line-height: 24px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text21 {
+  .home-text22 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -1641,7 +1658,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text29 {
+  .home-text30 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -1712,7 +1729,7 @@
   .home-heading3 {
     color: rgb(255, 255, 255);
   }
-  .home-text24 {
+  .home-text25 {
     font-style: italic;
     font-family: Playfair Display;
     font-weight: 500;
