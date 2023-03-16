@@ -134,13 +134,8 @@ const Home = (props) => {
           ></DangerousHTML>
         </div>
       </div>
-      <section className="home-slider">
-        <div className="home-header02">
-          <h2 className="home-heading1">Releases</h2>
-        </div>
-      </section>
       <section className="home-slides">
-        <div className="home-slider1 slider blaze-slider">
+        <div className="home-slider slider blaze-slider">
           <div className="home-slider-container blaze-container">
             <div className="blaze-track-container">
               <div className="home-slider-track blaze-track">
@@ -235,7 +230,7 @@ new BlazeSlider(el, {
               html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
             ></DangerousHTML>
           </div>
-          <div>
+          <div className="home-div1">
             <DangerousHTML
               html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4a-5UhhmJ2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
             ></DangerousHTML>
@@ -245,7 +240,7 @@ new BlazeSlider(el, {
       <section className="home-statistics">
         <div className="home-content">
           <div className="home-stat">
-            <h3 className="home-header03">Recording</h3>
+            <h3 className="home-header02">Recording</h3>
             <span className="home-caption1">
               Consectetur adipiscing
               <span
@@ -256,11 +251,11 @@ new BlazeSlider(el, {
             </span>
           </div>
           <div className="home-stat1">
-            <h3 className="home-header04">Mixing</h3>
+            <h3 className="home-header03">Mixing</h3>
             <span className="home-caption2">Unde omnis iste</span>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header05">Assisting</h3>
+            <h3 className="home-header04">Assisting</h3>
             <span className="home-caption3">Accusantium doloremque</span>
           </div>
         </div>
@@ -268,9 +263,9 @@ new BlazeSlider(el, {
       <div className="home-container09"></div>
       <section className="home-growth">
         <div className="home-content1">
-          <div className="home-header06">
-            <div className="home-header07">
-              <h2 className="home-heading2">
+          <div className="home-header05">
+            <div className="home-header06">
+              <h2 className="home-heading1">
                 <span>Recording quality </span>
                 <span className="home-text20">audio.</span>
                 <br></br>
@@ -338,10 +333,10 @@ new BlazeSlider(el, {
           />
         </div>
         <div className="home-content3">
-          <div className="home-header08">
+          <div className="home-header07">
             <div className="home-header-container1">
-              <div className="home-header09">
-                <h2 className="home-heading3">
+              <div className="home-header08">
+                <h2 className="home-heading2">
                   <span>A worlds class </span>
                   <span className="home-text25">experience</span>
                 </h2>
@@ -420,8 +415,8 @@ new BlazeSlider(el, {
       </section>
       <section className="home-create">
         <div className="home-content5">
-          <div className="home-header10">
-            <h2 className="home-heading4">
+          <div className="home-header09">
+            <h2 className="home-heading3">
               <span className="home-text32">Get in touch</span>
               <br></br>
             </h2>
@@ -472,7 +467,7 @@ new BlazeSlider(el, {
             </div>
             <div className="home-links">
               <div className="home-column">
-                <span className="home-header11">Company</span>
+                <span className="home-header10">Company</span>
                 <div className="home-list">
                   <Link to="/" className="home-navlink">
                     About
@@ -490,7 +485,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="home-column1">
-                <span className="home-header12">Extern</span>
+                <span className="home-header11">Extern</span>
                 <div className="home-list1">
                   <Link to="/" className="home-navlink04">
                     News
@@ -516,7 +511,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="home-column2">
-                <span className="home-header13">Social</span>
+                <span className="home-header12">Social</span>
                 <div className="home-list2">
                   <Link to="/" className="home-navlink11">
                     LinkedIn

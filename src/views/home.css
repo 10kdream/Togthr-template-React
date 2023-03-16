@@ -238,7 +238,7 @@
 }
 .home-header01 {
   color: rgb(43, 99, 98);
-  font-size: 30px;
+  font-size: 45px;
   align-self: flex-start;
   font-style: italic;
   text-align: center;
@@ -254,7 +254,7 @@
   font-size: 24px;
   max-width: 600px;
   align-self: flex-start;
-  margin-top: var(--dl-space-space-fourunits);
+  margin-top: var(--dl-space-space-oneandhalfunits);
   line-height: 36px;
 }
 .home-container05 {
@@ -292,32 +292,6 @@
   position: absolute;
   margin-bottom: auto;
 }
-.home-slider {
-  gap: var(--dl-space-space-oneandhalfunits);
-  width: 100%;
-  display: flex;
-  position: relative;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-  justify-content: flex-start;
-}
-.home-header02 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-heading1 {
-  color: rgb(255, 255, 255);
-  font-size: 60px;
-  max-width: 900px;
-  font-style: italic;
-  font-weight: 400;
-}
 .home-slides {
   gap: var(--dl-space-space-fourunits);
   display: flex;
@@ -327,7 +301,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
 }
-.home-slider1 {
+.home-slider {
   gap: var(--dl-space-space-fiveunits);
   display: flex;
   align-items: center;
@@ -462,6 +436,9 @@
 .home-div {
   align-self: center;
 }
+.home-div1 {
+  padding-left: var(--dl-space-space-threeunits);
+}
 .home-statistics {
   width: 100%;
   display: flex;
@@ -495,7 +472,7 @@
   justify-content: center;
   border-right-width: 1px;
 }
-.home-header03 {
+.home-header02 {
   color: rgb(255, 255, 255);
   font-size: 62px;
   font-style: italic;
@@ -520,7 +497,7 @@
   justify-content: center;
   border-right-width: 1px;
 }
-.home-header04 {
+.home-header03 {
   color: rgb(255, 255, 255);
   font-size: 62px;
   font-style: italic;
@@ -543,7 +520,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: center;
 }
-.home-header05 {
+.home-header04 {
   color: rgb(255, 255, 255);
   font-size: 62px;
   font-style: italic;
@@ -588,19 +565,19 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-header06 {
+.home-header05 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.home-header07 {
+.home-header06 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading2 {
+.home-heading1 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -766,7 +743,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-header08 {
+.home-header07 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
@@ -785,12 +762,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-header09 {
+.home-header08 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-heading3 {
+.home-heading2 {
   color: rgb(255, 255, 255);
   font-size: 60px;
   font-style: normal;
@@ -999,12 +976,12 @@
   justify-content: center;
   background-color: #2b6362;
 }
-.home-header10 {
+.home-header09 {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.home-heading4 {
+.home-heading3 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   font-style: normal;
@@ -1100,7 +1077,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-header11 {
+.home-header10 {
   font-size: 24px;
   font-style: italic;
   font-family: Playfair Display;
@@ -1161,7 +1138,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-header12 {
+.home-header11 {
   font-size: 24px;
   font-style: italic;
   font-family: Playfair Display;
@@ -1249,7 +1226,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-header13 {
+.home-header12 {
   font-size: 24px;
   font-style: italic;
   font-family: Playfair Display;
@@ -1396,7 +1373,7 @@
   .home-hero-content {
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-slider1 {
+  .home-slider {
     gap: var(--dl-space-space-twounits);
   }
   .home-image03 {
@@ -1469,7 +1446,7 @@
     padding-top: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .home-heading4 {
+  .home-heading3 {
     font-size: 50px;
   }
   .home-blog {
@@ -1512,19 +1489,10 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-slider {
-    padding-top: var(--dl-space-space-threeunits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .home-heading1 {
-    font-size: 40px;
-  }
   .home-slides {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .home-slider1 {
+  .home-slider {
     gap: var(--dl-space-space-oneandhalfunits);
   }
   .home-previous {
@@ -1555,7 +1523,7 @@
   .home-stat {
     gap: var(--dl-space-space-unit);
   }
-  .home-header03 {
+  .home-header02 {
     font-size: 36px;
     line-height: 42px;
   }
@@ -1566,7 +1534,7 @@
   .home-stat1 {
     gap: var(--dl-space-space-unit);
   }
-  .home-header04 {
+  .home-header03 {
     font-size: 36px;
     line-height: 42px;
   }
@@ -1577,7 +1545,7 @@
   .home-stat2 {
     gap: var(--dl-space-space-unit);
   }
-  .home-header05 {
+  .home-header04 {
     font-size: 36px;
     line-height: 42px;
   }
@@ -1594,10 +1562,10 @@
   .home-content1 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .home-header06 {
+  .home-header05 {
     gap: var(--dl-space-space-unit);
   }
-  .home-heading2 {
+  .home-heading1 {
     font-size: 40px;
   }
   .home-caption4 {
@@ -1645,13 +1613,13 @@
   .home-content3 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .home-header08 {
+  .home-header07 {
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .home-header-container1 {
     gap: var(--dl-space-space-unit);
   }
-  .home-heading3 {
+  .home-heading2 {
     font-size: 40px;
   }
   .home-caption6 {
@@ -1684,7 +1652,7 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-heading4 {
+  .home-heading3 {
     font-size: 36px;
   }
   .home-blog {
@@ -1721,12 +1689,8 @@
   }
   .home-heading1 {
     font-size: 36px;
-    line-height: 42px;
   }
   .home-heading2 {
-    font-size: 36px;
-  }
-  .home-heading3 {
     color: rgb(255, 255, 255);
   }
   .home-text25 {
@@ -1734,7 +1698,7 @@
     font-family: Playfair Display;
     font-weight: 500;
   }
-  .home-heading4 {
+  .home-heading3 {
     color: rgb(255, 255, 255);
     font-style: normal;
     text-align: center;
