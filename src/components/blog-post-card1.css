@@ -23,6 +23,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: var(--dl-color-primary-tea);
 }
 .blog-post-card1-text {
   color: var(--dl-color-gray-500);
@@ -75,12 +76,16 @@
 }
 
 .blog-post-card1-root-class-name1 {
+  flex: 1;
+  align-self: center;
   background-color: #c5bbac;
 }
 .blog-post-card1-root-class-name2 {
+  flex: 1;
   background-color: #c5bbac;
 }
 .blog-post-card1-root-class-name3 {
+  flex: 1;
   background-color: #c5bbac;
 }
 

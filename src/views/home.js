@@ -91,7 +91,8 @@ const Home = (props) => {
         <div className="home-container03">
           <div className="home-container04">
             <h1 className="home-heading1">
-              <span className="home-text008">ABOUT</span>
+              <span className="home-text008">&gt;</span>
+              <span className="home-text009">ABOUT</span>
               <br></br>
             </h1>
             <p className="home-caption">
@@ -139,12 +140,6 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
                     className="home-image3"
                   />
-                  <span className="home-text015">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <span>Mix Engineer</span>
-                  </span>
                 </div>
                 <div data-role="current-banner" className="home-slide1 banner">
                   <img
@@ -152,6 +147,12 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image4"
                   />
+                  <span className="home-text016">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <span>Mix Engineer</span>
+                  </span>
                 </div>
                 <div data-role="current-banner" className="banner home-slide2">
                   <img
@@ -216,9 +217,18 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
-      <div className="home-container06">
+      <div className="home-listen">
         <h1 className="home-heading2">
-          <span className="home-text020">        LISTEN</span>
+          <span className="home-text021">
+                   
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="home-text022">&gt;</span>
+          <span className="home-text023">LISTEN</span>
           <br></br>
         </h1>
       </div>
@@ -230,7 +240,7 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div className="home-live-sessions">
-        <div className="home-container07">
+        <div className="home-container06">
           <div className="home-div">
             <DangerousHTML
               html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
@@ -243,123 +253,138 @@ new BlazeSlider(el, {
           </div>
         </div>
       </div>
-      <div className="home-container08">
-        <div className="home-container09">
-          <span className="home-text022">
-            <span className="home-text023">RECORDING</span>
-            <br className="home-text024"></br>
-            <span className="home-text025">Vocal Tracking</span>
-            <br className="home-text026"></br>
-            <span className="home-text027">Full band tracking</span>
-            <br className="home-text028"></br>
-            <span className="home-text029">Live Sessions</span>
-            <br className="home-text030"></br>
-            <span className="home-text031">
+      <div className="home-what-i-do">
+        <h1 className="home-heading3">
+          <span className="home-text025">
+                   
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="home-text026">&gt;</span>
+          <span className="home-text027">WHAT I DO</span>
+          <br></br>
+        </h1>
+      </div>
+      <div className="home-container07">
+        <div className="home-container08">
+          <span className="home-text029">
+            <span className="home-text030">RECORDING</span>
+            <br className="home-text031"></br>
+            <span className="home-text032">Vocal Tracking</span>
+            <br className="home-text033"></br>
+            <span className="home-text034">Full band tracking</span>
+            <br className="home-text035"></br>
+            <span className="home-text036">Live Sessions</span>
+            <br className="home-text037"></br>
+            <span className="home-text038">
               Podcast, Voiceover &amp; Radio IDs
             </span>
-            <br className="home-text032"></br>
-            <span className="home-text033">Broadcast for livestream</span>
-            <br className="home-text034"></br>
-            <br className="home-text035"></br>
-            <span className="home-text036">SOFTWARE I USE</span>
-            <br className="home-text037"></br>
-            <span className="home-text038">Pro Tools HD</span>
             <br className="home-text039"></br>
-            <span className="home-text040">Logic Pro X</span>
+            <span className="home-text040">Broadcast for livestream</span>
             <br className="home-text041"></br>
-            <span className="home-text042">Izotope RX</span>
-            <br className="home-text043"></br>
-            <span className="home-text044">Fab Filter Pro</span>
-            <br className="home-text045"></br>
-            <span className="home-text046">UAD Console</span>
-            <br className="home-text047"></br>
-            <span className="home-text048">Soundtoys</span>
-            <br className="home-text049"></br>
+            <br className="home-text042"></br>
+            <span className="home-text043">SOFTWARE I USE</span>
+            <br className="home-text044"></br>
+            <span className="home-text045">Pro Tools HD</span>
+            <br className="home-text046"></br>
+            <span className="home-text047">Logic Pro X</span>
+            <br className="home-text048"></br>
+            <span className="home-text049">Izotope RX</span>
             <br className="home-text050"></br>
-            <span className="home-text051">HARDWARE I USE</span>
+            <span className="home-text051">Fab Filter Pro</span>
             <br className="home-text052"></br>
-            <span className="home-text053">SSL4000G Series</span>
+            <span className="home-text053">UAD Console</span>
             <br className="home-text054"></br>
-            <span className="home-text055">SSL AWS</span>
+            <span className="home-text055">Soundtoys</span>
             <br className="home-text056"></br>
-            <span className="home-text057">Dante Level 1 Certification</span>
-            <br className="home-text058"></br>
-            <span className="home-text059">Universal Audio Apollo Systems</span>
-            <br className="home-text060"></br>
-            <span className="home-text061">
+            <br className="home-text057"></br>
+            <span className="home-text058">HARDWARE I USE</span>
+            <br className="home-text059"></br>
+            <span className="home-text060">SSL4000G Series</span>
+            <br className="home-text061"></br>
+            <span className="home-text062">SSL AWS</span>
+            <br className="home-text063"></br>
+            <span className="home-text064">Dante Level 1 Certification</span>
+            <br className="home-text065"></br>
+            <span className="home-text066">Universal Audio Apollo Systems</span>
+            <br className="home-text067"></br>
+            <span className="home-text068">
               Wireless In Ear Monitoring Systems
             </span>
-            <br className="home-text062"></br>
-            <span className="home-text063">Wireless Microphone Systems</span>
-            <br className="home-text064"></br>
-            <span className="home-text065">Ferrofish Converters</span>
-            <br className="home-text066"></br>
-            <span className="home-text067">Antelope Orion Converters</span>
-            <br className="home-text068"></br>
+            <br className="home-text069"></br>
+            <span className="home-text070">Wireless Microphone Systems</span>
+            <br className="home-text071"></br>
+            <span className="home-text072">Ferrofish Converters</span>
+            <br className="home-text073"></br>
+            <span className="home-text074">Antelope Orion Converters</span>
+            <br className="home-text075"></br>
           </span>
         </div>
-        <div className="home-container10">
-          <span className="home-text069">
-            <span className="home-text070">MIXING</span>
-            <br className="home-text071"></br>
-            <span className="home-text072">
+        <div className="home-container09">
+          <span className="home-text076">
+            <span className="home-text077">MIXING</span>
+            <br className="home-text078"></br>
+            <span className="home-text079">
               Mixing for commercial music releases
             </span>
-            <br className="home-text073"></br>
-            <span className="home-text074">
+            <br className="home-text080"></br>
+            <span className="home-text081">
               Audio mixing for live video sessions
             </span>
-            <br className="home-text075"></br>
-            <span className="home-text076">Pro Tools HD</span>
-            <br className="home-text077"></br>
-            <span className="home-text078">Logic Pro X</span>
-            <br className="home-text079"></br>
-            <br className="home-text080"></br>
-            <br className="home-text081"></br>
-            <span className="home-text082">STUDIOS IVE WORKED FOR</span>
-            <br className="home-text083"></br>
-            <span className="home-text084">Circle Studios by Sony Music</span>
-            <br className="home-text085"></br>
-            <span className="home-text086">
+            <br className="home-text082"></br>
+            <span className="home-text083">Pro Tools HD</span>
+            <br className="home-text084"></br>
+            <span className="home-text085">Logic Pro X</span>
+            <br className="home-text086"></br>
+            <br className="home-text087"></br>
+            <br className="home-text088"></br>
+            <span className="home-text089">STUDIOS IVE WORKED FOR</span>
+            <br className="home-text090"></br>
+            <span className="home-text091">Circle Studios by Sony Music</span>
+            <br className="home-text092"></br>
+            <span className="home-text093">
               Red Bull Studios London &amp; Berlin
             </span>
-            <br className="home-text087"></br>
-            <span className="home-text088">Noatune Studios London</span>
-            <br className="home-text089"></br>
-            <br className="home-text090"></br>
-            <br className="home-text091"></br>
-            <span className="home-text092">AWARDS</span>
-            <br className="home-text093"></br>
-            <span className="home-text094">
+            <br className="home-text094"></br>
+            <span className="home-text095">Noatune Studios London</span>
+            <br className="home-text096"></br>
+            <br className="home-text097"></br>
+            <br className="home-text098"></br>
+            <span className="home-text099">AWARDS</span>
+            <br className="home-text100"></br>
+            <span className="home-text101">
               Awarded Scholarship for Mix With The Masters, from We Are Moving
               The Needle
             </span>
-            <br className="home-text095"></br>
-            <span className="home-text096">
+            <br className="home-text102"></br>
+            <span className="home-text103">
               Overall Winner of Shure x Red Bull’s Soundscapes Competition
             </span>
-            <br className="home-text097"></br>
-            <span className="home-text098">
+            <br className="home-text104"></br>
+            <span className="home-text105">
               Madison Square Garden’s Up and Coming Award
             </span>
-            <br className="home-text099"></br>
-            <br className="home-text100"></br>
-            <span className="home-text101">MASTERCLASSES</span>
-            <br className="home-text102"></br>
-            <span className="home-text103">P</span>
-            <span className="home-text104">
+            <br className="home-text106"></br>
+            <br className="home-text107"></br>
+            <span className="home-text108">MASTERCLASSES</span>
+            <br className="home-text109"></br>
+            <span className="home-text110">P</span>
+            <span className="home-text111">
               op Beuro x SAE Electronic Barcamp
             </span>
-            <br className="home-text105"></br>
+            <br className="home-text112"></br>
           </span>
         </div>
       </div>
-      <div className="home-container11"></div>
+      <div className="home-container10"></div>
       <section className="home-create">
         <div className="home-content">
           <div className="home-header1">
-            <h2 className="home-heading3">
-              <span className="home-text106">Get in touch</span>
+            <h2 className="home-heading4">
+              <span className="home-text113">Get in touch</span>
               <br></br>
             </h2>
           </div>
@@ -371,331 +396,56 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
-      <section className="home-what-i-do">
-        <div className="home-container12">
-          <h1 className="home-heading4">
-            <span className="home-text111">WHAT I DO</span>
-            <br></br>
-          </h1>
-        </div>
-        <div className="home-content1">
-          <div className="home-stat">
-            <h1 className="home-header2">Recording</h1>
-            <span className="home-caption1">Unde omnis iste</span>
-            <div className="home-checkmarks">
-              <div className="home-check">
-                <div className="home-mark">
-                  <svg viewBox="0 0 1024 1024" className="home-icon13">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text113">Vocal Tracking</span>
-              </div>
-              <div className="home-check01">
-                <div className="home-mark01">
-                  <svg viewBox="0 0 1024 1024" className="home-icon15">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text114">Full band recording</span>
-              </div>
-              <div className="home-check02">
-                <div className="home-mark02">
-                  <svg viewBox="0 0 1024 1024" className="home-icon17">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text115">Podcast &amp; Voiceover</span>
-              </div>
-              <div className="home-check03">
-                <div className="home-mark03">
-                  <svg viewBox="0 0 1024 1024" className="home-icon19">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text116">
-                  Recording for broadcast &amp; stream
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="home-stat1">
-            <h3 className="home-header3">Mixing</h3>
-            <span className="home-caption2">Unde omnis iste</span>
-            <div className="home-checkmarks1">
-              <div className="home-check04">
-                <div className="home-mark04">
-                  <svg viewBox="0 0 1024 1024" className="home-icon21">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text117">Vocal Tracking</span>
-              </div>
-              <div className="home-check05">
-                <div className="home-mark05">
-                  <svg viewBox="0 0 1024 1024" className="home-icon23">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text118">Full band recording</span>
-              </div>
-              <div className="home-check06">
-                <div className="home-mark06">
-                  <svg viewBox="0 0 1024 1024" className="home-icon25">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text119">Podcast &amp; Voiceover</span>
-              </div>
-              <div className="home-check07">
-                <div className="home-mark07">
-                  <svg viewBox="0 0 1024 1024" className="home-icon27">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text120">
-                  Recording for broadcast &amp; stream
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="home-stat2">
-            <h3 className="home-header4">Assisting</h3>
-            <span className="home-caption3">Accusantium doloremque</span>
-            <div className="home-checkmarks2">
-              <div className="home-check08">
-                <div className="home-mark08">
-                  <svg viewBox="0 0 1024 1024" className="home-icon29">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text121">
-                  <span>Vocal tuning with Melodyne</span>
-                  <br></br>
-                </span>
-              </div>
-              <div className="home-check09">
-                <div className="home-mark09">
-                  <svg viewBox="0 0 1024 1024" className="home-icon31">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text124">Drum editing</span>
-              </div>
-              <div className="home-check10">
-                <div className="home-mark10">
-                  <svg viewBox="0 0 1024 1024" className="home-icon33">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text125">Podcast &amp; Voiceover</span>
-              </div>
-              <div className="home-check11">
-                <div className="home-mark11">
-                  <svg viewBox="0 0 1024 1024" className="home-icon35">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text126">
-                  Recording for broadcast &amp; stream
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="home-stat3">
-          <h3 className="home-header5">What I use</h3>
-          <div className="home-checkmarks3">
-            <div className="home-check12">
-              <div className="home-mark12">
-                <svg viewBox="0 0 1024 1024" className="home-icon37">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text127">
-                <span>Pro Tools HD</span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check13">
-              <div className="home-mark13">
-                <svg viewBox="0 0 1024 1024" className="home-icon39">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text130">Izotope RX</span>
-            </div>
-            <div className="home-check14">
-              <div className="home-mark14">
-                <svg viewBox="0 0 1024 1024" className="home-icon41">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text131">Podcast &amp; Voiceover</span>
-            </div>
-            <div className="home-check15">
-              <div className="home-mark15">
-                <svg viewBox="0 0 1024 1024" className="home-icon43">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text132">
-                Recording for broadcast &amp; stream
-              </span>
-            </div>
-          </div>
-          <div className="home-checkmarks4">
-            <div className="home-check16">
-              <div className="home-mark16">
-                <svg viewBox="0 0 1024 1024" className="home-icon45">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text133">
-                <span>Vocal tuning with Melodyne</span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check17">
-              <div className="home-mark17">
-                <svg viewBox="0 0 1024 1024" className="home-icon47">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text136">Drum editing</span>
-            </div>
-            <div className="home-check18">
-              <div className="home-mark18">
-                <svg viewBox="0 0 1024 1024" className="home-icon49">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text137">Podcast &amp; Voiceover</span>
-            </div>
-            <div className="home-check19">
-              <div className="home-mark19">
-                <svg viewBox="0 0 1024 1024" className="home-icon51">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text138">
-                Recording for broadcast &amp; stream
-              </span>
-            </div>
-          </div>
-          <span className="home-caption4">SOFTWARE</span>
-          <span className="home-caption5">HARDWARE</span>
-        </div>
-        <div className="home-stat4">
-          <h3 className="home-header6">Awards</h3>
-          <h3 className="home-header7">Studios</h3>
-          <div className="home-checkmarks5">
-            <div className="home-check20">
-              <div className="home-mark20">
-                <svg viewBox="0 0 1024 1024" className="home-icon53">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text139">
-                <span>Scholarship recipient for Mix With The Masters</span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check21">
-              <div className="home-mark21">
-                <svg viewBox="0 0 1024 1024" className="home-icon55">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text142">
-                <span>
-                  Overall Winner of Red Bull&apos;s Soundscapes Competition
-                </span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check22">
-              <div className="home-mark22">
-                <svg viewBox="0 0 1024 1024" className="home-icon57">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text145">
-                MSG Up and Coming Artist Award
-              </span>
-            </div>
-            <div className="home-check23">
-              <div className="home-mark23">
-                <svg viewBox="0 0 1024 1024" className="home-icon59">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text146">Noatune Studios (London)</span>
-            </div>
-          </div>
-          <div className="home-checkmarks6">
-            <div className="home-check24">
-              <div className="home-mark24">
-                <svg viewBox="0 0 1024 1024" className="home-icon61">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text147">
-                <span>Circle Studios by Sony Music (Berlin)</span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check25">
-              <div className="home-mark25">
-                <svg viewBox="0 0 1024 1024" className="home-icon63">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text150">
-                <span>Red Bull&apos;s Music Studios (London &amp; Berlin)</span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-check26">
-              <div className="home-mark26">
-                <svg viewBox="0 0 1024 1024" className="home-icon65">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text153">Strongroom Studios (London)</span>
-            </div>
-            <div className="home-check27">
-              <div className="home-mark27">
-                <svg viewBox="0 0 1024 1024" className="home-icon67">
-                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                </svg>
-              </div>
-              <span className="home-text154">Noatune Studios (London)</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="home-what-i-do1">
+        <h1 className="home-heading5">
+          <span className="home-text118">
+                   
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="home-text119">&gt;</span>
+          <span className="home-text120">BLOG</span>
+          <br></br>
+        </h1>
+      </div>
       <div className="home-blog">
-        <div className="home-container13">
-          <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
-        </div>
-        <div className="home-container14">
+        <div className="home-container11">
           <BlogPostCard1
-            image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
-            rootClassName="rootClassName2"
+            rootClassName="rootClassName3"
+            image_src="https://freight.cargo.site/w/700/q/75/i/cc96e14a645ddc6f1519f992742420d722b796593c13d23667012519958c551f/P1150624.jpg"
+            title="Why I bounce and label stems the same way every time"
+            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+            author="Ruby"
+            label="ENGINEERING"
           ></BlogPostCard1>
         </div>
-        <div className="home-container15">
+        <div className="home-container12">
           <BlogPostCard1
-            image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+            image_src="https://freight.cargo.site/w/1500/q/75/i/e566bfd5e3749ff2e622b56c64d7efc96e849888ced3969a6dfd4cc226d47e7a/7__Moog_Sound_Studio_Screwdriver.jpg"
+            rootClassName="rootClassName2"
+            author="Ruby"
+            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+          ></BlogPostCard1>
+        </div>
+        <div className="home-container13">
+          <BlogPostCard1
+            image_src="https://freight.cargo.site/w/600/q/94/i/017413563fde9f6ef826aa92132d22e23255927b3ca47e6cc8cceb4dd4c474b3/telefunken-u47-microphone.jpg"
             rootClassName="rootClassName1"
+            author="Ruby"
+            title="How I put the vocalists experience first in vocal recording sessions"
+            description="What do you listen for when you listen to music? For engineers and musicians alike, it's easy to catch yourself just listeni"
+            label="ENGINEERING"
+            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
           ></BlogPostCard1>
         </div>
       </div>
       <div className="home-footer">
-        <div className="home-content2">
+        <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text155">
+            <span className="home-text122">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
