@@ -39,7 +39,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
-                  className="home-image01"
+                  className="home-image1"
                 />
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon01">
@@ -87,10 +87,10 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <section className="home-note">
+      <section className="home-about">
         <div className="home-container03">
           <div className="home-container04">
-            <h1 className="home-header01">ABOUT</h1>
+            <h1 className="home-header1">ABOUT</h1>
             <p className="home-caption">
               <span>
                 I’m an audio engineer with 5+ years of commercial studio
@@ -120,12 +120,12 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
-              className="home-image02"
+              className="home-image2"
             />
           </div>
         </div>
       </section>
-      <div className="home-container06">
+      <div className="home-spotify-player">
         <div className="home-code-embed">
           <DangerousHTML
             html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4kgbdVcKYRHwia09Zztx7p?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
@@ -133,7 +133,7 @@ const Home = (props) => {
           ></DangerousHTML>
         </div>
       </div>
-      <section className="home-slides">
+      <section className="home-discography">
         <div className="home-slider slider blaze-slider">
           <div className="home-slider-container blaze-container">
             <div className="blaze-track-container">
@@ -142,7 +142,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
-                    className="home-image03"
+                    className="home-image3"
                   />
                   <span className="home-text13">
                     <br></br>
@@ -155,28 +155,28 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image04"
+                    className="home-image4"
                   />
                 </div>
                 <div data-role="current-banner" className="banner home-slide2">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image05"
+                    className="home-image5"
                   />
                 </div>
                 <div data-role="current-banner" className="banner home-slide3">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image06"
+                    className="home-image6"
                   />
                 </div>
                 <div data-role="current-banner" className="banner home-slide4">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
-                    className="home-image07"
+                    className="home-image7"
                   />
                 </div>
               </div>
@@ -224,7 +224,7 @@ new BlazeSlider(el, {
       <section className="home-what-i-do">
         <div className="home-content">
           <div className="home-stat">
-            <h3 className="home-header02">Recording</h3>
+            <h3 className="home-header2">Recording</h3>
             <span className="home-caption1">Unde omnis iste</span>
             <div className="home-checkmarks">
               <div className="home-check">
@@ -264,7 +264,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-stat1">
-            <h3 className="home-header03">Mixing</h3>
+            <h3 className="home-header3">Mixing</h3>
             <span className="home-caption2">Unde omnis iste</span>
             <div className="home-checkmarks1">
               <div className="home-check04">
@@ -304,7 +304,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header04">Assisting</h3>
+            <h3 className="home-header4">Assisting</h3>
             <span className="home-caption3">Accusantium doloremque</span>
             <div className="home-checkmarks2">
               <div className="home-check08">
@@ -347,10 +347,93 @@ new BlazeSlider(el, {
             </div>
           </div>
         </div>
+        <div className="home-stat3">
+          <h3 className="home-header5">What I use</h3>
+          <div className="home-checkmarks3">
+            <div className="home-check12">
+              <div className="home-mark12">
+                <svg viewBox="0 0 1024 1024" className="home-icon37">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text32">
+                <span>Vocal tuning with Melodyne</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check13">
+              <div className="home-mark13">
+                <svg viewBox="0 0 1024 1024" className="home-icon39">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text35">Drum editing</span>
+            </div>
+            <div className="home-check14">
+              <div className="home-mark14">
+                <svg viewBox="0 0 1024 1024" className="home-icon41">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text36">Podcast &amp; Voiceover</span>
+            </div>
+            <div className="home-check15">
+              <div className="home-mark15">
+                <svg viewBox="0 0 1024 1024" className="home-icon43">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text37">
+                Recording for broadcast &amp; stream
+              </span>
+            </div>
+          </div>
+          <div className="home-checkmarks4">
+            <div className="home-check16">
+              <div className="home-mark16">
+                <svg viewBox="0 0 1024 1024" className="home-icon45">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text38">
+                <span>Vocal tuning with Melodyne</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check17">
+              <div className="home-mark17">
+                <svg viewBox="0 0 1024 1024" className="home-icon47">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text41">Drum editing</span>
+            </div>
+            <div className="home-check18">
+              <div className="home-mark18">
+                <svg viewBox="0 0 1024 1024" className="home-icon49">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text42">Podcast &amp; Voiceover</span>
+            </div>
+            <div className="home-check19">
+              <div className="home-mark19">
+                <svg viewBox="0 0 1024 1024" className="home-icon51">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text43">
+                Recording for broadcast &amp; stream
+              </span>
+            </div>
+          </div>
+          <span className="home-caption4">SOFTWARE</span>
+          <span className="home-caption5">HARDWARE</span>
+        </div>
       </section>
       <div className="home-live-sessions">
-        <h1 className="home-header05">Live Sessions</h1>
-        <div className="home-container07">
+        <h1 className="home-header6">Live Sessions</h1>
+        <div className="home-container06">
           <div className="home-div">
             <DangerousHTML
               html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
@@ -363,164 +446,12 @@ new BlazeSlider(el, {
           </div>
         </div>
       </div>
-      <div className="home-container08"></div>
-      <section className="home-growth">
-        <div className="home-content1">
-          <div className="home-header06">
-            <div className="home-header07">
-              <h2 className="home-heading1">
-                <span>Recording quality </span>
-                <span className="home-text33">audio.</span>
-                <br></br>
-              </h2>
-            </div>
-            <p className="home-caption4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <p className="home-caption5">
-              Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-          </div>
-          <div className="home-testimonial">
-            <div className="home-content2">
-              <span className="home-text35">Testimonial</span>
-              <p className="home-text36">
-                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-              </p>
-            </div>
-            <div className="home-information">
-              <div className="home-author">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBvdHJhaXR8ZW58MHx8fHwxNjcxMDU2MzMz&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon37"
-                />
-                <span className="home-name">Andrew Gonzales</span>
-              </div>
-              <img
-                alt="image"
-                src="/playground_assets/logoipsum.svg"
-                className="home-from"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="home-images">
-          <div className="home-square"></div>
-          <img
-            alt="image"
-            src="https://freight.cargo.site/w/700/q/75/i/cc96e14a645ddc6f1519f992742420d722b796593c13d23667012519958c551f/P1150624.jpg"
-            className="home-image08"
-          />
-        </div>
-      </section>
-      <section className="home-experience">
-        <div className="home-images1">
-          <div className="home-square1"></div>
-          <img
-            alt="image"
-            src="https://freight.cargo.site/w/500/q/75/i/93ffbccffad74348307e54af4e60d5c766435c52c4353846de863360fc7f5a1a/Screen-Shot-2020-06-08-at-10.47.22-am.png"
-            className="home-image09"
-          />
-        </div>
-        <div className="home-content3">
-          <div className="home-header08">
-            <div className="home-header-container1">
-              <div className="home-header09">
-                <h2 className="home-heading2">
-                  <span>A worlds class </span>
-                  <span className="home-text38">experience</span>
-                </h2>
-              </div>
-              <p className="home-caption6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-                eiusmod.
-              </p>
-            </div>
-            <div className="home-checkmarks3">
-              <div className="home-check12">
-                <div className="home-mark12">
-                  <svg viewBox="0 0 1024 1024" className="home-icon38">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text39">
-                  Duis aute irure dolor in reprehenderit
-                </span>
-              </div>
-              <div className="home-check13">
-                <div className="home-mark13">
-                  <svg viewBox="0 0 1024 1024" className="home-icon40">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text40">Lorem ipsum dolor sit amet</span>
-              </div>
-              <div className="home-check14">
-                <div className="home-mark14">
-                  <svg viewBox="0 0 1024 1024" className="home-icon42">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text41">
-                  Voluptate velit esse cillum dolore eu fugiat nulla
-                </span>
-              </div>
-              <div className="home-check15">
-                <div className="home-mark15">
-                  <svg viewBox="0 0 1024 1024" className="home-icon44">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text42">
-                  Excepteur sint occaecat cupidatat non proident sunt in culpa
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="home-testimonial1">
-            <div className="home-content4">
-              <span className="home-text43">Testimonial</span>
-              <p className="home-text44">
-                “Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.”
-              </p>
-            </div>
-            <div className="home-information1">
-              <div className="home-author1">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1618151313441-bc79b11e5090?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxwb3RyYWl0fGVufDB8fHx8MTY3MTA1NjMzMw&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon46"
-                />
-                <span className="home-name1">Cory Smith</span>
-              </div>
-              <img
-                alt="image"
-                src="/playground_assets/logoipsum-2.svg"
-                className="home-from1"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="home-container07"></div>
       <section className="home-create">
-        <div className="home-content5">
-          <div className="home-header10">
-            <h2 className="home-heading3">
-              <span className="home-text45">Get in touch</span>
+        <div className="home-content1">
+          <div className="home-header7">
+            <h2 className="home-heading1">
+              <span className="home-text44">Get in touch</span>
               <br></br>
             </h2>
           </div>
@@ -533,16 +464,16 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-blog">
-        <div className="home-container09">
+        <div className="home-container08">
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
         </div>
-        <div className="home-container10">
+        <div className="home-container09">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container11">
+        <div className="home-container10">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName1"
@@ -550,16 +481,16 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div className="home-footer">
-        <div className="home-content6">
+        <div className="home-content2">
           <div className="home-bottom">
-            <span className="home-text50">
-              © 2022 togthr - All rights reserved
+            <span className="home-text49">
+              © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image10"
+                className="home-image8"
               />
             </button>
           </div>
