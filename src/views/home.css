@@ -361,11 +361,82 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
+.home-slide04 {
+  position: relative;
+  transition: 0.3s;
+  background-color: var(--dl-color-primary-cleanslate);
+}
+.home-slide04:hover {
+  opacity: 0.25;
+}
+.home-text021 {
+  top: 0px;
+  left: 0px;
+  color: rgba(0, 0, 0, 0);
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  transition: 0.3s;
+  line-height: 1.5;
+}
+.home-text021:hover {
+  color: var(--dl-color-primary-tea);
+  opacity: 1;
+}
+.home-text022 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text023 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text024 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text025 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text026 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text027 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text028 {
+  font-size: 25px;
+  font-family: Raleway;
+  text-transform: none;
+  text-decoration: none;
+}
 .home-image07 {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  transition: 0.3s;
   aspect-ratio: 1;
+}
+.home-image07:hover {
+  opacity: 0.25;
 }
 .home-image08 {
   width: 300px;
@@ -446,14 +517,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text021 {
+.home-text030 {
   font-size: 70px;
 }
-.home-text022 {
+.home-text031 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text023 {
+.home-text032 {
   font-size: 70px;
   font-family: Raleway;
 }
@@ -516,14 +587,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text025 {
+.home-text034 {
   font-size: 70px;
 }
-.home-text026 {
+.home-text035 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text027 {
+.home-text036 {
   font-size: 70px;
   font-family: Raleway;
 }
@@ -545,7 +616,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text029 {
+.home-text038 {
   color: var(--dl-color-primary-mygreen);
   width: 100%;
   height: 100%;
@@ -553,60 +624,27 @@
   font-family: Source Code Pro;
   font-weight: 300;
 }
-.home-text030 {
+.home-text039 {
   font-size: 30px;
   font-weight: 500;
 }
-.home-text031 {
-  font-style: normal;
-}
-.home-text032 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text033 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text034 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text035 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text036 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text037 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text038 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text039 {
-  color: #eae1d5;
-  font-style: normal;
-}
 .home-text040 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text041 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text042 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text043 {
-  font-size: 30px;
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text044 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text045 {
@@ -630,19 +668,16 @@
   font-style: normal;
 }
 .home-text050 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text051 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text052 {
-  color: #eae1d5;
-  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
 }
 .home-text053 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text054 {
@@ -654,16 +689,19 @@
   font-style: normal;
 }
 .home-text056 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text057 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text058 {
-  font-size: 30px;
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text059 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text060 {
@@ -687,19 +725,16 @@
   font-style: normal;
 }
 .home-text065 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text066 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text067 {
-  color: #eae1d5;
-  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
 }
 .home-text068 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text069 {
@@ -727,6 +762,42 @@
   font-style: normal;
 }
 .home-text075 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text076 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text077 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text078 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text079 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text080 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text081 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text082 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text083 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text084 {
   font-style: normal;
 }
 .home-container09 {
@@ -737,7 +808,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text076 {
+.home-text085 {
   color: var(--dl-color-primary-mygreen);
   width: 100%;
   height: 100%;
@@ -746,66 +817,26 @@
   font-weight: 300;
   padding-left: var(--dl-space-space-unit);
 }
-.home-text077 {
+.home-text086 {
   font-size: 30px;
   font-weight: 500;
-}
-.home-text078 {
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text079 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text080 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text081 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text082 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text083 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text084 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text085 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text086 {
-  font-size: 25px;
-  font-style: normal;
 }
 .home-text087 {
   font-size: 25px;
   font-style: normal;
 }
 .home-text088 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
 .home-text089 {
-  font-size: 30px;
-  font-weight: 500;
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
 }
 .home-text090 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -830,7 +861,6 @@
   font-style: normal;
 }
 .home-text095 {
-  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -843,14 +873,15 @@
   font-style: normal;
 }
 .home-text098 {
-  font-size: 25px;
-  font-style: normal;
-}
-.home-text099 {
   font-size: 30px;
   font-weight: 500;
 }
+.home-text099 {
+  font-size: 25px;
+  font-style: normal;
+}
 .home-text100 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -875,7 +906,6 @@
   font-style: normal;
 }
 .home-text105 {
-  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -906,6 +936,47 @@
   font-style: normal;
 }
 .home-text112 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text113 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text114 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text115 {
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text116 {
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text117 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.home-text118 {
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text119 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text120 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text121 {
   font-style: normal;
 }
 .home-container10 {
@@ -960,17 +1031,17 @@
   font-family: Exo 2;
   font-weight: 500;
 }
-.home-text113 {
+.home-text122 {
   color: var(--dl-color-primary-submarine);
 }
-.home-text114 {
+.home-text123 {
   font-family: Raleway;
 }
-.home-text115 {
+.home-text124 {
   font-size: 50px;
   font-family: Raleway;
 }
-.home-text116 {
+.home-text125 {
   font-size: 40px;
   font-family: Raleway;
 }
@@ -992,14 +1063,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text118 {
+.home-text127 {
   font-size: 70px;
 }
-.home-text119 {
+.home-text128 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text120 {
+.home-text129 {
   font-size: 70px;
 }
 .home-blog {
@@ -1059,7 +1130,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text122 {
+.home-text131 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
