@@ -113,7 +113,8 @@
   cursor: pointer;
   display: flex;
   max-width: auto;
-  align-items: flex-start;
+  max-height: 400px;
+  align-items: center;
   border-width: 0px;
   flex-direction: row;
   background-color: #0000F5;
