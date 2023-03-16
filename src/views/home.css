@@ -2362,8 +2362,9 @@
 }
 @media(max-width: 1600px) {
   .home-slider-track {
-    flex: 1;
+    flex: 0;
     width: auto;
+    height: auto;
   }
   .home-slide {
     flex: 1;
