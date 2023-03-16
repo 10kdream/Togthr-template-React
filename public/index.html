@@ -53,6 +53,21 @@
       data-tag="font"
     />
     <!--This is the head section-->
+    <style>
+      @keyframes slideInDown {
+
+              0% {
+                -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+                visibility: visible;
+              }
+              100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+              }
+            }
+    </style>
+
     <!-- <style> ... </style> -->
   </head>
   <body>
@@ -64,5 +79,23 @@
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
     <script src="https://unpkg.com/blaze-slider@latest/dist/blaze-slider.min.js"></script>
+    <script>
+      window.onload = () => {
+
+            document.addEventListener('scroll', (e) => {
+            console.log('hi!');
+              const header = document.querySelector('.navbar')
+              e.stopPropagation()
+              const scrollTop = window.pageYOffset
+              if (scrollTop > 400) {
+                header.classList.add('fixed-navbar')
+                header.style.backgroundColor = '#000'
+              } else {
+                header.classList.remove('fixed-navbar')
+                header.style.backgroundColor = 'transparent'
+              }
+            })
+          }
+    </script>
   </body>
 </html>

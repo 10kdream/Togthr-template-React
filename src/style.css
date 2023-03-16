@@ -205,6 +205,21 @@
   -slides-to-show: 3;
 }
 
+.fixed-navbar {
+  position: fixed;
+  animation: slideInDown 1s both;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
 .GreenHead {
   font-size: 40px;
   font-family: Source Code Pro;
@@ -268,9 +283,16 @@
     padding-top: 0px;
     padding-bottom: var(--dl-space-space-unit);
   }
+  .navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
 }
 @media(max-width: 479px) {
   .button {
     width: 100%;
+  }
+  .navbar {
+    padding: var(--dl-space-space-unit);
   }
 }
