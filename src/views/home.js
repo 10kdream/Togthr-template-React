@@ -240,7 +240,7 @@ const el = document.querySelector('.blaze-slider')
 new BlazeSlider(el, {
   all: {
     slidesToShow: 3,
-    slideGap: '80px',
+    slideGap: '20px',
     loop: true,
     enableAutoplay: true,
     autoplayinterval: 2000,
