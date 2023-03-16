@@ -270,6 +270,19 @@ new BlazeSlider(el, {
   margin-top: 24px;
 }
 
+.blaze-prev{
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath fill='%23fff' d='M11.67 3.87 9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z'/%3E%3C/svg%3E);
+    background-position: 50%;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+    z-index: 100;
+}
+
+.blaze-next{
+  border: solid red 1px ;
+}
+
 .blaze-track {
   display:flex ;
 }
