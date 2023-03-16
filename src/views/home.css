@@ -279,6 +279,10 @@
   align-items: center;
   justify-content: flex-start;
 }
+.home-code-embed {
+  width: 973px;
+  height: 372px;
+}
 .home-statistics {
   width: 100%;
   display: flex;

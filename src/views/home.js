@@ -126,13 +126,10 @@ const Home = (props) => {
         </div>
       </section>
       <div className="home-container6">
-        <div>
+        <div className="home-code-embed">
           <DangerousHTML
-            html={`<div style="left: 0; width: 100%; height: 400px; position: relative;">
-    <div style="text-align: center">
-        <iframe src="https://embed.tidal.com/playlists/08bd6fbf-385a-4af8-985c-c5ec18204c81" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen="" class="">
-        </iframe>
-        </div></div>`}
+            html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4kgbdVcKYRHwia09Zztx7p?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>`}
           ></DangerousHTML>
         </div>
       </div>
