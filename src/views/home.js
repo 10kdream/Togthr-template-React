@@ -172,7 +172,7 @@ const Home = (props) => {
         <div className="home-slider1 slider blaze-slider">
           <div className="home-slider-container blaze-container">
             <div className="blaze-track-container">
-              <div className="blaze-track">
+              <div className="home-slider-track blaze-track">
                 <div data-role="current-banner" className="home-slide banner">
                   <img
                     alt="image"

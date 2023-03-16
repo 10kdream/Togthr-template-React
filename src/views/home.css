@@ -399,6 +399,9 @@
   align-items: center;
   flex-direction: column;
 }
+.home-slider-track {
+  gap: var(--dl-space-space-fourunits);
+}
 .home-slide {
   background-color: var(--dl-color-primary-mygreen);
 }
