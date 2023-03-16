@@ -2260,16 +2260,16 @@
     background-color: transparent;
   }
   .home-image03 {
-    width: auto;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   .home-slide1 {
     flex: initial;
     background-color: #0049ff;
   }
   .home-image04 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   .home-slide2 {
     flex: 1;
@@ -2278,15 +2278,16 @@
     background-color: transparent;
   }
   .home-image05 {
-    width: 400px;
+    width: 300px;
+    height: 300px;
   }
   .home-slide3 {
     flex: 1;
     background-color: transparent;
   }
   .home-image06 {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   .home-controls {
     height: 97px;
