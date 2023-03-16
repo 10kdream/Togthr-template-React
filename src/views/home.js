@@ -53,10 +53,10 @@ const Home = (props) => {
                 className="home-nav1"
               >
                 <span className="home-text">About</span>
-                <span className="home-text01">Features</span>
-                <span className="home-text02">Pricing</span>
-                <span className="home-text03">Team</span>
-                <span className="home-text04">Blog</span>
+                <span className="home-text001">Features</span>
+                <span className="home-text002">Pricing</span>
+                <span className="home-text003">Team</span>
+                <span className="home-text004">Blog</span>
               </nav>
               <div className="home-container02">
                 <button className="home-login button">Login</button>
@@ -81,7 +81,7 @@ const Home = (props) => {
             <span>RUBY SMITH</span>
             <br></br>
           </h1>
-          <h1 className="home-text07">RECORDING and mix engineer</h1>
+          <h1 className="home-text007">RECORDING and mix engineer</h1>
           <div className="home-header-container">
             <div className="home-header"></div>
           </div>
@@ -91,7 +91,7 @@ const Home = (props) => {
         <div className="home-container03">
           <div className="home-container04">
             <h1 className="home-heading1">
-              <span className="home-text08">ABOUT</span>
+              <span className="home-text008">ABOUT</span>
               <br></br>
             </h1>
             <p className="home-caption">
@@ -139,14 +139,14 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
                     className="home-image3"
                   />
-                  <span className="home-text15">
+                  <span className="home-text015">
                     <br></br>
                     <br></br>
                     <br></br>
                     <span>Mix Engineer</span>
                   </span>
                 </div>
-                <div data-role="current-banner" className="banner home-slide1">
+                <div data-role="current-banner" className="home-slide1 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
@@ -218,7 +218,7 @@ new BlazeSlider(el, {
       </section>
       <div className="home-container06">
         <h1 className="home-heading2">
-          <span className="home-text20">LISTEN</span>
+          <span className="home-text020">LISTEN</span>
           <br></br>
         </h1>
       </div>
@@ -244,16 +244,139 @@ new BlazeSlider(el, {
           </div>
         </div>
       </div>
+      <div className="home-container08">
+        <div className="home-container09">
+          <span className="home-text022">
+            <span className="home-text023">RECORDING</span>
+            <br></br>
+            <span className="home-text025">Vocal Tracking</span>
+            <br className="home-text026"></br>
+            <span className="home-text027">Full band tracking</span>
+            <br className="home-text028"></br>
+            <span className="home-text029">Live Sessions</span>
+            <br className="home-text030"></br>
+            <span className="home-text031">
+              Podcast, Voiceover &amp; Radio IDs
+            </span>
+            <br className="home-text032"></br>
+            <span className="home-text033">Broadcast for livestream</span>
+            <br></br>
+            <br></br>
+            <span className="home-text036">SOFTWARE I USE</span>
+            <br></br>
+            <span className="home-text038">Pro Tools HD</span>
+            <br className="home-text039"></br>
+            <span className="home-text040">Logic Pro X</span>
+            <br className="home-text041"></br>
+            <span className="home-text042">Izotope RX</span>
+            <br className="home-text043"></br>
+            <span className="home-text044">Fab Filter Pro</span>
+            <br className="home-text045"></br>
+            <span className="home-text046">UAD Console</span>
+            <br className="home-text047"></br>
+            <span className="home-text048">Soundtoys</span>
+            <br></br>
+            <br></br>
+            <span className="home-text051">HARDWARE I USE</span>
+            <br></br>
+            <span className="home-text053">SSL4000G Series</span>
+            <br className="home-text054"></br>
+            <span className="home-text055">SSL AWS</span>
+            <br className="home-text056"></br>
+            <span className="home-text057">Dante Level 1 Certification</span>
+            <br className="home-text058"></br>
+            <span className="home-text059">Universal Audio Apollo Systems</span>
+            <br className="home-text060"></br>
+            <span className="home-text061">
+              Wireless In Ear Monitoring Systems
+            </span>
+            <br className="home-text062"></br>
+            <span className="home-text063">Wireless Microphone Systems</span>
+            <br className="home-text064"></br>
+            <span className="home-text065">Ferrofish Converters</span>
+            <br className="home-text066"></br>
+            <span className="home-text067">Antelope Orion Converters</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="home-container10">
+          <span className="home-text069">
+            <span className="home-text070">MIXING</span>
+            <br className="home-text071"></br>
+            <span className="home-text072">
+              Mixing for commercial music releases
+            </span>
+            <br className="home-text073"></br>
+            <span className="home-text074">
+              Audio mixing for live video sessions
+            </span>
+            <br className="home-text075"></br>
+            <span className="home-text076">Pro Tools HD</span>
+            <br className="home-text077"></br>
+            <span className="home-text078">Logic Pro X</span>
+            <br className="home-text079"></br>
+            <br className="home-text080"></br>
+            <br className="home-text081"></br>
+            <span className="home-text082">STUDIOS IVE WORKED FOR</span>
+            <br className="home-text083"></br>
+            <span className="home-text084">Circle Studios by Sony Music</span>
+            <br className="home-text085"></br>
+            <span className="home-text086">
+              Red Bull Studios London &amp; Berlin
+            </span>
+            <br className="home-text087"></br>
+            <span className="home-text088">Noatune Studios London</span>
+            <br className="home-text089"></br>
+            <br className="home-text090"></br>
+            <br className="home-text091"></br>
+            <span className="home-text092">AWARDS</span>
+            <br className="home-text093"></br>
+            <span className="home-text094">
+              Shure x Red Bull’s Soundscapes Competition
+            </span>
+            <br className="home-text095"></br>
+            <span className="home-text096">
+              Madison Square Garden’s Up and Coming Award
+            </span>
+            <br className="home-text097"></br>
+            <br className="home-text098"></br>
+            <span className="home-text099">MASTERCLASSES</span>
+            <br className="home-text100"></br>
+            <span className="home-text101">P</span>
+            <span className="home-text102">
+              op Beuro x SAE Electronic Barcamp
+            </span>
+            <br></br>
+          </span>
+        </div>
+      </div>
+      <div className="home-container11"></div>
+      <section className="home-create">
+        <div className="home-content">
+          <div className="home-header1">
+            <h2 className="home-heading3">
+              <span className="home-text104">Get in touch</span>
+              <br></br>
+            </h2>
+          </div>
+          <button className="home-button button">
+            <span>
+              <span>Get started today</span>
+              <br></br>
+            </span>
+          </button>
+        </div>
+      </section>
       <section className="home-what-i-do">
-        <div className="home-container08">
-          <h1 className="home-heading3">
-            <span className="home-text22">WHAT I DO</span>
+        <div className="home-container12">
+          <h1 className="home-heading4">
+            <span className="home-text109">WHAT I DO</span>
             <br></br>
           </h1>
         </div>
-        <div className="home-content">
+        <div className="home-content1">
           <div className="home-stat">
-            <h3 className="home-header1">Recording</h3>
+            <h1 className="home-header2">Recording</h1>
             <span className="home-caption1">Unde omnis iste</span>
             <div className="home-checkmarks">
               <div className="home-check">
@@ -262,7 +385,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text24">Vocal Tracking</span>
+                <span className="home-text111">Vocal Tracking</span>
               </div>
               <div className="home-check01">
                 <div className="home-mark01">
@@ -270,7 +393,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text25">Full band recording</span>
+                <span className="home-text112">Full band recording</span>
               </div>
               <div className="home-check02">
                 <div className="home-mark02">
@@ -278,7 +401,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text26">Podcast &amp; Voiceover</span>
+                <span className="home-text113">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check03">
                 <div className="home-mark03">
@@ -286,14 +409,14 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text27">
+                <span className="home-text114">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
             </div>
           </div>
           <div className="home-stat1">
-            <h3 className="home-header2">Mixing</h3>
+            <h3 className="home-header3">Mixing</h3>
             <span className="home-caption2">Unde omnis iste</span>
             <div className="home-checkmarks1">
               <div className="home-check04">
@@ -302,7 +425,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text28">Vocal Tracking</span>
+                <span className="home-text115">Vocal Tracking</span>
               </div>
               <div className="home-check05">
                 <div className="home-mark05">
@@ -310,7 +433,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text29">Full band recording</span>
+                <span className="home-text116">Full band recording</span>
               </div>
               <div className="home-check06">
                 <div className="home-mark06">
@@ -318,7 +441,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text30">Podcast &amp; Voiceover</span>
+                <span className="home-text117">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check07">
                 <div className="home-mark07">
@@ -326,14 +449,14 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text31">
+                <span className="home-text118">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
             </div>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header3">Assisting</h3>
+            <h3 className="home-header4">Assisting</h3>
             <span className="home-caption3">Accusantium doloremque</span>
             <div className="home-checkmarks2">
               <div className="home-check08">
@@ -342,7 +465,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text32">
+                <span className="home-text119">
                   <span>Vocal tuning with Melodyne</span>
                   <br></br>
                 </span>
@@ -353,7 +476,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text35">Drum editing</span>
+                <span className="home-text122">Drum editing</span>
               </div>
               <div className="home-check10">
                 <div className="home-mark10">
@@ -361,7 +484,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text36">Podcast &amp; Voiceover</span>
+                <span className="home-text123">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check11">
                 <div className="home-mark11">
@@ -369,7 +492,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text37">
+                <span className="home-text124">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
@@ -377,7 +500,7 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div className="home-stat3">
-          <h3 className="home-header4">What I use</h3>
+          <h3 className="home-header5">What I use</h3>
           <div className="home-checkmarks3">
             <div className="home-check12">
               <div className="home-mark12">
@@ -385,7 +508,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text38">
+              <span className="home-text125">
                 <span>Pro Tools HD</span>
                 <br></br>
               </span>
@@ -396,7 +519,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text41">Izotope RX</span>
+              <span className="home-text128">Izotope RX</span>
             </div>
             <div className="home-check14">
               <div className="home-mark14">
@@ -404,7 +527,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text42">Podcast &amp; Voiceover</span>
+              <span className="home-text129">Podcast &amp; Voiceover</span>
             </div>
             <div className="home-check15">
               <div className="home-mark15">
@@ -412,7 +535,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text43">
+              <span className="home-text130">
                 Recording for broadcast &amp; stream
               </span>
             </div>
@@ -424,7 +547,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text44">
+              <span className="home-text131">
                 <span>Vocal tuning with Melodyne</span>
                 <br></br>
               </span>
@@ -435,7 +558,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text47">Drum editing</span>
+              <span className="home-text134">Drum editing</span>
             </div>
             <div className="home-check18">
               <div className="home-mark18">
@@ -443,7 +566,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text48">Podcast &amp; Voiceover</span>
+              <span className="home-text135">Podcast &amp; Voiceover</span>
             </div>
             <div className="home-check19">
               <div className="home-mark19">
@@ -451,7 +574,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text49">
+              <span className="home-text136">
                 Recording for broadcast &amp; stream
               </span>
             </div>
@@ -460,8 +583,8 @@ new BlazeSlider(el, {
           <span className="home-caption5">HARDWARE</span>
         </div>
         <div className="home-stat4">
-          <h3 className="home-header5">Awards</h3>
-          <h3 className="home-header6">Studios</h3>
+          <h3 className="home-header6">Awards</h3>
+          <h3 className="home-header7">Studios</h3>
           <div className="home-checkmarks5">
             <div className="home-check20">
               <div className="home-mark20">
@@ -469,7 +592,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text50">
+              <span className="home-text137">
                 <span>Scholarship recipient for Mix With The Masters</span>
                 <br></br>
               </span>
@@ -480,7 +603,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text53">
+              <span className="home-text140">
                 <span>
                   Overall Winner of Red Bull&apos;s Soundscapes Competition
                 </span>
@@ -493,7 +616,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text56">
+              <span className="home-text143">
                 MSG Up and Coming Artist Award
               </span>
             </div>
@@ -503,7 +626,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text57">Noatune Studios (London)</span>
+              <span className="home-text144">Noatune Studios (London)</span>
             </div>
           </div>
           <div className="home-checkmarks6">
@@ -513,7 +636,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text58">
+              <span className="home-text145">
                 <span>Circle Studios by Sony Music (Berlin)</span>
                 <br></br>
               </span>
@@ -524,7 +647,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text61">
+              <span className="home-text148">
                 <span>Red Bull&apos;s Music Studios (London &amp; Berlin)</span>
                 <br></br>
               </span>
@@ -535,7 +658,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text64">Strongroom Studios (London)</span>
+              <span className="home-text151">Strongroom Studios (London)</span>
             </div>
             <div className="home-check27">
               <div className="home-mark27">
@@ -543,39 +666,22 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text65">Noatune Studios (London)</span>
+              <span className="home-text152">Noatune Studios (London)</span>
             </div>
           </div>
         </div>
       </section>
-      <div className="home-container09"></div>
-      <section className="home-create">
-        <div className="home-content1">
-          <div className="home-header7">
-            <h2 className="home-heading4">
-              <span className="home-text66">Get in touch</span>
-              <br></br>
-            </h2>
-          </div>
-          <button className="home-button button">
-            <span>
-              <span>Get started today</span>
-              <br></br>
-            </span>
-          </button>
-        </div>
-      </section>
       <div className="home-blog">
-        <div className="home-container10">
+        <div className="home-container13">
           <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
         </div>
-        <div className="home-container11">
+        <div className="home-container14">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container12">
+        <div className="home-container15">
           <BlogPostCard1
             image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
             rootClassName="rootClassName1"
@@ -585,7 +691,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content2">
           <div className="home-bottom">
-            <span className="home-text71">
+            <span className="home-text153">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">

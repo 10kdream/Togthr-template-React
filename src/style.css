@@ -220,6 +220,22 @@
   text-transform: none;
   text-decoration: none;
 }
+.GreenHead {
+  font-size: 40px;
+  font-family: Source Code Pro;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.GreenHead1 {
+  font-size: 40px;
+  font-family: Source Code Pro;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
 
 
 @media(max-width: 991px) {
