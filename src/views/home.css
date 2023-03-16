@@ -417,28 +417,28 @@
   background-color: var(--dl-color-primary-mygreen);
 }
 .home-image03 {
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-slide1 {
   flex: 0;
 }
 .home-image04 {
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-slide2 {
   flex: 0;
 }
 .home-image05 {
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-slide3 {
   flex: 0;
 }
 .home-image06 {
-  object-fit: contain;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 .home-controls {
@@ -2275,7 +2275,6 @@
     height: 400px;
   }
   .home-slide {
-    flex: 1;
     background-color: transparent;
   }
   .home-image03 {
@@ -2283,7 +2282,6 @@
     height: 400px;
   }
   .home-slide1 {
-    flex: 1;
     background-color: #0049ff;
   }
   .home-image04 {
@@ -2291,14 +2289,12 @@
     height: 400px;
   }
   .home-slide2 {
-    flex: 1;
     background-color: transparent;
   }
   .home-image05 {
     width: 400px;
   }
   .home-slide3 {
-    flex: 1;
     background-color: transparent;
   }
   .home-image06 {
