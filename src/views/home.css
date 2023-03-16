@@ -264,7 +264,7 @@
   width: 481px;
   height: 658px;
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-end;
