@@ -155,11 +155,6 @@ const Home = (props) => {
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide1 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image4"
-                  />
                   <span className="home-text026">
                     <br className="home-text027"></br>
                     <span className="home-text028">Sandunes</span>
@@ -173,8 +168,13 @@ const Home = (props) => {
                     <br></br>
                     <br></br>
                   </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
+                    className="home-image4"
+                  />
                 </div>
-                <div data-role="current-banner" className="banner home-slide2">
+                <div data-role="current-banner" className="home-slide2 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
@@ -194,12 +194,7 @@ const Home = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div data-role="current-banner" className="banner home-slide3">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image6"
-                  />
+                <div data-role="current-banner" className="home-slide3 banner">
                   <span className="home-text046">
                     <br className="home-text047"></br>
                     <span className="home-text048">Sandunes</span>
@@ -213,6 +208,11 @@ const Home = (props) => {
                     <br></br>
                     <br></br>
                   </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
+                    className="home-image6"
+                  />
                 </div>
                 <div data-role="current-banner" className="home-slide4 banner">
                   <span className="home-text056">
