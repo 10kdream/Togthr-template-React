@@ -2265,8 +2265,7 @@
 }
 @media(max-width: 1600px) {
   .home-slider-track {
-    flex: 1;
-    width: 400px;
+    width: auto;
     height: 400px;
   }
   .home-slide {
