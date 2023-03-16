@@ -395,33 +395,35 @@ new BlazeSlider(el, {
               Red Bull Studios London &amp; Berlin
             </span>
             <br className="home-text103"></br>
-            <span className="home-text104">Noatune Studios London</span>
+            <span className="home-text104">Strongroom Studios London</span>
             <br className="home-text105"></br>
-            <br className="home-text106"></br>
+            <span className="home-text106">Noatune Studios London</span>
             <br className="home-text107"></br>
-            <span className="home-text108">AWARDS</span>
+            <br className="home-text108"></br>
             <br className="home-text109"></br>
-            <span className="home-text110">
+            <span className="home-text110">AWARDS</span>
+            <br className="home-text111"></br>
+            <span className="home-text112">
               Awarded Scholarship for Mix With The Masters, from We Are Moving
               The Needle
             </span>
-            <br className="home-text111"></br>
-            <span className="home-text112">
-              Overall Winner of Shure x Red Bull’s Soundscapes Competition
-            </span>
             <br className="home-text113"></br>
             <span className="home-text114">
-              Madison Square Garden’s Up and Coming Award
+              Overall Winner of Shure x Red Bull’s Soundscapes Competition
             </span>
             <br className="home-text115"></br>
-            <br className="home-text116"></br>
-            <span className="home-text117">MASTERCLASSES</span>
+            <span className="home-text116">
+              Madison Square Garden’s Up and Coming Award
+            </span>
+            <br className="home-text117"></br>
             <br className="home-text118"></br>
-            <span className="home-text119">P</span>
-            <span className="home-text120">
+            <span className="home-text119">MASTERCLASSES</span>
+            <br className="home-text120"></br>
+            <span className="home-text121">P</span>
+            <span className="home-text122">
               op Beuro x SAE Electronic Barcamp
             </span>
-            <br className="home-text121"></br>
+            <br className="home-text123"></br>
           </span>
         </div>
       </div>
@@ -430,17 +432,17 @@ new BlazeSlider(el, {
         <div className="home-content">
           <div className="home-header1"></div>
           <h1 className="home-heading4">
-            <span className="home-text122">&gt;</span>
-            <span className="home-text123">GET IN TOUCH</span>
-            <br className="home-text124"></br>
-            <span className="home-text125">ruby@rubysmith.xyz</span>
+            <span className="home-text124">&gt;</span>
+            <span className="home-text125">GET IN TOUCH</span>
+            <br className="home-text126"></br>
+            <span className="home-text127">ruby@rubysmith.xyz</span>
             <br></br>
           </h1>
         </div>
       </section>
       <div className="home-what-i-do1">
         <h1 className="home-heading5">
-          <span className="home-text127">
+          <span className="home-text129">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -448,8 +450,8 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text128">&gt;</span>
-          <span className="home-text129">BLOG</span>
+          <span className="home-text130">&gt;</span>
+          <span className="home-text131">BLOG</span>
           <br></br>
         </h1>
       </div>
@@ -488,7 +490,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text131">
+            <span className="home-text133">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button button">

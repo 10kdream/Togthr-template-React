@@ -385,6 +385,7 @@
 .home-text021:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.29) 0.00%,rgb(0, 0, 0) 100.00%);
 }
 .home-text022 {
   font-size: 25px;
@@ -432,11 +433,7 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  transition: 0.3s;
   aspect-ratio: 1;
-}
-.home-image07:hover {
-  opacity: 0.25;
 }
 .home-image08 {
   width: 300px;
@@ -600,7 +597,7 @@
 }
 .home-container07 {
   width: 100%;
-  height: 750px;
+  height: 858px;
   display: flex;
   align-items: flex-start;
   padding-left: 265px;
@@ -906,10 +903,12 @@
   font-style: normal;
 }
 .home-text105 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
 .home-text106 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -918,20 +917,18 @@
   font-style: normal;
 }
 .home-text108 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
 }
 .home-text109 {
   font-size: 25px;
   font-style: normal;
 }
 .home-text110 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
 }
 .home-text111 {
-  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
@@ -951,32 +948,42 @@
   font-style: normal;
 }
 .home-text115 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
 .home-text116 {
+  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
 .home-text117 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
 }
 .home-text118 {
   font-size: 25px;
   font-style: normal;
 }
 .home-text119 {
-  color: #eae1d5;
-  font-size: 25px;
-  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
 }
 .home-text120 {
-  color: #eae1d5;
   font-size: 25px;
   font-style: normal;
 }
 .home-text121 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text122 {
+  color: #eae1d5;
+  font-size: 25px;
+  font-style: normal;
+}
+.home-text123 {
   font-style: normal;
 }
 .home-container10 {
@@ -1031,17 +1038,17 @@
   font-family: Exo 2;
   font-weight: 500;
 }
-.home-text122 {
+.home-text124 {
   color: var(--dl-color-primary-submarine);
 }
-.home-text123 {
+.home-text125 {
   font-family: Raleway;
 }
-.home-text124 {
+.home-text126 {
   font-size: 50px;
   font-family: Raleway;
 }
-.home-text125 {
+.home-text127 {
   font-size: 40px;
   font-family: Raleway;
 }
@@ -1063,14 +1070,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text127 {
+.home-text129 {
   font-size: 70px;
 }
-.home-text128 {
+.home-text130 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text129 {
+.home-text131 {
   font-size: 70px;
 }
 .home-blog {
@@ -1130,7 +1137,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text131 {
+.home-text133 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
