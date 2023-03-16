@@ -248,6 +248,7 @@ new BlazeSlider(el, {
               html={`<style>
 .blaze-slider {
   --slides-to-show: 3;
+  --slides-to-scroll: 3;
   --slide-gap: 50px;
 }
 
