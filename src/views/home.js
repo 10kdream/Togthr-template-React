@@ -261,6 +261,10 @@ new BlazeSlider(el, {
   height: 300px ;
   width: 300px ;
 }
+
+.blaze-track {
+  display:flex ;
+}
 </style>
 
 
