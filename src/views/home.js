@@ -15,7 +15,7 @@ const Home = (props) => {
         <meta property="og:title" content="Togthr template" />
       </Helmet>
       <section className="home-hero">
-        <header data-role="Header" className="navbar">
+        <header data-role="Header" className="home-header navbar">
           <img
             alt="logo"
             src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
