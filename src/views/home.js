@@ -241,83 +241,23 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
-      <section className="home-slides1">
-        <div className="home-slider2 slider blaze-slider">
-          <div className="home-slider-container1 blaze-container">
-            <div className="home-slider-track-container1 blaze-track-container">
-              <div className="home-slider-track1 blaze-track">
-                <div data-role="current-banner" className="home-slide4 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
-                    className="home-image07"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide5 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image08"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide6 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image09"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide7 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image10"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="home-controls1">
-              <button
-                data-role="previous-banner-button"
-                className="home-previous1 blaze-prev button"
-              >
-                <svg viewBox="0 0 1024 1024" className="home-icon13">
-                  <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
-                </svg>
-              </button>
-              <button
-                data-role="next-banner-button"
-                className="home-next1 blaze-next button"
-              >
-                <svg viewBox="0 0 1024 1024" className="home-icon15">
-                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <DangerousHTML
-            html={`<script>
-const el = document.querySelector('.blaze-slider')
-
-new BlazeSlider(el, {
-  all: {
-    slidesToShow: 4,
-    slideGap: '80px',
-    loop: true,
-    enableAutoplay: true,
-  },
-})
-</script>`}
-          ></DangerousHTML>
-        </div>
-      </section>
       <div className="home-container3">
         <section className="home-get-started">
           <div>
             <DangerousHTML
-              html={`
+              html={`<style>
+.foo-slider.blaze-slider {
+  --slides-to-show: 3;
+}
+
+@media (max-width: 500px) {
+  .foo-slider.blaze-slider {
+    --slides-to-show: 2;
+  }
+}
+</style>
+
+
 <div class="blaze-slider">
   <div class="blaze-container">
     <div class="blaze-track-container">
@@ -338,25 +278,23 @@ new BlazeSlider(el, {
 </div>
 
 <script>
-
-
 document.querySelectorAll('.blaze-slider').forEach(el => {
-  
+
 new BlazeSlider(el, {
   all: {
     enableAutoplay: true,
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 3,
+    stopAutoplayOnInteraction: true
   },
   '(max-width: 900px)': {
     slidesToShow: 2,
   },
-  '(max-width: 500px)': {
-    slidesToShow: 1,
-  },
 })
-})</script>`}
+})</script>
+
+`}
             ></DangerousHTML>
           </div>
         </section>
@@ -452,7 +390,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBvdHJhaXR8ZW58MHx8fHwxNjcxMDU2MzMz&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon17"
+                  className="home-icon13"
                 />
                 <span className="home-name">Andrew Gonzales</span>
               </div>
@@ -469,7 +407,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/growth-1400w.png"
-            className="home-image11"
+            className="home-image07"
           />
         </div>
       </section>
@@ -479,7 +417,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/experience-1400w.png"
-            className="home-image12"
+            className="home-image08"
           />
         </div>
         <div className="home-content04">
@@ -499,7 +437,7 @@ new BlazeSlider(el, {
             <div className="home-checkmarks">
               <div className="home-check">
                 <div className="home-mark">
-                  <svg viewBox="0 0 1024 1024" className="home-icon18">
+                  <svg viewBox="0 0 1024 1024" className="home-icon14">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -509,7 +447,7 @@ new BlazeSlider(el, {
               </div>
               <div className="home-check1">
                 <div className="home-mark1">
-                  <svg viewBox="0 0 1024 1024" className="home-icon20">
+                  <svg viewBox="0 0 1024 1024" className="home-icon16">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -517,7 +455,7 @@ new BlazeSlider(el, {
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
-                  <svg viewBox="0 0 1024 1024" className="home-icon22">
+                  <svg viewBox="0 0 1024 1024" className="home-icon18">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -527,7 +465,7 @@ new BlazeSlider(el, {
               </div>
               <div className="home-check3">
                 <div className="home-mark3">
-                  <svg viewBox="0 0 1024 1024" className="home-icon24">
+                  <svg viewBox="0 0 1024 1024" className="home-icon20">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -550,7 +488,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1618151313441-bc79b11e5090?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxwb3RyYWl0fGVufDB8fHx8MTY3MTA1NjMzMw&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon26"
+                  className="home-icon22"
                 />
                 <span className="home-name1">Cory Smith</span>
               </div>
@@ -778,11 +716,11 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="home-content07">
-          <div className="home-image13">
+          <div className="home-image09">
             <img
               alt="image"
               src="/playground_assets/data-1400w.png"
-              className="home-image14"
+              className="home-image10"
             />
           </div>
           <div className="home-accordion">
@@ -996,14 +934,14 @@ new BlazeSlider(el, {
             </div>
           </div>
         </div>
-        <div className="home-controls2">
-          <button className="home-previous2 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon27">
+        <div className="home-controls1">
+          <button className="home-previous1 button">
+            <svg viewBox="0 0 1024 1024" className="home-icon23">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
-          <button className="home-next2 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon29">
+          <button className="home-next1 button">
+            <svg viewBox="0 0 1024 1024" className="home-icon25">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1121,7 +1059,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
-                className="home-image15"
+                className="home-image11"
               />
               <span className="home-text71">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -1208,7 +1146,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image16"
+                className="home-image12"
               />
             </button>
           </div>
