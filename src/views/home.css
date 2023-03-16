@@ -1301,6 +1301,10 @@
   object-fit: cover;
 }
 @media(max-width: 1600px) {
+  .home-image {
+    border-color: #f9f8f8;
+    border-width: 1px;
+  }
   .home-slider-container {
     height: 531px;
     position: relative;
@@ -1352,6 +1356,12 @@
   }
   .home-container09 {
     height: auto;
+  }
+}
+@media(max-width: 1200px) {
+  .home-image {
+    border-color: #f9f4f4;
+    border-width: 1px;
   }
 }
 @media(max-width: 991px) {
