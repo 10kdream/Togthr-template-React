@@ -428,6 +428,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName2"
             author="Ruby"
             profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+            title="The Engineer's Swiss Army Knife: My Go-To Tools for Any Recording Situation"
           ></BlogPostCard1>
         </div>
         <div className="home-container13">
