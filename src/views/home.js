@@ -248,7 +248,7 @@ new BlazeSlider(el, {
         <div className="home-container09">
           <span className="home-text022">
             <span className="home-text023">RECORDING</span>
-            <br></br>
+            <br className="home-text024"></br>
             <span className="home-text025">Vocal Tracking</span>
             <br className="home-text026"></br>
             <span className="home-text027">Full band tracking</span>
@@ -260,10 +260,10 @@ new BlazeSlider(el, {
             </span>
             <br className="home-text032"></br>
             <span className="home-text033">Broadcast for livestream</span>
-            <br></br>
-            <br></br>
+            <br className="home-text034"></br>
+            <br className="home-text035"></br>
             <span className="home-text036">SOFTWARE I USE</span>
-            <br></br>
+            <br className="home-text037"></br>
             <span className="home-text038">Pro Tools HD</span>
             <br className="home-text039"></br>
             <span className="home-text040">Logic Pro X</span>
@@ -275,10 +275,10 @@ new BlazeSlider(el, {
             <span className="home-text046">UAD Console</span>
             <br className="home-text047"></br>
             <span className="home-text048">Soundtoys</span>
-            <br></br>
-            <br></br>
+            <br className="home-text049"></br>
+            <br className="home-text050"></br>
             <span className="home-text051">HARDWARE I USE</span>
-            <br></br>
+            <br className="home-text052"></br>
             <span className="home-text053">SSL4000G Series</span>
             <br className="home-text054"></br>
             <span className="home-text055">SSL AWS</span>
@@ -296,7 +296,7 @@ new BlazeSlider(el, {
             <span className="home-text065">Ferrofish Converters</span>
             <br className="home-text066"></br>
             <span className="home-text067">Antelope Orion Converters</span>
-            <br></br>
+            <br className="home-text068"></br>
           </span>
         </div>
         <div className="home-container10">
@@ -332,21 +332,26 @@ new BlazeSlider(el, {
             <span className="home-text092">AWARDS</span>
             <br className="home-text093"></br>
             <span className="home-text094">
-              Shure x Red Bull’s Soundscapes Competition
+              Awarded Scholarship for Mix With The Masters, from We Are Moving
+              The Needle
             </span>
             <br className="home-text095"></br>
             <span className="home-text096">
-              Madison Square Garden’s Up and Coming Award
+              Overall Winner of Shure x Red Bull’s Soundscapes Competition
             </span>
             <br className="home-text097"></br>
-            <br className="home-text098"></br>
-            <span className="home-text099">MASTERCLASSES</span>
+            <span className="home-text098">
+              Madison Square Garden’s Up and Coming Award
+            </span>
+            <br className="home-text099"></br>
             <br className="home-text100"></br>
-            <span className="home-text101">P</span>
-            <span className="home-text102">
+            <span className="home-text101">MASTERCLASSES</span>
+            <br className="home-text102"></br>
+            <span className="home-text103">P</span>
+            <span className="home-text104">
               op Beuro x SAE Electronic Barcamp
             </span>
-            <br></br>
+            <br className="home-text105"></br>
           </span>
         </div>
       </div>
@@ -355,7 +360,7 @@ new BlazeSlider(el, {
         <div className="home-content">
           <div className="home-header1">
             <h2 className="home-heading3">
-              <span className="home-text104">Get in touch</span>
+              <span className="home-text106">Get in touch</span>
               <br></br>
             </h2>
           </div>
@@ -370,7 +375,7 @@ new BlazeSlider(el, {
       <section className="home-what-i-do">
         <div className="home-container12">
           <h1 className="home-heading4">
-            <span className="home-text109">WHAT I DO</span>
+            <span className="home-text111">WHAT I DO</span>
             <br></br>
           </h1>
         </div>
@@ -385,7 +390,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text111">Vocal Tracking</span>
+                <span className="home-text113">Vocal Tracking</span>
               </div>
               <div className="home-check01">
                 <div className="home-mark01">
@@ -393,7 +398,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text112">Full band recording</span>
+                <span className="home-text114">Full band recording</span>
               </div>
               <div className="home-check02">
                 <div className="home-mark02">
@@ -401,7 +406,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text113">Podcast &amp; Voiceover</span>
+                <span className="home-text115">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check03">
                 <div className="home-mark03">
@@ -409,7 +414,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text114">
+                <span className="home-text116">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
@@ -425,7 +430,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text115">Vocal Tracking</span>
+                <span className="home-text117">Vocal Tracking</span>
               </div>
               <div className="home-check05">
                 <div className="home-mark05">
@@ -433,7 +438,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text116">Full band recording</span>
+                <span className="home-text118">Full band recording</span>
               </div>
               <div className="home-check06">
                 <div className="home-mark06">
@@ -441,7 +446,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text117">Podcast &amp; Voiceover</span>
+                <span className="home-text119">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check07">
                 <div className="home-mark07">
@@ -449,7 +454,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text118">
+                <span className="home-text120">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
@@ -465,7 +470,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text119">
+                <span className="home-text121">
                   <span>Vocal tuning with Melodyne</span>
                   <br></br>
                 </span>
@@ -476,7 +481,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text122">Drum editing</span>
+                <span className="home-text124">Drum editing</span>
               </div>
               <div className="home-check10">
                 <div className="home-mark10">
@@ -484,7 +489,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text123">Podcast &amp; Voiceover</span>
+                <span className="home-text125">Podcast &amp; Voiceover</span>
               </div>
               <div className="home-check11">
                 <div className="home-mark11">
@@ -492,7 +497,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text124">
+                <span className="home-text126">
                   Recording for broadcast &amp; stream
                 </span>
               </div>
@@ -508,7 +513,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text125">
+              <span className="home-text127">
                 <span>Pro Tools HD</span>
                 <br></br>
               </span>
@@ -519,7 +524,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text128">Izotope RX</span>
+              <span className="home-text130">Izotope RX</span>
             </div>
             <div className="home-check14">
               <div className="home-mark14">
@@ -527,7 +532,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text129">Podcast &amp; Voiceover</span>
+              <span className="home-text131">Podcast &amp; Voiceover</span>
             </div>
             <div className="home-check15">
               <div className="home-mark15">
@@ -535,7 +540,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text130">
+              <span className="home-text132">
                 Recording for broadcast &amp; stream
               </span>
             </div>
@@ -547,7 +552,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text131">
+              <span className="home-text133">
                 <span>Vocal tuning with Melodyne</span>
                 <br></br>
               </span>
@@ -558,7 +563,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text134">Drum editing</span>
+              <span className="home-text136">Drum editing</span>
             </div>
             <div className="home-check18">
               <div className="home-mark18">
@@ -566,7 +571,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text135">Podcast &amp; Voiceover</span>
+              <span className="home-text137">Podcast &amp; Voiceover</span>
             </div>
             <div className="home-check19">
               <div className="home-mark19">
@@ -574,7 +579,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text136">
+              <span className="home-text138">
                 Recording for broadcast &amp; stream
               </span>
             </div>
@@ -592,7 +597,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text137">
+              <span className="home-text139">
                 <span>Scholarship recipient for Mix With The Masters</span>
                 <br></br>
               </span>
@@ -603,7 +608,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text140">
+              <span className="home-text142">
                 <span>
                   Overall Winner of Red Bull&apos;s Soundscapes Competition
                 </span>
@@ -616,7 +621,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text143">
+              <span className="home-text145">
                 MSG Up and Coming Artist Award
               </span>
             </div>
@@ -626,7 +631,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text144">Noatune Studios (London)</span>
+              <span className="home-text146">Noatune Studios (London)</span>
             </div>
           </div>
           <div className="home-checkmarks6">
@@ -636,7 +641,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text145">
+              <span className="home-text147">
                 <span>Circle Studios by Sony Music (Berlin)</span>
                 <br></br>
               </span>
@@ -647,7 +652,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text148">
+              <span className="home-text150">
                 <span>Red Bull&apos;s Music Studios (London &amp; Berlin)</span>
                 <br></br>
               </span>
@@ -658,7 +663,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text151">Strongroom Studios (London)</span>
+              <span className="home-text153">Strongroom Studios (London)</span>
             </div>
             <div className="home-check27">
               <div className="home-mark27">
@@ -666,7 +671,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text152">Noatune Studios (London)</span>
+              <span className="home-text154">Noatune Studios (London)</span>
             </div>
           </div>
         </div>
@@ -691,7 +696,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content2">
           <div className="home-bottom">
-            <span className="home-text153">
+            <span className="home-text155">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
