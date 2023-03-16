@@ -187,6 +187,7 @@
 
 .blaze-track {
   cursor: grabbing;
+  display: flex;
 }
 
 
