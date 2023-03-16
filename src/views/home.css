@@ -438,10 +438,20 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
+.home-slide4 {
+  flex: initial;
+}
+.home-image07 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
 .home-controls {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
+  padding-top: var(--dl-space-space-twounits);
   flex-direction: row;
 }
 .home-previous {
@@ -686,7 +696,7 @@
   justify-content: flex-start;
   background-color: #0000FF;
 }
-.home-image07 {
+.home-image08 {
   width: 640px;
   z-index: 100;
   margin-top: var(--dl-space-space-sixunits);
@@ -727,7 +737,7 @@
   justify-content: flex-start;
   background-color: #0000FF;
 }
-.home-image08 {
+.home-image09 {
   width: 575px;
   z-index: 100;
   object-fit: cover;
@@ -1466,12 +1476,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-image09 {
+.home-image10 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-image10 {
+.home-image11 {
   width: 440px;
   object-fit: cover;
 }
@@ -1999,7 +2009,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-image11 {
+.home-image12 {
   width: 120px;
   object-fit: cover;
 }
@@ -2251,7 +2261,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
 }
-.home-image12 {
+.home-image13 {
   width: 21px;
   object-fit: cover;
 }
@@ -2291,6 +2301,14 @@
     background-color: transparent;
   }
   .home-image06 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide4 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image07 {
     width: 300px;
     height: 300px;
   }
@@ -2359,6 +2377,10 @@
     width: 100%;
     height: 120px;
   }
+  .home-image07 {
+    width: 100%;
+    height: 120px;
+  }
   .home-content01 {
     gap: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
@@ -2389,7 +2411,7 @@
     top: -20px;
     right: -20px;
   }
-  .home-image07 {
+  .home-image08 {
     margin-top: 0px;
   }
   .home-experience {
@@ -2871,7 +2893,7 @@
     width: auto;
     height: 100%;
   }
-  .home-image07 {
+  .home-image08 {
     width: 100%;
   }
   .home-experience {
@@ -2885,7 +2907,7 @@
     width: 20%;
     bottom: -20px;
   }
-  .home-image08 {
+  .home-image09 {
     width: 100%;
   }
   .home-content04 {
@@ -3022,10 +3044,10 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-image09 {
+  .home-image10 {
     width: 100%;
   }
-  .home-image10 {
+  .home-image11 {
     width: 100%;
   }
   .home-customer {
