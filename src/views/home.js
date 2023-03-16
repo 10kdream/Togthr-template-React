@@ -18,7 +18,7 @@ const Home = (props) => {
         <header data-role="Header" className="home-header navbar">
           <img
             alt="logo"
-            src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+            src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHx3aGl0ZSUyMGxvZ298ZW58MHx8fHwxNjc5MDAxNTky&amp;ixlib=rb-4.0.3&amp;h=1500"
             className="home-image"
           />
           <div className="home-nav">
