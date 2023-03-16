@@ -218,7 +218,7 @@ new BlazeSlider(el, {
       </section>
       <div className="home-container06">
         <h1 className="home-heading2">
-          <span className="home-text020">LISTEN</span>
+          <span className="home-text020">        LISTEN</span>
           <br></br>
         </h1>
       </div>

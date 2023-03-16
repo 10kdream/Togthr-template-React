@@ -204,7 +204,7 @@
   flex-direction: column;
 }
 .home-about {
-  width: 100%;
+  width: 1640px;
   height: 935px;
   display: flex;
   position: relative;
@@ -252,7 +252,7 @@
 }
 .home-caption {
   color: rgb(124, 124, 128);
-  width: 554px;
+  width: 607px;
   font-size: 24px;
   max-width: 600px;
   align-self: flex-start;
@@ -414,25 +414,23 @@
   align-items: flex-start;
 }
 .home-heading2 {
-  top: 2442px;
-  left: 435px;
   color: rgb(234, 225, 213);
-  width: 945px;
-  position: absolute;
+  width: 1671px;
   font-size: 100px;
   max-width: 790px;
   align-self: center;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-family: Exo 2;
   font-weight: 500;
+  padding-left: var(--dl-space-space-sixunits);
 }
 .home-text020 {
   font-size: 70px;
 }
 .home-spotify-player {
   width: 100%;
-  height: 429px;
+  height: 408px;
   display: flex;
   position: relative;
   align-items: center;
