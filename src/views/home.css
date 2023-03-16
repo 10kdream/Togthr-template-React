@@ -420,13 +420,22 @@
   object-fit: contain;
   aspect-ratio: 1;
 }
+.home-slide1 {
+  flex: 1;
+}
 .home-image04 {
   object-fit: contain;
   aspect-ratio: 1;
 }
+.home-slide2 {
+  flex: 1;
+}
 .home-image05 {
   object-fit: contain;
   aspect-ratio: 1;
+}
+.home-slide3 {
+  flex: 1;
 }
 .home-image06 {
   object-fit: contain;

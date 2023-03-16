@@ -180,21 +180,21 @@ const Home = (props) => {
                     className="home-image03"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide1">
+                <div data-role="current-banner" className="home-slide1 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide2">
+                <div data-role="current-banner" className="home-slide2 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
                     className="home-image05"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide3">
+                <div data-role="current-banner" className="home-slide3 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
