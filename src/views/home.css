@@ -2269,7 +2269,7 @@
     height: 400px;
   }
   .home-slide {
-    flex: 0;
+    flex: 1;
     width: 400px;
     background-color: transparent;
   }
@@ -2278,7 +2278,7 @@
     height: 400px;
   }
   .home-slide1 {
-    flex: 0;
+    flex: 1;
     background-color: transparent;
   }
   .home-image04 {
@@ -2286,7 +2286,7 @@
     height: 400px;
   }
   .home-slide2 {
-    flex: 0;
+    flex: 1;
     background-color: #0049ff;
   }
   .home-image05 {
@@ -2294,7 +2294,7 @@
     height: 400px;
   }
   .home-slide3 {
-    flex: 0;
+    flex: 1;
     background-color: transparent;
   }
   .home-image06 {
@@ -2302,14 +2302,14 @@
     height: 400px;
   }
   .home-slide4 {
-    flex: 0;
+    flex: 1;
     background-color: transparent;
   }
   .home-image07 {
     width: 400px;
   }
   .home-slide5 {
-    flex: 0;
+    flex: 1;
     background-color: transparent;
   }
   .home-image08 {
