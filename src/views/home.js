@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import Check from '../components/check'
-import Line from '../components/line'
-import IconContainer from '../components/icon-container'
+import BlogPostCard1 from '../components/blog-post-card1'
 import './home.css'
 
 const Home = (props) => {
@@ -38,7 +36,7 @@ const Home = (props) => {
               data-role="Nav"
               className="home-nav"
             >
-              <div className="home-container1">
+              <div className="home-container01">
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
@@ -61,7 +59,7 @@ const Home = (props) => {
                 <span className="home-text03">Team</span>
                 <span className="home-text04">Blog</span>
               </nav>
-              <div className="home-container2">
+              <div className="home-container02">
                 <button className="home-login button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -91,9 +89,9 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-note">
-        <div className="home-container3">
-          <div className="home-container4">
-            <h3 className="home-header01">ABOUT</h3>
+        <div className="home-container03">
+          <div className="home-container04">
+            <h1 className="home-header01">ABOUT</h1>
             <p className="home-caption">
               <span>
                 I’m an audio engineer with 5+ years of commercial studio
@@ -111,12 +109,15 @@ const Home = (props) => {
               <span>
                 Recording on SSL, high end microphones, recording live sessions,
                 podcast recording &amp; mixing. While being technically
-                proficient, Smith has a knack for communicating complex ideas u
+                proficient, Smith has a knack for communicating complex ideas
+                u ercial studio experience with a flexible skillset both
+                technically and personally. Engineering at Sony’s in house
+                studios, Circle Studios.
               </span>
               <br></br>
             </p>
           </div>
-          <div className="home-container5">
+          <div className="home-container05">
             <img
               alt="image"
               src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
@@ -125,7 +126,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <div className="home-container6">
+      <div className="home-container06">
         <div className="home-code-embed">
           <DangerousHTML
             html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4kgbdVcKYRHwia09Zztx7p?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
@@ -133,50 +134,9 @@ const Home = (props) => {
           ></DangerousHTML>
         </div>
       </div>
-      <section className="home-statistics">
-        <div className="home-content">
-          <div className="home-stat">
-            <h3 className="home-header02">Recording</h3>
-            <span className="home-caption01">
-              Consectetur adipiscing
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </div>
-          <div className="home-stat1">
-            <h3 className="home-header03">Mixing</h3>
-            <span className="home-caption02">Unde omnis iste</span>
-          </div>
-          <div className="home-stat2">
-            <h3 className="home-header04">Assisting</h3>
-            <span className="home-caption03">Accusantium doloremque</span>
-          </div>
-        </div>
-      </section>
       <section className="home-slider">
-        <div className="home-header05">
-          <h2 className="home-heading1">
-            Selected Discography
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </h2>
-        </div>
-        <div className="home-selector">
-          <p className="home-caption04">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </p>
+        <div className="home-header02">
+          <h2 className="home-heading1">Releases</h2>
         </div>
       </section>
       <section className="home-slides">
@@ -267,68 +227,51 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
-      <div className="home-container7"></div>
-      <section className="home-objectives">
-        <div className="home-content01">
-          <span className="home-text18">Objectives</span>
-          <div className="home-objectives-list">
-            <div className="objective">
-              <h3 className="home-text19">Growth</h3>
-              <p className="home-text20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="objective home-objective1">
-              <h3 className="home-text21">Develop</h3>
-              <p className="home-text22">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="objective home-objective2">
-              <h3 className="home-text23">Optimize</h3>
-              <p className="home-text24">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
+      <div className="home-container07">
+        <video
+          src="https://youtu.be/nusuZ1bneQM"
+          controls
+          poster="https://images.unsplash.com/photo-1678905029643-741e60ef88d5?ixid=Mnw5MTMyMXwwfDF8YWxsfDJ8fHx8fHwyfHwxNjc4OTc3MDU5&amp;ixlib=rb-4.0.3&amp;w=400"
+          className="home-video"
+        ></video>
+      </div>
+      <div className="home-container08"></div>
+      <section className="home-statistics">
+        <div className="home-content">
+          <div className="home-stat">
+            <h3 className="home-header03">Recording</h3>
+            <span className="home-caption1">
+              Consectetur adipiscing
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </div>
+          <div className="home-stat1">
+            <h3 className="home-header04">Mixing</h3>
+            <span className="home-caption2">Unde omnis iste</span>
+          </div>
+          <div className="home-stat2">
+            <h3 className="home-header05">Assisting</h3>
+            <span className="home-caption3">Accusantium doloremque</span>
           </div>
         </div>
       </section>
+      <div className="home-container09"></div>
+      <section className="home-objectives"></section>
       <section className="home-growth">
-        <div className="home-content02">
+        <div className="home-content1">
           <div className="home-header06">
             <div className="home-header07">
               <h2 className="home-heading2">
-                <span>
-                  Multiverse optimized for
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text26">growth.</span>
+                <span>Recording quality </span>
+                <span className="home-text19">audio.</span>
                 <br></br>
               </h2>
             </div>
-            <p className="home-caption05">
+            <p className="home-caption4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               <span
@@ -337,7 +280,7 @@ new BlazeSlider(el, {
                 }}
               />
             </p>
-            <p className="home-caption06">
+            <p className="home-caption5">
               Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               <span
                 dangerouslySetInnerHTML={{
@@ -347,9 +290,9 @@ new BlazeSlider(el, {
             </p>
           </div>
           <div className="home-testimonial">
-            <div className="home-content03">
-              <span className="home-text28">Testimonial</span>
-              <p className="home-text29">
+            <div className="home-content2">
+              <span className="home-text21">Testimonial</span>
+              <p className="home-text22">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.”
               </p>
@@ -375,7 +318,7 @@ new BlazeSlider(el, {
           <div className="home-square"></div>
           <img
             alt="image"
-            src="/playground_assets/growth-1400w.png"
+            src="https://freight.cargo.site/w/700/q/75/i/cc96e14a645ddc6f1519f992742420d722b796593c13d23667012519958c551f/P1150624.jpg"
             className="home-image08"
           />
         </div>
@@ -385,20 +328,20 @@ new BlazeSlider(el, {
           <div className="home-square1"></div>
           <img
             alt="image"
-            src="/playground_assets/experience-1400w.png"
+            src="https://freight.cargo.site/w/500/q/75/i/93ffbccffad74348307e54af4e60d5c766435c52c4353846de863360fc7f5a1a/Screen-Shot-2020-06-08-at-10.47.22-am.png"
             className="home-image09"
           />
         </div>
-        <div className="home-content04">
+        <div className="home-content3">
           <div className="home-header08">
             <div className="home-header-container1">
               <div className="home-header09">
                 <h2 className="home-heading3">
                   <span>A worlds class </span>
-                  <span className="home-text31">experience</span>
+                  <span className="home-text24">experience</span>
                 </h2>
               </div>
-              <p className="home-caption07">
+              <p className="home-caption6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
                 eiusmod.
               </p>
@@ -410,7 +353,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text32">
+                <span className="home-text25">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -420,7 +363,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text33">Lorem ipsum dolor sit amet</span>
+                <span className="home-text26">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
@@ -428,7 +371,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text34">
+                <span className="home-text27">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -438,16 +381,16 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text35">
+                <span className="home-text28">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
             </div>
           </div>
           <div className="home-testimonial1">
-            <div className="home-content05">
-              <span className="home-text36">Testimonial</span>
-              <p className="home-text37">
+            <div className="home-content4">
+              <span className="home-text29">Testimonial</span>
+              <p className="home-text30">
                 “Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.”
               </p>
@@ -471,7 +414,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-create">
-        <div className="home-content06">
+        <div className="home-content5">
           <div className="home-header10">
             <h2 className="home-heading4">
               <span>
@@ -482,7 +425,7 @@ new BlazeSlider(el, {
                   }}
                 />
               </span>
-              <span className="home-text39">environment</span>
+              <span className="home-text32">environment</span>
               <span> now!</span>
               <br></br>
             </h2>
@@ -495,542 +438,33 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
-      <section className="home-comparision">
-        <div className="home-header-container2">
-          <div className="home-header11">
-            <h2 className="home-heading5">
-              <span>Environment c</span>
-              <span className="home-text46">omparision</span>
-              <br></br>
-            </h2>
-          </div>
-          <p className="home-caption08">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-            eiusmod.
-          </p>
+      <div className="home-blog">
+        <div className="home-container10">
+          <BlogPostCard1 rootClassName="rootClassName3"></BlogPostCard1>
         </div>
-        <div className="home-table">
-          <div className="home-row">
-            <div className="home-headers">
-              <span className="home-text48">Placeholder</span>
-            </div>
-            <div className="home-plans">
-              <div className="home-row01">
-                <span className="home-text49">TOGHTR</span>
-                <span className="home-text50">AGENCY</span>
-                <span className="home-text51">FRELLANCE</span>
-              </div>
-            </div>
-          </div>
-          <div className="home-row02">
-            <div className="home-headers1">
-              <span className="home-text52">
-                Duis aute irure dolor in reprehenderit
-              </span>
-            </div>
-            <div className="home-plans1">
-              <div className="home-row03">
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Check></Check>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row04">
-            <div className="home-headers2">
-              <span className="home-text53">Lorem ipsum dolor sit amet</span>
-            </div>
-            <div className="home-plans2">
-              <div className="home-row05">
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row06">
-            <div className="home-headers3">
-              <span className="home-text54">
-                Duis aute irure dolor in reprehenderit
-              </span>
-            </div>
-            <div className="home-plans3">
-              <div className="home-row07">
-                <div className="value">
-                  <span className="home-text55">Custom</span>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row08">
-            <div className="home-headers4">
-              <span className="home-text56">
-                Duis aute irure dolor in reprehenderit
-              </span>
-            </div>
-            <div className="home-plans4">
-              <div className="home-row09">
-                <div className="value">
-                  <span className="home-text57">Unlimited</span>
-                </div>
-                <div className="value">
-                  <span className="home-text58">Limited</span>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row10">
-            <div className="home-headers5">
-              <span className="home-text59">Lorem ipsum dolor sit amet</span>
-            </div>
-            <div className="home-plans5">
-              <div className="home-row11">
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-                <div className="value">
-                  <span className="home-text60">Limited</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row12">
-            <div className="home-headers6">
-              <span className="home-text61">Lorem ipsum dolor sit amet</span>
-            </div>
-            <div className="home-plans6">
-              <div className="home-row13">
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <Check></Check>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-row14">
-            <div className="home-headers7">
-              <span className="home-text62">Lorem ipsum dolor sit amet</span>
-            </div>
-            <div className="home-plans7">
-              <div className="home-row15">
-                <div className="value">
-                  <Check></Check>
-                </div>
-                <div className="value">
-                  <span className="home-text63">Limited</span>
-                </div>
-                <div className="value">
-                  <Line></Line>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="home-container11">
+          <BlogPostCard1
+            image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
+            rootClassName="rootClassName2"
+          ></BlogPostCard1>
         </div>
-      </section>
-      <section className="home-data">
-        <div className="home-header-container3">
-          <div className="home-header12">
-            <div className="home-row16">
-              <h2 className="home-heading6">
-                <span>
-                  Understand your data to manage all in one
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text65">platform</span>
-                <br></br>
-              </h2>
-            </div>
-          </div>
-          <p className="home-caption09">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </p>
+        <div className="home-container12">
+          <BlogPostCard1
+            image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+            rootClassName="rootClassName1"
+          ></BlogPostCard1>
         </div>
-        <div className="home-content07">
-          <div className="home-image10">
-            <img
-              alt="image"
-              src="/playground_assets/data-1400w.png"
-              className="home-image11"
-            />
-          </div>
-          <div className="home-accordion">
-            <div data-role="accordion-container" className="accordion">
-              <div>
-                <h3 className="home-header13">Management</h3>
-                <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <IconContainer rootClassName="icon-container-root-class-name"></IconContainer>
-            </div>
-            <div data-role="accordion-container" className="accordion">
-              <div>
-                <h3 className="home-header14">Integrations</h3>
-                <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <IconContainer rootClassName="icon-container-root-class-name1"></IconContainer>
-            </div>
-            <div data-role="accordion-container" className="accordion">
-              <div>
-                <h3 className="home-header15">Customer Solutions</h3>
-                <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <IconContainer rootClassName="icon-container-root-class-name2"></IconContainer>
-            </div>
-            <div data-role="accordion-container" className="accordion">
-              <div>
-                <h3 className="home-header16">Recruiting</h3>
-                <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-              </div>
-              <IconContainer rootClassName="icon-container-root-class-name3"></IconContainer>
-            </div>
-            <div>
-              <DangerousHTML
-                html={`<script>
- /*
-  Accordion - Code Embed
-  */
-  const accordionContainers = document.querySelectorAll('[data-role="accordion-container"]'); // All accordion containers
-  const accordionContents = document.querySelectorAll('[data-role="accordion-content"]'); // All accordion content
-  const accordionIconsClosed = document.querySelectorAll('[data-role="accordion-icon-closed"]'); // All accordion closed icons
-  const accordionIconsOpen = document.querySelectorAll('[data-role="accordion-icon-open"]'); // All accordion open icons
-
-  accordionContents.forEach((accordionContent) => {
-      accordionContent.style.display = "none"; //Hides all accordion contents
-  });
-
-  accordionIconsClosed.forEach((icon) => {
-    icon.style.display = "flex"
-  })
-
-  accordionIconsOpen.forEach((icon) => {
-    icon.style.display = "none"
-  })
-
-  accordionContainers.forEach((accordionContainer, index) => {
-      accordionContainer.addEventListener("click", () => {
-          if (accordionContents[index].style.display === "flex") {
-              // If the accordion is already open, close it
-              accordionContents[index].style.display = "none";
-              accordionIconsClosed[index].style.display = "flex";
-              accordionIconsOpen[index].style.display = "none"
-          } else {
-              // If the accordion is closed, open it
-              accordionContents.forEach((accordionContent) => {
-                  accordionContent.style.display = "none"; //Hides all accordion contents
-              });
-
-              accordionIconsClosed.forEach((accordionIcon) => {
-                  accordionIcon.style.display = "flex"; // Resets all icon transforms to 0deg (default)
-              });
-
-              accordionIconsOpen.forEach((accordionIcon) => {
-                accordionIcon.style.display = "none";
-              })
-              
-              accordionContents[index].style.display = "flex"; // Shows accordion content
-              accordionIconsClosed[index].style.display = "none"; // Rotates accordion icon 180deg
-              accordionIconsOpen[index].style.display = "flex";
-          }
-      });
-  });
-</script>
-`}
-              ></DangerousHTML>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="home-customer">
-        <div className="home-header17">
-          <h2 className="home-heading7">
-            <span>
-              Customer validation is an essential phase of the
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="home-text68">product development process</span>
-            <br></br>
-          </h2>
-        </div>
-        <div className="home-quotes">
-          <div className="home-quote">
-            <p className="home-quote1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author2">
-              <span className="home-name2">Joanna Smith</span>
-              <span className="home-location">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote2">
-            <p className="home-quote3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author3">
-              <span className="home-name3">Joanna Smith</span>
-              <span className="home-location1">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote4">
-            <p className="home-quote5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author4">
-              <span className="home-name4">Joanna Smith</span>
-              <span className="home-location2">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote6">
-            <p className="home-quote7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author5">
-              <span className="home-name5">Joanna Smith</span>
-              <span className="home-location3">Briville</span>
-            </div>
-          </div>
-        </div>
-        <div className="home-controls1">
-          <button className="home-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon23">
-              <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
-            </svg>
-          </button>
-          <button className="home-next1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon25">
-              <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-            </svg>
-          </button>
-          <button className="button home-button1">
-            <span>
-              <span>View all cases</span>
-              <br></br>
-            </span>
-          </button>
-        </div>
-      </section>
-      <section className="home-faq">
-        <div className="home-header18">
-          <h2 className="home-heading8">
-            <span>Frequently asked </span>
-            <span className="home-text74">questions</span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </h2>
-        </div>
-        <div className="home-content16">
-          <div className="home-column">
-            <div className="home-element04">
-              <h3 className="home-header19">
-                Lorem ipsum dolor sit ametetur elit?
-              </h3>
-              <p className="home-content17">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-element05">
-              <h3 className="home-header20">
-                Excepteur sint occaecat cupidatat non sunt in culpa qui officia
-                deserunt mollit anim id est laborum?
-              </h3>
-              <p className="home-content18">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-            </div>
-            <div className="home-element06">
-              <h3 className="home-header21">
-                Tempor incididunt ut labore et dolore magna aliquat enim ad
-                minim?
-              </h3>
-              <p className="home-content19">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div className="home-column1">
-            <div className="home-element07">
-              <h3 className="home-header22">
-                Tempor incididunt ut labore et dolore magna aliquat enim ad
-                minim?
-              </h3>
-              <p className="home-content20">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-            <div className="home-element08">
-              <h3 className="home-header23">
-                Lorem ipsum dolor sit ametetur elit?
-              </h3>
-              <p className="home-content21">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="home-element09">
-              <h3 className="home-header24">Incididunt ut labore et dolore?</h3>
-              <p className="home-content22">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
       <div className="home-footer">
-        <div className="home-content23">
+        <div className="home-content6">
           <div className="home-main">
             <div className="home-branding">
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
-                className="home-image12"
+                className="home-image10"
               />
-              <span className="home-text76">
+              <span className="home-text38">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1041,8 +475,8 @@ new BlazeSlider(el, {
               </span>
             </div>
             <div className="home-links">
-              <div className="home-column2">
-                <span className="home-header25">Company</span>
+              <div className="home-column">
+                <span className="home-header11">Company</span>
                 <div className="home-list">
                   <Link to="/" className="home-navlink">
                     About
@@ -1054,13 +488,13 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="home-navlink03">
-                    <span className="home-text77">Why</span>
+                    <span className="home-text39">Why</span>
                     <br></br>
                   </Link>
                 </div>
               </div>
-              <div className="home-column3">
-                <span className="home-header26">Extern</span>
+              <div className="home-column1">
+                <span className="home-header12">Extern</span>
                 <div className="home-list1">
                   <Link to="/" className="home-navlink04">
                     News
@@ -1085,8 +519,8 @@ new BlazeSlider(el, {
                   </Link>
                 </div>
               </div>
-              <div className="home-column4">
-                <span className="home-header27">Social</span>
+              <div className="home-column2">
+                <span className="home-header13">Social</span>
                 <div className="home-list2">
                   <Link to="/" className="home-navlink11">
                     LinkedIn
@@ -1108,14 +542,14 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text79">
+            <span className="home-text41">
               © 2022 togthr - All rights reserved
             </span>
-            <button data-role="scroll-top" className="home-button2 button">
+            <button data-role="scroll-top" className="home-button1 button">
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image13"
+                className="home-image11"
               />
             </button>
           </div>
@@ -1141,7 +575,6 @@ document.addEventListener("DOMContentLoaded", function() {
 `}
         ></DangerousHTML>
       </div>
-      <button className="button home-button3">&lt;</button>
     </div>
   )
 }
