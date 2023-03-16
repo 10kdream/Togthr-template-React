@@ -234,6 +234,9 @@ new BlazeSlider(el, {
     slideGap: '80px',
     loop: true,
     enableAutoplay: true,
+    autoplayinterval: 2000,
+    transitionDuration: 300,
+    transitionTimingFunction: 'ease',
   },
 })
 </script>`}
