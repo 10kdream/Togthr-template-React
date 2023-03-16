@@ -91,37 +91,51 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-note">
-        <img
-          alt="image"
-          src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
-          className="home-image02"
-        />
-        <h3 className="home-header01">ABOUT</h3>
-        <p className="home-caption">
-          <span>
-            I’m an audio engineer with 5+ years of commercial studio experience
-            with a flexible skillset both technically and personally.
-            Engineering at Sony’s in house studios, Circle Studios.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
+        <div className="home-container3">
+          <div className="home-container4">
+            <h3 className="home-header01">ABOUT</h3>
+            <p className="home-caption">
+              <span>
+                I’m an audio engineer with 5+ years of commercial studio
+                experience with a flexible skillset both technically and
+                personally. Engineering at Sony’s in house studios, Circle
+                Studios.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                Recording on SSL, high end microphones, recording live sessions,
+                podcast recording &amp; mixing. While being technically
+                proficient, Smith has a knack for communicating complex ideas u
+              </span>
+              <br></br>
+            </p>
+          </div>
+          <div className="home-container5">
+            <img
+              alt="image"
+              src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+              className="home-image02"
             />
-          </span>
-          <br></br>
-          <br></br>
-          <span>
-            Recording on SSL, high end microphones, recording live sessions,
-            podcast recording &amp; mixing. While being technically proficient,
-            Smith has a knack for communicating complex ideas using everyday
-            language, ensuring guests feel comfortable and welcomed. This is
-            particularly useful when working with people coming from a range of
-            positions and backgrounds and creates an atmosphere of open
-            communication and shared knowledge.
-          </span>
-          <br></br>
-        </p>
+          </div>
+        </div>
       </section>
+      <div className="home-container6">
+        <div>
+          <DangerousHTML
+            html={`<div style="left: 0; width: 100%; height: 400px; position: relative;">
+    <div style="text-align: center">
+        <iframe src="https://embed.tidal.com/playlists/08bd6fbf-385a-4af8-985c-c5ec18204c81" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen="" class="">
+        </iframe>
+        </div></div>`}
+          ></DangerousHTML>
+        </div>
+      </div>
       <section className="home-statistics">
         <div className="home-content">
           <div className="home-stat">
@@ -256,7 +270,7 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
-      <div className="home-container3"></div>
+      <div className="home-container7"></div>
       <section className="home-objectives">
         <div className="home-content01">
           <span className="home-text18">Objectives</span>
