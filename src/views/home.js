@@ -90,7 +90,7 @@ const Home = (props) => {
       <section className="home-about">
         <div className="home-container03">
           <div className="home-container04">
-            <h1 className="home-header1">ABOUT</h1>
+            <h1 className="home-header01">ABOUT</h1>
             <p className="home-caption">
               <span>
                 I’m an audio engineer with 5+ years of commercial studio
@@ -224,7 +224,7 @@ new BlazeSlider(el, {
       <section className="home-what-i-do">
         <div className="home-content">
           <div className="home-stat">
-            <h3 className="home-header2">Recording</h3>
+            <h3 className="home-header02">Recording</h3>
             <span className="home-caption1">Unde omnis iste</span>
             <div className="home-checkmarks">
               <div className="home-check">
@@ -264,7 +264,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-stat1">
-            <h3 className="home-header3">Mixing</h3>
+            <h3 className="home-header03">Mixing</h3>
             <span className="home-caption2">Unde omnis iste</span>
             <div className="home-checkmarks1">
               <div className="home-check04">
@@ -304,7 +304,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header4">Assisting</h3>
+            <h3 className="home-header04">Assisting</h3>
             <span className="home-caption3">Accusantium doloremque</span>
             <div className="home-checkmarks2">
               <div className="home-check08">
@@ -348,7 +348,7 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div className="home-stat3">
-          <h3 className="home-header5">What I use</h3>
+          <h3 className="home-header05">What I use</h3>
           <div className="home-checkmarks3">
             <div className="home-check12">
               <div className="home-mark12">
@@ -357,7 +357,7 @@ new BlazeSlider(el, {
                 </svg>
               </div>
               <span className="home-text32">
-                <span>Vocal tuning with Melodyne</span>
+                <span>Pro Tools HD</span>
                 <br></br>
               </span>
             </div>
@@ -367,7 +367,7 @@ new BlazeSlider(el, {
                   <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                 </svg>
               </div>
-              <span className="home-text35">Drum editing</span>
+              <span className="home-text35">Izotope RX</span>
             </div>
             <div className="home-check14">
               <div className="home-mark14">
@@ -430,9 +430,97 @@ new BlazeSlider(el, {
           <span className="home-caption4">SOFTWARE</span>
           <span className="home-caption5">HARDWARE</span>
         </div>
+        <div className="home-stat4">
+          <h3 className="home-header06">Awards</h3>
+          <h3 className="home-header07">Studios</h3>
+          <div className="home-checkmarks5">
+            <div className="home-check20">
+              <div className="home-mark20">
+                <svg viewBox="0 0 1024 1024" className="home-icon53">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text44">
+                <span>Scholarship recipient for Mix With The Masters</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check21">
+              <div className="home-mark21">
+                <svg viewBox="0 0 1024 1024" className="home-icon55">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text47">
+                <span>
+                  Overall Winner of Red Bull&apos;s Soundscapes Competition
+                </span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check22">
+              <div className="home-mark22">
+                <svg viewBox="0 0 1024 1024" className="home-icon57">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text50">
+                MSG Up and Coming Artist Award
+              </span>
+            </div>
+            <div className="home-check23">
+              <div className="home-mark23">
+                <svg viewBox="0 0 1024 1024" className="home-icon59">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text51">Noatune Studios (London)</span>
+            </div>
+          </div>
+          <div className="home-checkmarks6">
+            <div className="home-check24">
+              <div className="home-mark24">
+                <svg viewBox="0 0 1024 1024" className="home-icon61">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text52">
+                <span>Circle Studios by Sony Music (Berlin)</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check25">
+              <div className="home-mark25">
+                <svg viewBox="0 0 1024 1024" className="home-icon63">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text55">
+                <span>Red Bull&apos;s Music Studios (London &amp; Berlin)</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-check26">
+              <div className="home-mark26">
+                <svg viewBox="0 0 1024 1024" className="home-icon65">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text58">Strongroom Studios (London)</span>
+            </div>
+            <div className="home-check27">
+              <div className="home-mark27">
+                <svg viewBox="0 0 1024 1024" className="home-icon67">
+                  <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                </svg>
+              </div>
+              <span className="home-text59">Noatune Studios (London)</span>
+            </div>
+          </div>
+        </div>
       </section>
       <div className="home-live-sessions">
-        <h1 className="home-header6">Live Sessions</h1>
+        <h1 className="home-header08">Live Sessions</h1>
         <div className="home-container06">
           <div className="home-div">
             <DangerousHTML
@@ -449,9 +537,9 @@ new BlazeSlider(el, {
       <div className="home-container07"></div>
       <section className="home-create">
         <div className="home-content1">
-          <div className="home-header7">
+          <div className="home-header09">
             <h2 className="home-heading1">
-              <span className="home-text44">Get in touch</span>
+              <span className="home-text60">Get in touch</span>
               <br></br>
             </h2>
           </div>
@@ -483,7 +571,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content2">
           <div className="home-bottom">
-            <span className="home-text49">
+            <span className="home-text65">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
