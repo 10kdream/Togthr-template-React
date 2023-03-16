@@ -413,7 +413,7 @@
   justify-content: center;
 }
 .home-slide {
-  flex: 1;
+  flex: 0;
   background-color: var(--dl-color-primary-mygreen);
 }
 .home-image03 {
@@ -421,21 +421,21 @@
   aspect-ratio: 1;
 }
 .home-slide1 {
-  flex: 1;
+  flex: 0;
 }
 .home-image04 {
   object-fit: contain;
   aspect-ratio: 1;
 }
 .home-slide2 {
-  flex: 1;
+  flex: 0;
 }
 .home-image05 {
   object-fit: contain;
   aspect-ratio: 1;
 }
 .home-slide3 {
-  flex: 1;
+  flex: 0;
 }
 .home-image06 {
   object-fit: contain;
