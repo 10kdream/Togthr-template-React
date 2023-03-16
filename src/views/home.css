@@ -2312,6 +2312,9 @@
     width: 1419px;
     height: 874px;
   }
+  .home-div {
+    height: 456px;
+  }
 }
 @media(max-width: 991px) {
   .home-hero {

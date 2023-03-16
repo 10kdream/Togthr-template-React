@@ -243,12 +243,11 @@ new BlazeSlider(el, {
       </section>
       <div className="home-container3">
         <section className="home-get-started">
-          <div>
+          <div className="home-div">
             <DangerousHTML
               html={`<style>
 .blaze-slider {
   --slides-to-show: 3;
-  --slides-to-scroll: 3;
   --slide-gap: 50px;
 }
 
@@ -278,10 +277,6 @@ new BlazeSlider(el, {
         <div class="slide">2</div>
         <div class="slide">3</div>
         <div class="slide">4</div>
-        <div class="slide">5</div>
-        <div class="slide">6</div>
-        <div class="slide">7</div>
-        <div class="slide">8</div>
       </div>
     </div>
     <!-- putting nav buttons and pagination in a custom structure -->
@@ -299,11 +294,11 @@ document.querySelectorAll('.blaze-slider').forEach(el => {
 new BlazeSlider(el, {
   all: {
     enableAutoplay: true,
+    autoplayDirection: 'to left',
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    slideGap: '50px',
+    slideGap: '100px',
     stopAutoplayOnInteraction: true,
     transitionTimingFunction: 'ease',
     loop: true,
