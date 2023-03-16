@@ -2281,8 +2281,16 @@
     flex: 0;
     background-color: transparent;
   }
+  .home-image05 {
+    width: 400px;
+    height: 400px;
+  }
   .home-slide3 {
     background-color: transparent;
+  }
+  .home-image06 {
+    width: 400px;
+    height: 400px;
   }
   .home-slide4 {
     background-color: transparent;
