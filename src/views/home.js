@@ -257,7 +257,9 @@ new BlazeSlider(el, {
 }
 
 .slide {
-  border: solid red 1px
+  border: solid red 1px ;
+  height: 300px ;
+  width: 300px ;
 }
 </style>
 
