@@ -2273,9 +2273,17 @@
     width: 400px;
     background-color: transparent;
   }
+  .home-image03 {
+    width: 400px;
+    height: 400px;
+  }
   .home-slide1 {
     flex: 0;
     background-color: transparent;
+  }
+  .home-image04 {
+    width: 400px;
+    height: 400px;
   }
   .home-slide2 {
     flex: 0;
@@ -2295,8 +2303,15 @@
   .home-slide4 {
     background-color: transparent;
   }
+  .home-image07 {
+    width: 400px;
+  }
   .home-slide5 {
     background-color: transparent;
+  }
+  .home-image08 {
+    width: 400px;
+    height: 400px;
   }
   .home-get-started {
     width: 1419px;
