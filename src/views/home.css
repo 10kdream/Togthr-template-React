@@ -405,7 +405,7 @@
   flex-direction: row;
 }
 .home-slider-track {
-  width: 1600px;
+  width: auto;
   height: 400px;
   display: flex;
   align-items: center;
