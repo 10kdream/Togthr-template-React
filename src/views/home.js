@@ -152,8 +152,8 @@ const Home = (props) => {
                     <br className="home-text023"></br>
                     <br className="home-text024"></br>
                     <span className="home-text025">Mix Engineer</span>
-                    <br className="home-text026"></br>
-                    <br className="home-text027"></br>
+                    <br></br>
+                    <br></br>
                   </span>
                   <img
                     alt="image"
@@ -172,8 +172,8 @@ const Home = (props) => {
                     <br className="home-text033"></br>
                     <br className="home-text034"></br>
                     <span className="home-text035">Recording Engineer</span>
-                    <br className="home-text036"></br>
-                    <br className="home-text037"></br>
+                    <br></br>
+                    <br></br>
                   </span>
                   <img
                     alt="image"
@@ -190,8 +190,8 @@ const Home = (props) => {
                     <br className="home-text043"></br>
                     <br className="home-text044"></br>
                     <span className="home-text045">Mix Engineer</span>
-                    <br className="home-text046"></br>
-                    <br className="home-text047"></br>
+                    <br></br>
+                    <br></br>
                   </span>
                   <img
                     alt="image"
@@ -210,8 +210,8 @@ const Home = (props) => {
                     <br className="home-text053"></br>
                     <br className="home-text054"></br>
                     <span className="home-text055">Recording Engineer</span>
-                    <br className="home-text056"></br>
-                    <br className="home-text057"></br>
+                    <br></br>
+                    <br></br>
                   </span>
                   <img
                     alt="image"
