@@ -246,12 +246,13 @@ new BlazeSlider(el, {
           <div>
             <DangerousHTML
               html={`<style>
-.foo-slider.blaze-slider {
+.blaze-slider {
   --slides-to-show: 3;
+  --slide-gap: 50px;
 }
 
-@media (max-width: 500px) {
-  .foo-slider.blaze-slider {
+@media (max-width: 900px) {
+  .blaze-slider {
     --slides-to-show: 2;
   }
 }
