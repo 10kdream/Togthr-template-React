@@ -404,14 +404,6 @@
   align-items: center;
   flex-direction: row;
 }
-.home-slider-track {
-  width: auto;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
 .home-slide {
   flex: 0;
   background-color: var(--dl-color-primary-mygreen);
@@ -2262,11 +2254,6 @@
   .home-slider-container {
     position: relative;
   }
-  .home-slider-track {
-    flex: 0;
-    width: auto;
-    height: auto;
-  }
   .home-slide {
     flex: initial;
     background-color: transparent;
@@ -2801,9 +2788,6 @@
   }
   .home-slider1 {
     gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .home-slider-track {
-    align-items: stretch;
   }
   .home-previous {
     padding-top: var(--dl-space-space-unit);
