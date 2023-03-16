@@ -39,7 +39,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
-                  className="home-image1"
+                  className="home-image01"
                 />
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon01">
@@ -124,7 +124,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
-              className="home-image2"
+              className="home-image02"
             />
           </div>
         </div>
@@ -138,7 +138,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
-                    className="home-image3"
+                    className="home-image03"
                   />
                   <span className="home-text016">
                     <br></br>
@@ -147,32 +147,67 @@ const Home = (props) => {
                     <span>Mix Engineer</span>
                   </span>
                 </div>
-                <div data-role="current-banner" className="home-slide1 banner">
+                <div data-role="current-banner" className="home-slide01 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image4"
+                    className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide2">
+                <div data-role="current-banner" className="banner home-slide02">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image5"
+                    className="home-image05"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide3">
+                <div data-role="current-banner" className="banner home-slide03">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image6"
+                    className="home-image06"
                   />
                 </div>
-                <div data-role="current-banner" className="banner home-slide4">
+                <div data-role="current-banner" className="banner home-slide04">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
-                    className="home-image7"
+                    className="home-image07"
+                  />
+                </div>
+                <div data-role="current-banner" className="banner home-slide05">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
+                    className="home-image08"
+                  />
+                </div>
+                <div data-role="current-banner" className="banner home-slide06">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
+                    className="home-image09"
+                  />
+                </div>
+                <div data-role="current-banner" className="banner home-slide07">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
+                    className="home-image10"
+                  />
+                </div>
+                <div data-role="current-banner" className="banner home-slide08">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
+                    className="home-image11"
+                  />
+                </div>
+                <div data-role="current-banner" className="banner home-slide09">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
+                    className="home-image12"
                   />
                 </div>
               </div>
@@ -448,7 +483,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image8"
+                className="home-image13"
               />
             </button>
           </div>

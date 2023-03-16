@@ -84,7 +84,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-image1 {
+.home-image01 {
   height: 2rem;
 }
 .home-menu-close {
@@ -274,7 +274,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.home-image2 {
+.home-image02 {
   width: 100%;
   height: 622px;
   align-self: center;
@@ -313,7 +313,7 @@
   position: relative;
   background-color: var(--dl-color-primary-mygreen);
 }
-.home-image3 {
+.home-image03 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -335,32 +335,62 @@
   text-decoration: none;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
 }
-.home-slide1 {
+.home-slide01 {
   background-color: var(--dl-color-primary-cleanslate);
 }
-.home-image4 {
+.home-image04 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   transition: 0.3s;
   aspect-ratio: 1;
 }
-.home-image4:hover {
+.home-image04:hover {
   opacity: 0.2;
 }
-.home-image5 {
+.home-image05 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-image6 {
+.home-image06 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-image7 {
+.home-image07 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.home-image08 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.home-image09 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.home-image10 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.home-image11 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.home-image12 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -1042,7 +1072,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
 }
-.home-image8 {
+.home-image13 {
   width: 21px;
   object-fit: cover;
 }
@@ -1055,41 +1085,81 @@
     flex: initial;
     background-color: transparent;
   }
-  .home-image3 {
+  .home-image03 {
     width: 300px;
     height: 300px;
   }
-  .home-slide1 {
+  .home-slide01 {
     flex: initial;
     background-color: #0049ff;
   }
-  .home-image4 {
+  .home-image04 {
     width: 300px;
     height: 300px;
   }
-  .home-slide2 {
+  .home-slide02 {
     flex: 1;
     width: 100%;
     height: 100%;
     background-color: transparent;
   }
-  .home-image5 {
+  .home-image05 {
     width: 300px;
     height: 300px;
   }
-  .home-slide3 {
+  .home-slide03 {
     flex: 1;
     background-color: transparent;
   }
-  .home-image6 {
+  .home-image06 {
     width: 300px;
     height: 300px;
   }
-  .home-slide4 {
+  .home-slide04 {
     flex: 1;
     background-color: transparent;
   }
-  .home-image7 {
+  .home-image07 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide05 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image08 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide06 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image09 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide07 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image10 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide08 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image11 {
+    width: 300px;
+    height: 300px;
+  }
+  .home-slide09 {
+    flex: 1;
+    background-color: transparent;
+  }
+  .home-image12 {
     width: 300px;
     height: 300px;
   }
@@ -1110,23 +1180,43 @@
   .home-slider {
     gap: var(--dl-space-space-twounits);
   }
-  .home-image3 {
+  .home-image03 {
     width: 100%;
     height: 120px;
   }
-  .home-image4 {
+  .home-image04 {
     width: 100%;
     height: 120px;
   }
-  .home-image5 {
+  .home-image05 {
     width: 100%;
     height: 120px;
   }
-  .home-image6 {
+  .home-image06 {
     width: 100%;
     height: 120px;
   }
-  .home-image7 {
+  .home-image07 {
+    width: 100%;
+    height: 120px;
+  }
+  .home-image08 {
+    width: 100%;
+    height: 120px;
+  }
+  .home-image09 {
+    width: 100%;
+    height: 120px;
+  }
+  .home-image10 {
+    width: 100%;
+    height: 120px;
+  }
+  .home-image11 {
+    width: 100%;
+    height: 120px;
+  }
+  .home-image12 {
     width: 100%;
     height: 120px;
   }
