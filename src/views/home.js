@@ -187,20 +187,6 @@ const Home = (props) => {
                     className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide2 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image05"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide3 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image06"
-                  />
-                </div>
               </div>
             </div>
             <div className="home-controls">
@@ -396,7 +382,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/growth-1400w.png"
-            className="home-image07"
+            className="home-image05"
           />
         </div>
       </section>
@@ -406,7 +392,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="/playground_assets/experience-1400w.png"
-            className="home-image08"
+            className="home-image06"
           />
         </div>
         <div className="home-content04">
@@ -705,11 +691,11 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="home-content07">
-          <div className="home-image09">
+          <div className="home-image07">
             <img
               alt="image"
               src="/playground_assets/data-1400w.png"
-              className="home-image10"
+              className="home-image08"
             />
           </div>
           <div className="home-accordion">
@@ -1048,7 +1034,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
-                className="home-image11"
+                className="home-image09"
               />
               <span className="home-text71">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -1135,7 +1121,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image12"
+                className="home-image10"
               />
             </button>
           </div>
