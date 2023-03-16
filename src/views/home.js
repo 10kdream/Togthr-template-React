@@ -304,7 +304,8 @@ new BlazeSlider(el, {
     slidesToShow: 3,
     slidesToScroll: 3,
     slideGap: '50px',
-    stopAutoplayOnInteraction: true
+    stopAutoplayOnInteraction: true,
+    loop: true,
   },
   '(max-width: 900px)': {
     slidesToShow: 2,
