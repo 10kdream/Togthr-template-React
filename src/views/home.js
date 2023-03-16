@@ -263,6 +263,13 @@ new BlazeSlider(el, {
   width: 300px ;
 }
 
+.my-structure{
+  align-items: center ;
+  display: flex ;
+  justify-content: center ;
+  margin-top: 24px;
+}
+
 .blaze-track {
   display:flex ;
 }
