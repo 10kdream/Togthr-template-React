@@ -411,17 +411,11 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-slide1 {
-  flex: initial;
-}
 .home-image04 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
-}
-.home-slide2 {
-  flex: initial;
 }
 .home-image05 {
   width: 300px;
@@ -429,17 +423,11 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-slide3 {
-  flex: initial;
-}
 .home-image06 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   aspect-ratio: 1;
-}
-.home-slide4 {
-  flex: initial;
 }
 .home-image07 {
   width: 300px;

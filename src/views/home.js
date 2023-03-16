@@ -180,28 +180,28 @@ const Home = (props) => {
                     className="home-image03"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide1 banner">
+                <div data-role="current-banner" className="banner home-slide1">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide2 banner">
+                <div data-role="current-banner" className="banner home-slide2">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
                     className="home-image05"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide3 banner">
+                <div data-role="current-banner" className="banner home-slide3">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
                     className="home-image06"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide4 banner">
+                <div data-role="current-banner" className="banner home-slide4">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
