@@ -277,6 +277,10 @@ new BlazeSlider(el, {
         <div class="slide">2</div>
         <div class="slide">3</div>
         <div class="slide">4</div>
+        <div class="slide">5</div>
+        <div class="slide">6</div>
+        <div class="slide">7</div>
+        <div class="slide">8</div>
       </div>
     </div>
     <!-- putting nav buttons and pagination in a custom structure -->
@@ -297,6 +301,7 @@ new BlazeSlider(el, {
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 3,
+    slidesToScroll: 3,
     slideGap: '50px',
     stopAutoplayOnInteraction: true
   },
