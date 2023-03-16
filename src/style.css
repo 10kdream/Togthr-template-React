@@ -188,7 +188,7 @@
 .blaze-track {
   width: auto;
   cursor: grabbing;
-  height: 400px;
+  height: initial;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -208,13 +208,7 @@
   text-transform: none;
   text-decoration: none;
 }
-@media(max-width: 1600px) {
-  .blaze-track {
-    flex: 0;
-    width: auto;
-    height: auto;
-  }
-}
+
 
 @media(max-width: 991px) {
   .banner {
@@ -245,9 +239,6 @@
   .value {
     padding-top: 0px;
     padding-bottom: var(--dl-space-space-unit);
-  }
-  .blaze-track {
-    align-items: stretch;
   }
 }
 @media(max-width: 479px) {
