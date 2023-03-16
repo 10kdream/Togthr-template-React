@@ -405,6 +405,7 @@
   flex-direction: row;
 }
 .home-slider-track {
+  height: 400px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -2265,7 +2266,7 @@
 @media(max-width: 1600px) {
   .home-slider-track {
     flex: 1;
-    width: auto;
+    width: 400px;
     height: 400px;
   }
   .home-slide {
