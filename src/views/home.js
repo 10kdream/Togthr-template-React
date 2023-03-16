@@ -255,6 +255,10 @@ new BlazeSlider(el, {
     --slides-to-show: 2;
   }
 }
+
+.slide {
+  border: solid red 1px
+}
 </style>
 
 
@@ -262,10 +266,10 @@ new BlazeSlider(el, {
   <div class="blaze-container">
     <div class="blaze-track-container">
       <div class="blaze-track">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        <div class="slide">1</div>
+        <div class="slide">2</div>
+        <div class="slide">3</div>
+        <div class="slide">4</div>
       </div>
     </div>
     <!-- putting nav buttons and pagination in a custom structure -->
