@@ -210,7 +210,6 @@ new BlazeSlider(el, {
     enableAutoplay: true,
     autoplayinterval: 2000,
     transitionDuration: 300,
-    transitionTimingFunction: 'ease',
   },
 })
 </script>`}
@@ -382,25 +381,19 @@ new BlazeSlider(el, {
       <div className="home-container10"></div>
       <section className="home-create">
         <div className="home-content">
-          <div className="home-header1">
-            <h2 className="home-heading4">
-              <span className="home-text113">For all enquiries </span>
-              <br className="home-text114"></br>
-              <span className="home-text115">ruby@rubysmith.xyz</span>
-              <br></br>
-            </h2>
-          </div>
-          <button className="home-button button">
-            <span>
-              <span>Get started today</span>
-              <br></br>
-            </span>
-          </button>
+          <div className="home-header1"></div>
+          <h1 className="home-heading4">
+            <span className="home-text113">&gt;</span>
+            <span className="home-text114">GET IN TOUCH</span>
+            <br className="home-text115"></br>
+            <span className="home-text116">ruby@rubysmith.xyz</span>
+            <br></br>
+          </h1>
         </div>
       </section>
       <div className="home-what-i-do1">
         <h1 className="home-heading5">
-          <span className="home-text120">
+          <span className="home-text118">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -408,50 +401,50 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text121">&gt;</span>
-          <span className="home-text122">BLOG</span>
+          <span className="home-text119">&gt;</span>
+          <span className="home-text120">BLOG</span>
           <br></br>
         </h1>
       </div>
       <div className="home-blog">
         <div className="home-container11">
           <BlogPostCard1
-            rootClassName="rootClassName3"
-            image_src="https://freight.cargo.site/w/700/q/75/i/cc96e14a645ddc6f1519f992742420d722b796593c13d23667012519958c551f/P1150624.jpg"
-            title="Why I bounce and label stems the same way every time"
-            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
-            author="Ruby"
             label="ENGINEERING"
+            title="Why I bounce and label stems the same way every time"
+            author="Ruby"
+            image_src="https://freight.cargo.site/w/700/q/75/i/cc96e14a645ddc6f1519f992742420d722b796593c13d23667012519958c551f/P1150624.jpg"
+            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+            rootClassName="rootClassName3"
           ></BlogPostCard1>
         </div>
         <div className="home-container12">
           <BlogPostCard1
-            image_src="https://freight.cargo.site/w/1500/q/75/i/e566bfd5e3749ff2e622b56c64d7efc96e849888ced3969a6dfd4cc226d47e7a/7__Moog_Sound_Studio_Screwdriver.jpg"
-            rootClassName="rootClassName2"
-            author="Ruby"
-            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
             title="The Engineer's Swiss Army Knife: My Go-To Tools for Any Recording Situation"
+            author="Ruby"
+            image_src="https://freight.cargo.site/w/1500/q/75/i/e566bfd5e3749ff2e622b56c64d7efc96e849888ced3969a6dfd4cc226d47e7a/7__Moog_Sound_Studio_Screwdriver.jpg"
+            profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+            rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
         <div className="home-container13">
           <BlogPostCard1
-            image_src="https://freight.cargo.site/w/600/q/94/i/017413563fde9f6ef826aa92132d22e23255927b3ca47e6cc8cceb4dd4c474b3/telefunken-u47-microphone.jpg"
-            rootClassName="rootClassName1"
-            author="Ruby"
-            title="How I put the vocalists experience first in vocal recording sessions"
-            description="What do you listen for when you listen to music? For engineers and musicians alike, it's easy to catch yourself just listeni"
             label="ENGINEERING"
+            title="How I put the vocalists experience first in vocal recording sessions"
+            author="Ruby"
+            image_src="https://freight.cargo.site/w/600/q/94/i/017413563fde9f6ef826aa92132d22e23255927b3ca47e6cc8cceb4dd4c474b3/telefunken-u47-microphone.jpg"
+            description="What do you listen for when you listen to music? For engineers and musicians alike, it's easy to catch yourself just listeni"
             profile_src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
+            rootClassName="rootClassName1"
           ></BlogPostCard1>
         </div>
       </div>
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text124">
+            <span className="home-text122">
               © 2023 R. Smith - All rights reserved
             </span>
-            <button data-role="scroll-top" className="home-button1 button">
+            <button data-role="scroll-top" className="home-button button">
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"

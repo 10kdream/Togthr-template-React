@@ -173,20 +173,20 @@
   align-self: center;
   font-style: normal;
   text-align: center;
-  font-family: Exo 2;
+  font-family: Raleway;
   font-weight: 500;
 }
 .home-text007 {
   top: 477px;
   left: 0px;
-  color: #2b6362;
+  color: rgb(43, 99, 98);
   right: 0px;
   margin: auto;
   position: absolute;
   font-size: 40px;
   align-self: center;
   text-align: center;
-  font-family: Inter;
+  font-family: Raleway;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -253,6 +253,7 @@
 }
 .home-text009 {
   font-size: 70px;
+  font-family: Raleway;
 }
 .home-caption {
   color: rgb(124, 124, 128);
@@ -306,6 +307,7 @@
   gap: var(--dl-space-space-fourunits);
   width: 1386px;
   display: flex;
+  opacity: 1;
 }
 .home-slide {
   position: relative;
@@ -422,6 +424,7 @@
 }
 .home-text023 {
   font-size: 70px;
+  font-family: Raleway;
 }
 .home-spotify-player {
   width: 100%;
@@ -491,6 +494,7 @@
 }
 .home-text027 {
   font-size: 70px;
+  font-family: Raleway;
 }
 .home-container07 {
   width: 100%;
@@ -901,43 +905,43 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 108px;
   flex-direction: column;
   padding-bottom: 120px;
   justify-content: center;
   background-color: #2b6362;
 }
 .home-header1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .home-heading4 {
-  color: rgb(255, 255, 255);
-  font-size: 100px;
+  color: rgb(234, 225, 213);
+  width: 897px;
+  height: 309px;
+  font-size: 70px;
+  max-width: 790px;
+  align-self: center;
   font-style: normal;
   text-align: center;
+  font-family: Exo 2;
   font-weight: 500;
 }
 .home-text113 {
-  font-style: italic;
-  font-family: Playfair Display;
-  font-weight: 500;
+  color: var(--dl-color-primary-submarine);
 }
 .home-text114 {
-  font-size: 40px;
-  font-style: italic;
-  font-family: Playfair Display;
-  font-weight: 500;
+  font-family: Raleway;
 }
 .home-text115 {
-  font-size: 40px;
-  font-style: italic;
-  font-family: Playfair Display;
-  font-weight: 500;
+  font-size: 50px;
+  font-family: Raleway;
 }
-.home-button {
-  background-color: #000000;
+.home-text116 {
+  font-size: 40px;
+  font-family: Raleway;
 }
 .home-what-i-do1 {
   width: 100%;
@@ -957,14 +961,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text120 {
+.home-text118 {
   font-size: 70px;
 }
-.home-text121 {
+.home-text119 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text122 {
+.home-text120 {
   font-size: 70px;
 }
 .home-blog {
@@ -1024,12 +1028,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text124 {
+.home-text122 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
 }
-.home-button1 {
+.home-button {
   display: flex;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fiveunits);
@@ -1131,9 +1135,6 @@
     padding-top: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .home-heading4 {
-    font-size: 50px;
-  }
   .home-blog {
     flex-direction: column;
   }
@@ -1213,7 +1214,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .home-heading4 {
-    font-size: 36px;
+    font-size: 60px;
   }
   .home-heading5 {
     font-size: 60px;
@@ -1256,13 +1257,7 @@
     font-size: 36px;
   }
   .home-heading4 {
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    text-align: center;
-    font-weight: 500;
-  }
-  .home-button {
-    text-align: center;
+    font-size: 36px;
   }
   .home-heading5 {
     font-size: 36px;
@@ -1278,7 +1273,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-button1 {
+  .home-button {
     justify-content: center;
   }
 }
