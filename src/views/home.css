@@ -400,7 +400,7 @@
   flex-direction: column;
 }
 .home-slide {
-  flex: 0;
+  flex: initial;
   background-color: var(--dl-color-primary-mygreen);
 }
 .home-image03 {
@@ -408,21 +408,21 @@
   aspect-ratio: 1;
 }
 .home-slide1 {
-  flex: 0;
+  flex: initial;
 }
 .home-image04 {
   object-fit: cover;
   aspect-ratio: 1;
 }
 .home-slide2 {
-  flex: 0;
+  flex: initial;
 }
 .home-image05 {
   object-fit: cover;
   aspect-ratio: 1;
 }
 .home-slide3 {
-  flex: 0;
+  flex: initial;
 }
 .home-image06 {
   object-fit: cover;
