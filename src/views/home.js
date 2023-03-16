@@ -140,6 +140,12 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
                     className="home-image3"
                   />
+                  <span className="home-text016">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <span>Mix Engineer</span>
+                  </span>
                 </div>
                 <div data-role="current-banner" className="home-slide1 banner">
                   <img
@@ -147,12 +153,6 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image4"
                   />
-                  <span className="home-text016">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <span>Mix Engineer</span>
-                  </span>
                 </div>
                 <div data-role="current-banner" className="banner home-slide2">
                   <img
@@ -384,7 +384,9 @@ new BlazeSlider(el, {
         <div className="home-content">
           <div className="home-header1">
             <h2 className="home-heading4">
-              <span className="home-text113">Get in touch</span>
+              <span className="home-text113">For all enquiries </span>
+              <br className="home-text114"></br>
+              <span className="home-text115">ruby@rubysmith.xyz</span>
               <br></br>
             </h2>
           </div>
@@ -398,7 +400,7 @@ new BlazeSlider(el, {
       </section>
       <div className="home-what-i-do1">
         <h1 className="home-heading5">
-          <span className="home-text118">
+          <span className="home-text120">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -406,8 +408,8 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text119">&gt;</span>
-          <span className="home-text120">BLOG</span>
+          <span className="home-text121">&gt;</span>
+          <span className="home-text122">BLOG</span>
           <br></br>
         </h1>
       </div>
@@ -446,7 +448,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text122">
+            <span className="home-text124">
               © 2023 R. Smith - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
