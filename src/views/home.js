@@ -296,6 +296,7 @@ new BlazeSlider(el, {
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 3,
+    slideGap: '50px',
     stopAutoplayOnInteraction: true
   },
   '(max-width: 900px)': {
