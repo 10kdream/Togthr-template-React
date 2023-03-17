@@ -537,167 +537,122 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div className="home-what-i-do-mobile">
-        <span className="home-text191">
-          <span className="home-text192">RECORDING</span>
-          <br className="home-text193"></br>
-          <span className="home-text194">
-            Vocal Tracking
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br className="home-text195"></br>
-          <span className="home-text196">Full band tracking</span>
-          <br className="home-text197"></br>
-          <span className="home-text198">
-            Live SessionsPodcast, Voiceover &amp; Radio IDs
-          </span>
-          <br className="home-text199"></br>
-          <span className="home-text200">Broadcast for livestream</span>
-          <br className="home-text201"></br>
-          <br className="home-text202"></br>
-          <span className="home-text203">SOFTWARE I USE</span>
-          <br className="home-text204"></br>
-          <span className="home-text205">Pro Tools HD</span>
-          <br className="home-text206"></br>
-          <span className="home-text207">Logic Pro XIzotope RX</span>
-          <br className="home-text208"></br>
-          <span className="home-text209">Fab Filter Pro</span>
-          <br className="home-text210"></br>
-          <span className="home-text211">UAD Console</span>
-          <br className="home-text212"></br>
-          <span className="home-text213">Soundtoys</span>
-          <br className="home-text214"></br>
-          <br className="home-text215"></br>
-          <span className="home-text216">HARDWARE I USE</span>
-          <br className="home-text217"></br>
-          <span className="home-text218">SSL4000G Series</span>
-          <br className="home-text219"></br>
-          <span className="home-text220">SSL AWS</span>
-          <br className="home-text221"></br>
-          <span className="home-text222">Dante Level 1 Certification</span>
-          <br className="home-text223"></br>
-          <span className="home-text224">Universal Audio Apollo Systems</span>
-          <br className="home-text225"></br>
-          <span className="home-text226">
-            Wireless In Ear Monitoring SystemsWireless Microphone Systems
-          </span>
-          <br className="home-text227"></br>
-          <span className="home-text228">Ferrofish Converters</span>
-          <br className="home-text229"></br>
-          <span className="home-text230">Antelope Orion Converters</span>
-          <br className="home-text231"></br>
-          <br className="home-text232"></br>
-          <span className="home-text233">MIXING</span>
-          <br className="home-text234"></br>
-          <span className="home-text235">
-            Mixing for commercial music releases
-          </span>
-          <br className="home-text236"></br>
-          <span className="home-text237">
-            Audio mixing for live video sessions
-          </span>
-          <br className="home-text238"></br>
-          <span className="home-text239">Pro Tools HDLogic Pro X</span>
-          <br className="home-text240"></br>
-          <br className="home-text241"></br>
-          <span className="home-text242">STUDIOS IVE WORKED FOR</span>
-          <br className="home-text243"></br>
-          <span className="home-text244">Circle Studios by Sony Music</span>
-          <br className="home-text245"></br>
-          <span className="home-text246">
-            Red Bull Studios London &amp; Berlin
-          </span>
-          <br className="home-text247"></br>
-          <span className="home-text248">Noatune Studios London</span>
-          <br className="home-text249"></br>
-          <br className="home-text250"></br>
-          <br className="home-text251"></br>
-          <span className="home-text252">AWARDS</span>
-          <br className="home-text253"></br>
-          <span className="home-text254">
-            Shure x Red Bull’s Soundscapes Competition
-          </span>
-          <br className="home-text255"></br>
-          <span className="home-text256">
-            Madison Square Garden’s Up and Coming Award
-          </span>
-          <br className="home-text257"></br>
-          <br className="home-text258"></br>
-          <span className="home-text259">MASTERCLASS</span>
-          <br className="home-text260"></br>
-          <span className="home-text261">
-            Pop Beuro x SAE Elextronic Barcamp
-          </span>
-          <br></br>
-          <br></br>
-        </span>
-      </div>
-      <section className="home-contact">
-        <div className="home-content">
-          <div className="home-container20">
-            <span className="home-text264">
-              <span className="home-text265">  RUBY SMITH</span>
-              <br></br>
-              <span>AUDIO ENGINEER</span>
-              <br></br>
-            </span>
-            <span className="home-text269">
-              <br></br>
-              <span>Stay in touch</span>
-              <br></br>
-            </span>
-            <span className="home-text273">
-              <span className="home-text274">For all enquiries:</span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <span>ruby@rubysmith.xyz</span>
-            </span>
-            <a
-              href="http://www.instagram.com/rubysmith.wav"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link3"
-            >
-              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon24">
-                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+        <div className="home-container20">
+          <div className="home-container21">
+            <div className="home-container22">
+              <svg viewBox="0 0 1024 1024" className="home-icon24">
+                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
               </svg>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/ruby-smith-54b8221a4/"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link4"
-            >
-              <svg
-                viewBox="0 0 877.7142857142857 1024"
-                className="home-icon26 GreenHead1"
-              >
-                <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-              </svg>
-            </a>
-            <svg viewBox="0 0 1024 1024" className="home-icon28">
-              <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
-            </svg>
+            </div>
+            <h1 className="home-heading4">
+              <span className="home-text191">WHAT I DO</span>
+              <br className="home-text192"></br>
+            </h1>
           </div>
         </div>
-        <img
-          alt="image"
-          src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
-          className="home-image08"
-        />
-      </section>
+        <div className="home-container23">
+          <span className="home-text193">
+            <span className="home-text194">RECORDING</span>
+            <br className="home-text195"></br>
+            <span className="home-text196">
+              Vocal Tracking
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className="home-text197"></br>
+            <span className="home-text198">Full band tracking</span>
+            <br className="home-text199"></br>
+            <span className="home-text200">
+              Live SessionsPodcast, Voiceover &amp; Radio IDs
+            </span>
+            <br className="home-text201"></br>
+            <span className="home-text202">Broadcast for livestream</span>
+            <br className="home-text203"></br>
+            <br className="home-text204"></br>
+            <span className="home-text205">SOFTWARE I USE</span>
+            <br className="home-text206"></br>
+            <span className="home-text207">Pro Tools HD</span>
+            <br className="home-text208"></br>
+            <span className="home-text209">Logic Pro XIzotope RX</span>
+            <br className="home-text210"></br>
+            <span className="home-text211">Fab Filter Pro</span>
+            <br className="home-text212"></br>
+            <span className="home-text213">UAD Console</span>
+            <br className="home-text214"></br>
+            <span className="home-text215">Soundtoys</span>
+            <br className="home-text216"></br>
+            <br className="home-text217"></br>
+            <span className="home-text218">HARDWARE I USE</span>
+            <br className="home-text219"></br>
+            <span className="home-text220">SSL4000G Series</span>
+            <br className="home-text221"></br>
+            <span className="home-text222">SSL AWS</span>
+            <br className="home-text223"></br>
+            <span className="home-text224">Dante Level 1 Certification</span>
+            <br className="home-text225"></br>
+            <span className="home-text226">Universal Audio Apollo Systems</span>
+            <br className="home-text227"></br>
+            <span className="home-text228">
+              Wireless In Ear Monitoring SystemsWireless Microphone Systems
+            </span>
+            <br className="home-text229"></br>
+            <span className="home-text230">Ferrofish Converters</span>
+            <br className="home-text231"></br>
+            <span className="home-text232">Antelope Orion Converters</span>
+            <br className="home-text233"></br>
+            <br className="home-text234"></br>
+            <span className="home-text235">MIXING</span>
+            <br className="home-text236"></br>
+            <span className="home-text237">
+              Mixing for commercial music releases
+            </span>
+            <br className="home-text238"></br>
+            <span className="home-text239">
+              Audio mixing for live video sessions
+            </span>
+            <br className="home-text240"></br>
+            <span className="home-text241">Pro Tools HDLogic Pro X</span>
+            <br className="home-text242"></br>
+            <br className="home-text243"></br>
+            <span className="home-text244">STUDIOS IVE WORKED FOR</span>
+            <br className="home-text245"></br>
+            <span className="home-text246">Circle Studios by Sony Music</span>
+            <br className="home-text247"></br>
+            <span className="home-text248">
+              Red Bull Studios London &amp; Berlin
+            </span>
+            <br className="home-text249"></br>
+            <span className="home-text250">Noatune Studios London</span>
+            <br className="home-text251"></br>
+            <br className="home-text252"></br>
+            <br className="home-text253"></br>
+            <span className="home-text254">AWARDS</span>
+            <br className="home-text255"></br>
+            <span className="home-text256">
+              Shure x Red Bull’s Soundscapes Competition
+            </span>
+            <br className="home-text257"></br>
+            <span className="home-text258">
+              Madison Square Garden’s Up and Coming Award
+            </span>
+            <br className="home-text259"></br>
+            <br className="home-text260"></br>
+            <span className="home-text261">MASTERCLASS</span>
+            <br className="home-text262"></br>
+            <span className="home-text263">
+              Pop Beuro x SAE Elextronic Barcamp
+            </span>
+            <br></br>
+            <br></br>
+          </span>
+        </div>
+      </div>
       <div className="home-blog">
-        <h1 id="blog" className="home-heading4">
-          <span className="home-text278">
+        <h1 id="blog" className="home-heading5">
+          <span className="home-text266">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -705,13 +660,13 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text279">&gt;</span>
-          <span className="home-text280">BLOG</span>
+          <span className="home-text267">&gt;</span>
+          <span className="home-text268">BLOG</span>
           <br></br>
         </h1>
       </div>
       <div className="home-blog1">
-        <div className="home-container21">
+        <div className="home-container24">
           <BlogPostCard1
             label="ENGINEERING"
             title="Why I bounce and label stems the same way every time"
@@ -721,7 +676,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName3"
           ></BlogPostCard1>
         </div>
-        <div className="home-container22">
+        <div className="home-container25">
           <BlogPostCard1
             title="The Engineer's Swiss Army Knife: My Go-To Tools for Any Recording Situation"
             author="Ruby"
@@ -730,7 +685,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container23">
+        <div className="home-container26">
           <BlogPostCard1
             label="ENGINEERING"
             title="How I put the vocalists experience first in vocal recording sessions"
@@ -742,10 +697,70 @@ new BlazeSlider(el, {
           ></BlogPostCard1>
         </div>
       </div>
+      <section className="home-contact">
+        <div className="home-content">
+          <div className="home-container27">
+            <span className="home-text270">
+              <span className="home-text271">  RUBY SMITH</span>
+              <br></br>
+              <span>AUDIO ENGINEER</span>
+              <br></br>
+            </span>
+            <span className="home-text275">
+              <br></br>
+              <span>Stay in touch</span>
+              <br></br>
+            </span>
+            <span className="home-text279">
+              <span className="home-text280">For all enquiries:</span>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>ruby@rubysmith.xyz</span>
+            </span>
+            <svg viewBox="0 0 1024 1024" className="home-icon26">
+              <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
+            </svg>
+            <a
+              href="http://www.instagram.com/rubysmith.wav"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link3"
+            >
+              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon28">
+                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ruby-smith-54b8221a4/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link4"
+            >
+              <svg
+                viewBox="0 0 877.7142857142857 1024"
+                className="home-icon30 GreenHead1"
+              >
+                <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
+          className="home-image08"
+        />
+      </section>
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text282">
+            <span className="home-text284">
               © 2023 R. Smith - All rights reserved
             </span>
             <a
