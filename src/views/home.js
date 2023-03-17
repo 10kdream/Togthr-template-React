@@ -603,11 +603,32 @@ new BlazeSlider(el, {
           <br></br>
         </span>
       </div>
-      <div className="home-container19"></div>
       <section className="home-contact">
         <div className="home-content">
-          <div className="home-container20">
-            <span className="home-text233">For all enquiries:</span>
+          <div className="home-container19">
+            <span className="home-text233">
+              <span className="home-text234">RUBY SMITH</span>
+              <br></br>
+              <span>AUDIO ENGINEER</span>
+              <br></br>
+            </span>
+            <span className="home-text238">
+              <br></br>
+              <span>Stay in touch</span>
+              <br></br>
+            </span>
+            <span className="home-text242">
+              <span className="home-text243">For all enquiries:</span>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>ruby@rubysmith.xyz</span>
+            </span>
             <a
               href="http://www.instagram.com/rubysmith.wav"
               target="_blank"
@@ -636,7 +657,7 @@ new BlazeSlider(el, {
       </section>
       <div className="home-blog">
         <h1 id="blog" className="home-heading4">
-          <span className="home-text234">
+          <span className="home-text247">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -644,13 +665,13 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text235">&gt;</span>
-          <span className="home-text236">BLOG</span>
+          <span className="home-text248">&gt;</span>
+          <span className="home-text249">BLOG</span>
           <br></br>
         </h1>
       </div>
       <div className="home-blog1">
-        <div className="home-container21">
+        <div className="home-container20">
           <BlogPostCard1
             label="ENGINEERING"
             title="Why I bounce and label stems the same way every time"
@@ -660,7 +681,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName3"
           ></BlogPostCard1>
         </div>
-        <div className="home-container22">
+        <div className="home-container21">
           <BlogPostCard1
             title="The Engineer's Swiss Army Knife: My Go-To Tools for Any Recording Situation"
             author="Ruby"
@@ -669,7 +690,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container23">
+        <div className="home-container22">
           <BlogPostCard1
             label="ENGINEERING"
             title="How I put the vocalists experience first in vocal recording sessions"
@@ -684,7 +705,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text238">
+            <span className="home-text251">
               © 2023 R. Smith - All rights reserved
             </span>
             <a
