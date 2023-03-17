@@ -873,7 +873,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: 400px;
+  margin-left: 550px;
   justify-content: center;
 }
 .home-container13 {
@@ -907,7 +907,7 @@
   font-size: inherit;
 }
 .home-what-i-do-web {
-  width: 100%;
+  width: 1150px;
   height: 669px;
   display: flex;
   align-items: flex-start;
