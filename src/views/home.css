@@ -1756,14 +1756,14 @@
   }
   .home-container03 {
     flex: 1;
-    width: auto;
+    width: 100%;
     height: 523px;
   }
   .home-heading1 {
     font-size: 36px;
   }
   .home-caption {
-    width: 100%;
+    width: 413px;
   }
   .home-container06 {
     padding-right: var(--dl-space-space-unit);
@@ -1827,7 +1827,7 @@
     font-size: 36px;
   }
   .home-code-embed2 {
-    width: 445px;
+    width: 403px;
   }
   .home-container12 {
     margin-left: var(--dl-space-space-halfunit);
