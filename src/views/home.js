@@ -82,6 +82,11 @@ const Home = (props) => {
             <br></br>
           </h1>
           <h1 className="home-text008">RECORDING and mix engineer</h1>
+          <img
+            src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
+            alt="image"
+            className="home-image1"
+          />
         </div>
       </section>
       <section className="home-about">
@@ -121,7 +126,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://freight.cargo.site/w/1000/q/75/i/7b4657985ec23c398deb3e89e5b0824834f44d4c9fe305046822e083954f573d/linhnguyen_ruby_linhnguyen_010.jpg"
-              className="home-image1"
+              className="home-image2"
             />
           </div>
         </div>
@@ -155,7 +160,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
-                    className="home-image2"
+                    className="home-image3"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide1 banner">
@@ -175,7 +180,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image3"
+                    className="home-image4"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide2 banner">
@@ -193,7 +198,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image4"
+                    className="home-image5"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide3 banner">
@@ -213,14 +218,14 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
-                    className="home-image5"
+                    className="home-image6"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide4 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
-                    className="home-image6"
+                    className="home-image7"
                   />
                   <span className="home-text059">
                     <br className="home-text060"></br>
@@ -511,7 +516,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image7"
+                className="home-image8"
               />
             </button>
           </div>
