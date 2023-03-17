@@ -448,6 +448,24 @@ new BlazeSlider(el, {
                 </div>
               </div>
             </div>
+            <div>
+              <DangerousHTML
+                html={`<script>
+const el = document.querySelector('.blaze-slider')
+
+new BlazeSlider(el, {
+  all: {
+    slidesToShow: 3,
+    slideGap: '20px',
+    loop: true,
+    enableAutoplay: true,
+    autoplayinterval: 1000,
+    transitionDuration: 0,
+  },
+})
+</script>`}
+              ></DangerousHTML>
+            </div>
             <div className="home-controls1">
               <button
                 data-role="previous-banner-button"
@@ -467,24 +485,6 @@ new BlazeSlider(el, {
               </button>
             </div>
           </div>
-        </div>
-        <div>
-          <DangerousHTML
-            html={`<script>
-const el = document.querySelector('.blaze-slider')
-
-new BlazeSlider(el, {
-  all: {
-    slidesToShow: 3,
-    slideGap: '20px',
-    loop: true,
-    enableAutoplay: true,
-    autoplayinterval: 1000,
-    transitionDuration: 0,
-  },
-})
-</script>`}
-          ></DangerousHTML>
         </div>
       </section>
       <div id="listen" className="home-spotify-player">
