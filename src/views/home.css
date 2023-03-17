@@ -688,23 +688,6 @@
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text083 {
-  font-family: Raleway;
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text085 {
-  font-family: Raleway;
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text088 {
-  font-style: normal;
-  font-family: Source Code Pro;
-  font-weight: 300;
-  text-transform: none;
-  text-decoration: none;
-}
 .home-image05 {
   width: 300px;
   height: 300px;
@@ -721,7 +704,7 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-text091 {
+.home-text082 {
   top: 0px;
   left: 0px;
   color: rgba(0, 0, 0, 0);
@@ -735,48 +718,48 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text091:hover {
+.home-text082:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text092 {
+.home-text083 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text093 {
+.home-text084 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text094 {
+.home-text085 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text095 {
+.home-text086 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text096 {
+.home-text087 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text097 {
+.home-text088 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text098 {
+.home-text089 {
   font-size: 23px;
   font-style: normal;
   font-family: Source Code Pro;
@@ -841,7 +824,6 @@
 }
 .home-slider-container1 {
   gap: initial;
-  width: 1267px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -860,7 +842,7 @@
   position: relative;
   background-color: var(--dl-color-primary-mygreen);
 }
-.home-text101 {
+.home-text092 {
   top: 0px;
   left: 0px;
   color: rgba(0, 0, 0, 0);
@@ -872,54 +854,54 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text101:hover {
+.home-text092:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text102 {
+.home-text093 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text103 {
+.home-text094 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text104 {
+.home-text095 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text105 {
+.home-text096 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text106 {
+.home-text097 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text107 {
+.home-text098 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text108 {
+.home-text099 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text109 {
+.home-text100 {
   font-size: 23px;
   font-style: normal;
   font-family: Source Code Pro;
@@ -927,7 +909,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text110 {
+.home-text101 {
   font-size: 23px;
   font-style: normal;
   font-family: Source Code Pro;
@@ -955,7 +937,7 @@
 .home-image08:hover {
   opacity: 0.2;
 }
-.home-text113 {
+.home-text104 {
   top: 0px;
   left: 0px;
   color: rgba(255, 255, 255, 0);
@@ -969,22 +951,22 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text113:hover {
+.home-text104:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text115 {
+.home-text106 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text117 {
+.home-text108 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text120 {
+.home-text111 {
   font-style: normal;
   font-family: Source Code Pro;
   font-weight: 300;
@@ -994,7 +976,7 @@
 .home-slide07 {
   position: relative;
 }
-.home-text123 {
+.home-text114 {
   top: 0px;
   left: 0px;
   color: rgba(0, 0, 0, 0);
@@ -1008,42 +990,42 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text123:hover {
+.home-text114:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text124 {
+.home-text115 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text125 {
+.home-text116 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text126 {
+.home-text117 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text127 {
+.home-text118 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text128 {
+.home-text119 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text129 {
+.home-text120 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text130 {
+.home-text121 {
   font-style: normal;
   font-family: Source Code Pro;
   font-weight: 300;
@@ -1059,10 +1041,10 @@
 .home-slide08 {
   position: relative;
 }
-.home-text133 {
+.home-text124 {
   top: 0px;
   left: 0px;
-  color: rgba(197, 187, 172, 0);
+  color: rgba(255, 255, 255, 0);
   width: 100%;
   bottom: 0px;
   height: 100%;
@@ -1073,22 +1055,22 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text133:hover {
+.home-text124:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text135 {
+.home-text126 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text137 {
+.home-text128 {
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text140 {
+.home-text131 {
   font-style: normal;
   font-family: Source Code Pro;
   font-weight: 300;
@@ -1111,7 +1093,7 @@
   object-fit: cover;
   aspect-ratio: 1;
 }
-.home-text143 {
+.home-text134 {
   top: 0px;
   left: 0px;
   color: rgba(0, 0, 0, 0);
@@ -1125,48 +1107,48 @@
   transition: 0.3s;
   line-height: 1.5;
 }
-.home-text143:hover {
+.home-text134:hover {
   color: var(--dl-color-primary-tea);
   opacity: 1;
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
-.home-text144 {
+.home-text135 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text145 {
+.home-text136 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text146 {
+.home-text137 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text147 {
+.home-text138 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text148 {
+.home-text139 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text149 {
+.home-text140 {
   font-size: 25px;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
-.home-text150 {
+.home-text141 {
   font-size: 23px;
   font-style: normal;
   font-family: Source Code Pro;
@@ -1269,7 +1251,7 @@
 .home-heading2:hover {
   color: var(--dl-color-primary-tea);
 }
-.home-text153 {
+.home-text144 {
   font-family: Raleway;
 }
 .home-code-embed4 {
@@ -1316,7 +1298,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-text155 {
+.home-text146 {
   top: -23px;
   left: 183px;
   color: var(--dl-color-gray-500);
@@ -1387,10 +1369,10 @@
 .home-heading3:hover {
   color: var(--dl-color-primary-tea);
 }
-.home-text156 {
+.home-text147 {
   font-family: Raleway;
 }
-.home-text157 {
+.home-text148 {
   font-size: inherit;
 }
 .home-container18 {
@@ -1409,7 +1391,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text158 {
+.home-text149 {
   color: var(--dl-color-primary-mygreen);
   width: 100%;
   height: 100%;
@@ -1421,27 +1403,60 @@
   line-height: 1.2;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text159 {
+.home-text150 {
   font-size: 20px;
   font-weight: 500;
 }
+.home-text151 {
+  font-style: normal;
+}
+.home-text152 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text153 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text154 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text155 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text156 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text157 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text158 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text159 {
+  color: #eae1d5;
+  font-style: normal;
+}
 .home-text160 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text161 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text162 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text163 {
-  color: #eae1d5;
-  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
 }
 .home-text164 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text165 {
@@ -1465,16 +1480,19 @@
   font-style: normal;
 }
 .home-text170 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text171 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text172 {
-  font-size: 20px;
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text173 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text174 {
@@ -1486,19 +1504,16 @@
   font-style: normal;
 }
 .home-text176 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text177 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text178 {
-  color: #eae1d5;
-  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
 }
 .home-text179 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text180 {
@@ -1522,16 +1537,19 @@
   font-style: normal;
 }
 .home-text185 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text186 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text187 {
-  font-size: 20px;
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text188 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text189 {
@@ -1559,19 +1577,24 @@
   font-style: normal;
 }
 .home-text195 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text196 {
-  color: #eae1d5;
-  font-style: normal;
+  color: var(--dl-color-primary-mygreen);
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Source Code Pro;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-sixunits);
 }
 .home-text197 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text198 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text199 {
@@ -1595,36 +1618,26 @@
   font-style: normal;
 }
 .home-text204 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text205 {
-  color: var(--dl-color-primary-mygreen);
-  width: 100%;
-  height: 100%;
-  font-size: 18px;
-  align-self: flex-start;
-  font-family: Source Code Pro;
-  font-weight: 300;
-  line-height: 1.2;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-sixunits);
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text206 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text207 {
   font-style: normal;
 }
 .home-text208 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text209 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text210 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text211 {
@@ -1644,26 +1657,27 @@
   font-style: normal;
 }
 .home-text215 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text216 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text217 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text218 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text219 {
   font-style: normal;
 }
 .home-text220 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text221 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text222 {
@@ -1696,6 +1710,7 @@
   font-weight: 500;
 }
 .home-text230 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text231 {
@@ -1707,39 +1722,6 @@
   font-style: normal;
 }
 .home-text233 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text234 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text235 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text236 {
-  font-style: normal;
-}
-.home-text237 {
-  font-style: normal;
-}
-.home-text238 {
-  font-weight: 500;
-}
-.home-text239 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text240 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text241 {
-  color: #eae1d5;
-  font-style: normal;
-}
-.home-text242 {
   font-style: normal;
 }
 .home-what-i-do-mobile {
@@ -1795,7 +1777,7 @@
 .home-heading4:hover {
   color: var(--dl-color-primary-tea);
 }
-.home-text243 {
+.home-text234 {
   font-family: Raleway;
 }
 .home-container23 {
@@ -1824,14 +1806,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text318 {
+.home-text309 {
   font-size: 70px;
 }
-.home-text319 {
+.home-text310 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text320 {
+.home-text311 {
   font-size: 70px;
 }
 .home-blog1 {
@@ -1900,7 +1882,7 @@
   padding-right: var(--dl-space-space-fourunits);
   justify-content: center;
 }
-.home-text322 {
+.home-text313 {
   top: 89px;
   left: 79px;
   color: var(--dl-color-primary-whiteish);
@@ -1911,7 +1893,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text323 {
+.home-text314 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -1926,7 +1908,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text327 {
+.home-text318 {
   top: 120px;
   left: 378px;
   color: var(--dl-color-primary-whiteish);
@@ -1937,7 +1919,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text331 {
+.home-text322 {
   top: 173px;
   left: 67px;
   color: var(--dl-color-primary-whiteish);
@@ -1948,7 +1930,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text332 {
+.home-text323 {
   font-size: 20px;
 }
 .home-icon24 {
@@ -2022,7 +2004,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text336 {
+.home-text327 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -2093,7 +2075,6 @@
     height: 97px;
   }
   .home-slider-container1 {
-    height: 531px;
     position: relative;
   }
   .home-slide05 {
@@ -2519,55 +2500,11 @@
     height: 150px;
   }
   .home-text081 {
-    color: rgba(197, 187, 172, 0);
+    color: rgba(255, 255, 255, 0);
     width: 100%;
     height: 100%;
-    font-size: smaller;
+    font-size: 12px;
     line-height: 1.5;
-  }
-  .home-text082 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text083 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text084 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text085 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text086 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text087 {
-    font-size: 25px;
-    font-family: Raleway;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text088 {
-    font-size: 23px;
-    font-style: normal;
-    font-family: Source Code Pro;
-    font-weight: 300;
-    text-transform: none;
-    text-decoration: none;
   }
   .home-image05 {
     width: 150px;
@@ -2577,7 +2514,7 @@
     width: 150px;
     height: 150px;
   }
-  .home-text091 {
+  .home-text082 {
     font-size: smaller;
   }
   .home-discography1 {
@@ -2592,7 +2529,7 @@
     width: 479px;
     height: 150px;
   }
-  .home-text101 {
+  .home-text092 {
     font-size: smaller;
   }
   .home-image07 {
@@ -2603,51 +2540,51 @@
     width: 150px;
     height: 150px;
   }
-  .home-text113 {
+  .home-text104 {
     color: rgba(0, 0, 0, 0);
     width: 100%;
     height: 100%;
     font-size: 16px;
     line-height: 1.5;
   }
-  .home-text114 {
+  .home-text105 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text115 {
+  .home-text106 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text116 {
+  .home-text107 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text117 {
+  .home-text108 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text118 {
+  .home-text109 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text119 {
+  .home-text110 {
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text120 {
+  .home-text111 {
     font-style: normal;
     font-family: Source Code Pro;
     font-weight: 300;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text123 {
+  .home-text114 {
     width: 100%;
     height: 100%;
     font-size: 12px;
@@ -2656,50 +2593,50 @@
     width: 150px;
     height: 150px;
   }
-  .home-text133 {
+  .home-text124 {
     color: rgba(197, 187, 172, 0);
     width: 100%;
     height: 100%;
     font-size: 12;
     line-height: 1.5;
   }
-  .home-text134 {
+  .home-text125 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text135 {
+  .home-text126 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text136 {
+  .home-text127 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text137 {
+  .home-text128 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text138 {
+  .home-text129 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text139 {
+  .home-text130 {
     font-size: 25px;
     font-family: Raleway;
     text-transform: none;
     text-decoration: none;
   }
-  .home-text140 {
+  .home-text131 {
     font-size: 23px;
     font-style: normal;
     font-family: Source Code Pro;
@@ -2715,7 +2652,7 @@
     width: 150px;
     height: 150px;
   }
-  .home-text143 {
+  .home-text134 {
     font-size: 12;
   }
   .home-spotify-player {
@@ -2737,7 +2674,7 @@
     font-style: normal;
     font-weight: 500;
   }
-  .home-text153 {
+  .home-text144 {
     font-family: Raleway;
   }
   .home-code-embed4 {
@@ -2786,31 +2723,68 @@
     font-style: normal;
     font-weight: 500;
   }
-  .home-text243 {
+  .home-text234 {
     font-family: Raleway;
   }
-  .home-text244 {
+  .home-text235 {
     font-size: inherit;
   }
   .home-container23 {
     height: 905px;
   }
-  .home-text245 {
+  .home-text236 {
     width: 80%;
     align-self: flex-start;
   }
-  .home-text246 {
+  .home-text237 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
+  }
+  .home-text238 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text239 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text240 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text241 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text242 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text243 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text244 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text245 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text246 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
   }
   .home-text247 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text248 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text249 {
     color: var(--dl-color-primary-whiteish);
@@ -2845,9 +2819,8 @@
     font-family: Source Code Pro;
   }
   .home-text257 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text258 {
     color: var(--dl-color-primary-whiteish);
@@ -2862,8 +2835,9 @@
     font-family: Source Code Pro;
   }
   .home-text261 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text262 {
     color: var(--dl-color-primary-whiteish);
@@ -2898,9 +2872,8 @@
     font-family: Source Code Pro;
   }
   .home-text270 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text271 {
     color: var(--dl-color-primary-whiteish);
@@ -2931,8 +2904,9 @@
     font-family: Source Code Pro;
   }
   .home-text278 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text279 {
     color: var(--dl-color-primary-whiteish);
@@ -3004,13 +2978,13 @@
     font-family: Source Code Pro;
   }
   .home-text296 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text297 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
-  }
-  .home-text297 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
   }
   .home-text298 {
     color: var(--dl-color-primary-whiteish);
@@ -3037,52 +3011,15 @@
     font-family: Source Code Pro;
   }
   .home-text304 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text305 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text306 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text307 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text308 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text309 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text310 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text311 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text312 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text313 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text314 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text315 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
@@ -3115,7 +3052,7 @@
     padding-right: 0px;
     justify-content: center;
   }
-  .home-text322 {
+  .home-text313 {
     left: 50px;
     bottom: 153px;
   }
@@ -3129,14 +3066,14 @@
     margin: auto;
     position: absolute;
   }
-  .home-text327 {
+  .home-text318 {
     top: 126px;
     left: 226px;
     position: absolute;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text331 {
+  .home-text322 {
     top: 160px;
     left: 46px;
   }
