@@ -465,6 +465,7 @@
   flex-direction: column;
 }
 .home-slider-track-container {
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -840,7 +841,7 @@
 }
 .home-slider-container1 {
   gap: initial;
-  width: 1643px;
+  width: 1267px;
   display: flex;
   align-items: center;
   flex-direction: column;
