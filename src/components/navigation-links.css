@@ -37,6 +37,7 @@
 }
 .navigation-links-link4 {
   color: var(--dl-color-primary-tea);
+  display: none;
   font-style: normal;
   font-family: Raleway;
   font-weight: 300;

@@ -361,7 +361,7 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
-      <div className="home-spotify-player">
+      <div id="listen" className="home-spotify-player">
         <div className="home-container09">
           <div className="home-container10">
             <div className="home-container11">
