@@ -781,6 +781,7 @@
   height: 19vw;
   margin: auto;
   position: absolute;
+  max-height: 408px;
   margin-bottom: auto;
 }
 .home-live-sessions {
