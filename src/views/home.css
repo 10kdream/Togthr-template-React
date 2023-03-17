@@ -2444,11 +2444,11 @@
     display: flex;
   }
   .home-slider-container {
-    width: var(--dl-size-size-maxwidth);
+    width: 479px;
     height: 264px;
   }
   .home-slider-track-container {
-    width: var(--dl-size-size-maxwidth);
+    width: 479px;
   }
   .home-slider-track {
     width: 479px;
