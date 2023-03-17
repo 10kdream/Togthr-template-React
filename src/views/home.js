@@ -298,7 +298,7 @@ const Home = (props) => {
                 className="home-previous blaze-prev button"
               >
                 <svg viewBox="0 0 1024 1024" className="home-icon16">
-                  <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
+                  <path d="M498 166l-346 346 346 346-76 76-422-422 422-422z"></path>
                 </svg>
               </button>
               <button
@@ -306,7 +306,7 @@ const Home = (props) => {
                 className="home-next blaze-next button"
               >
                 <svg viewBox="0 0 1024 1024" className="home-icon18">
-                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                  <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
                 </svg>
               </button>
             </div>
@@ -350,25 +350,25 @@ new BlazeSlider(el, {
             html={`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3t77EbWwWUgGWbzMkwqsqz?utm_source=generator&theme=0" width="100%" height="400px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`}
           ></DangerousHTML>
         </div>
-      </div>
-      <div className="home-live-sessions">
-        <div className="home-container10">
-          <div className="home-div">
-            <DangerousHTML
-              html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
-            ></DangerousHTML>
+        <div className="home-live-sessions">
+          <div className="home-container10">
+            <div className="home-div">
+              <DangerousHTML
+                html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nusuZ1bneQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+              ></DangerousHTML>
+            </div>
+            <div className="home-div1">
+              <DangerousHTML
+                html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4a-5UhhmJ2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+              ></DangerousHTML>
+            </div>
           </div>
-          <div className="home-div1">
-            <DangerousHTML
-              html={`<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4a-5UhhmJ2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
-            ></DangerousHTML>
+          <div className="home-container11">
+            <span className="home-text072">
+              Live Sessions recorded and mixed by Ruby Smith for Circle Studios
+              by Sony Music
+            </span>
           </div>
-        </div>
-        <div className="home-container11">
-          <span className="home-text072">
-            Live Sessions recorded and mixed by Ruby Smith for Circle Studios by
-            Sony Music
-          </span>
         </div>
       </div>
       <div className="home-what-i-do">
