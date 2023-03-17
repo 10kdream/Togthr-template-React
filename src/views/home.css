@@ -333,6 +333,7 @@
   align-self: flex-end;
   text-align: center;
   transition: 0.3s;
+  font-family: Raleway;
   background-image: linear-gradient(rgba(189, 195, 199, 0) 0%, rgba(37, 38, 38, 0) 100%);
 }
 .home-text018:hover {
