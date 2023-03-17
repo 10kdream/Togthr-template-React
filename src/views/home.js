@@ -706,6 +706,11 @@ new BlazeSlider(el, {
               <span>AUDIO ENGINEER</span>
               <br></br>
             </span>
+            <img
+              alt="image"
+              src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
+              className="home-image08"
+            />
             <span className="home-text275">
               <br></br>
               <span>Stay in touch</span>
@@ -751,11 +756,6 @@ new BlazeSlider(el, {
             </a>
           </div>
         </div>
-        <img
-          alt="image"
-          src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
-          className="home-image08"
-        />
       </section>
       <div className="home-footer">
         <div className="home-content1">
