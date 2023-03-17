@@ -375,7 +375,7 @@ new BlazeSlider(el, {
             </div>
             <h1 className="home-heading3">
               <span className="home-text067">WHAT I DO</span>
-              <br></br>
+              <br className="home-text068"></br>
             </h1>
           </div>
         </div>
@@ -493,131 +493,19 @@ new BlazeSlider(el, {
           </span>
         </div>
       </div>
-      <div className="home-what-i-do-mobile">
-        <div className="home-container16">
-          <span className="home-text155">
-            <span className="home-text156">RECORDING</span>
-            <br className="home-text157"></br>
-            <span className="home-text158">Vocal Tracking</span>
-            <br className="home-text159"></br>
-            <span className="home-text160">Full band tracking</span>
-            <br className="home-text161"></br>
-            <span className="home-text162">Live Sessions</span>
-            <br className="home-text163"></br>
-            <span className="home-text164">
-              Podcast, Voiceover &amp; Radio IDs
-            </span>
-            <br className="home-text165"></br>
-            <span className="home-text166">Broadcast for livestream</span>
-            <br className="home-text167"></br>
-            <br className="home-text168"></br>
-            <span className="home-text169">SOFTWARE I USE</span>
-            <br className="home-text170"></br>
-            <span className="home-text171">Pro Tools HD</span>
-            <br className="home-text172"></br>
-            <span className="home-text173">Logic Pro X</span>
-            <br className="home-text174"></br>
-            <span className="home-text175">Izotope RX</span>
-            <br className="home-text176"></br>
-            <span className="home-text177">Fab Filter Pro</span>
-            <br className="home-text178"></br>
-            <span className="home-text179">UAD Console</span>
-            <br className="home-text180"></br>
-            <span className="home-text181">Soundtoys</span>
-            <br className="home-text182"></br>
-            <br className="home-text183"></br>
-            <span className="home-text184">HARDWARE I USE</span>
-            <br className="home-text185"></br>
-            <span className="home-text186">SSL4000G Series</span>
-            <br className="home-text187"></br>
-            <span className="home-text188">SSL AWS</span>
-            <br className="home-text189"></br>
-            <span className="home-text190">Dante Level 1 Certification</span>
-            <br className="home-text191"></br>
-            <span className="home-text192">Universal Audio Apollo Systems</span>
-            <br className="home-text193"></br>
-            <span className="home-text194">
-              Wireless In Ear Monitoring Systems
-            </span>
-            <br className="home-text195"></br>
-            <span className="home-text196">Wireless Microphone Systems</span>
-            <br className="home-text197"></br>
-            <span className="home-text198">Ferrofish Converters</span>
-            <br className="home-text199"></br>
-            <span className="home-text200">Antelope Orion Converters</span>
-            <br className="home-text201"></br>
-          </span>
-        </div>
-        <div className="home-container17">
-          <span className="home-text202">
-            <span className="home-text203">MIXING</span>
-            <br className="home-text204"></br>
-            <span className="home-text205">
-              Mixing for commercial music releases
-            </span>
-            <br className="home-text206"></br>
-            <span className="home-text207">
-              Audio mixing for live video sessions
-            </span>
-            <br className="home-text208"></br>
-            <span className="home-text209">Pro Tools HD</span>
-            <br className="home-text210"></br>
-            <span className="home-text211">Logic Pro X</span>
-            <br className="home-text212"></br>
-            <br className="home-text213"></br>
-            <br className="home-text214"></br>
-            <span className="home-text215">STUDIOS IVE WORKED FOR</span>
-            <br className="home-text216"></br>
-            <span className="home-text217">Circle Studios by Sony Music</span>
-            <br className="home-text218"></br>
-            <span className="home-text219">
-              Red Bull Studios London &amp; Berlin
-            </span>
-            <br className="home-text220"></br>
-            <span className="home-text221">Strongroom Studios London</span>
-            <br className="home-text222"></br>
-            <span className="home-text223">Noatune Studios London</span>
-            <br className="home-text224"></br>
-            <br className="home-text225"></br>
-            <br className="home-text226"></br>
-            <span className="home-text227">AWARDS</span>
-            <br className="home-text228"></br>
-            <span className="home-text229">
-              Awarded Scholarship for Mix With The Masters, from We Are Moving
-              The Needle
-            </span>
-            <br className="home-text230"></br>
-            <span className="home-text231">
-              Overall Winner of Shure x Red Bull’s Soundscapes Competition
-            </span>
-            <br className="home-text232"></br>
-            <span className="home-text233">
-              Madison Square Garden’s Up and Coming Award
-            </span>
-            <br className="home-text234"></br>
-            <br className="home-text235"></br>
-            <span className="home-text236">MASTERCLASSES</span>
-            <br className="home-text237"></br>
-            <span className="home-text238">P</span>
-            <span className="home-text239">
-              op Beuro x SAE Electronic Barcamp
-            </span>
-            <br className="home-text240"></br>
-          </span>
-        </div>
-      </div>
-      <div className="home-container18"></div>
-      <section className="home-create">
+      <div className="home-what-i-do-mobile"></div>
+      <div className="home-container16"></div>
+      <section className="home-contact">
         <div className="home-content">
           <div className="home-header1"></div>
           <h1 id="contact" className="home-heading4">
-            <span className="home-text241">&gt;</span>
-            <span className="home-text242">FOR ALL ENQUIRIES</span>
-            <br className="home-text243"></br>
-            <span className="home-text244">ruby@rubysmith.xyz</span>
+            <span className="home-text155">&gt;</span>
+            <span className="home-text156">FOR ALL ENQUIRIES</span>
+            <br className="home-text157"></br>
+            <span className="home-text158">ruby@rubysmith.xyz</span>
             <br></br>
           </h1>
-          <div className="home-container19">
+          <div className="home-container17">
             <a
               href="http://www.instagram.com/rubysmith.wav"
               target="_blank"
@@ -646,7 +534,7 @@ new BlazeSlider(el, {
       </section>
       <div className="home-blog">
         <h1 id="blog" className="home-heading5">
-          <span className="home-text246">
+          <span className="home-text160">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -654,13 +542,13 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text247">&gt;</span>
-          <span className="home-text248">BLOG</span>
+          <span className="home-text161">&gt;</span>
+          <span className="home-text162">BLOG</span>
           <br></br>
         </h1>
       </div>
       <div className="home-blog1">
-        <div className="home-container20">
+        <div className="home-container18">
           <BlogPostCard1
             label="ENGINEERING"
             title="Why I bounce and label stems the same way every time"
@@ -670,7 +558,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName3"
           ></BlogPostCard1>
         </div>
-        <div className="home-container21">
+        <div className="home-container19">
           <BlogPostCard1
             title="The Engineer's Swiss Army Knife: My Go-To Tools for Any Recording Situation"
             author="Ruby"
@@ -679,7 +567,7 @@ new BlazeSlider(el, {
             rootClassName="rootClassName2"
           ></BlogPostCard1>
         </div>
-        <div className="home-container22">
+        <div className="home-container20">
           <BlogPostCard1
             label="ENGINEERING"
             title="How I put the vocalists experience first in vocal recording sessions"
@@ -694,7 +582,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text250">
+            <span className="home-text164">
               © 2023 R. Smith - All rights reserved
             </span>
             <a
