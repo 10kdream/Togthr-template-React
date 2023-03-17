@@ -55,6 +55,7 @@
 .navigation-links-root-class-name17 {
   margin-right: var(--dl-space-space-sixunits);
 }
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -78,5 +79,23 @@
   .navigation-links-link4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-link {
+    font-size: 50px;
+  }
+  .navigation-links-link1 {
+    font-size: 50px;
+  }
+  .navigation-links-link2 {
+    font-size: 50px;
+  }
+  .navigation-links-link3 {
+    font-size: 50px;
+  }
+  .navigation-links-root-class-name18 {
+    width: auto;
+    align-self: center;
   }
 }

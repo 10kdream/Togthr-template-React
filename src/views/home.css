@@ -91,9 +91,6 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-image {
-  height: 2rem;
-}
 .home-close-mobile-menu {
   display: flex;
   align-items: center;
@@ -103,19 +100,8 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.home-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+.home-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
 }
 .home-hero-content {
   gap: var(--dl-space-space-fiveunits);
@@ -160,7 +146,7 @@
   font-weight: 300;
   text-transform: uppercase;
 }
-.home-image01 {
+.home-image {
   width: 758px;
   height: 737px;
   display: none;
@@ -224,7 +210,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon10 {
+.home-icon04 {
   fill: var(--dl-color-primary-submarine);
   width: 100%;
   height: 100%;
@@ -270,7 +256,7 @@
 .home-link1 {
   display: contents;
 }
-.home-icon12 {
+.home-icon06 {
   fill: var(--dl-color-primary-submarine);
   color: var(--dl-color-primary-tea);
   width: var(--dl-size-size-small);
@@ -279,13 +265,13 @@
   margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.home-icon12:hover {
+.home-icon06:hover {
   fill: var(--dl-color-primary-mygreen);
 }
 .home-link2 {
   display: contents;
 }
-.home-icon14 {
+.home-icon08 {
   fill: var(--dl-color-primary-submarine);
   color: var(--dl-color-primary-tea);
   width: var(--dl-size-size-small);
@@ -293,7 +279,7 @@
   transition: 0.3s;
   text-decoration: none;
 }
-.home-icon14:hover {
+.home-icon08:hover {
   fill: var(--dl-color-primary-mygreen);
 }
 .home-container07 {
@@ -443,7 +429,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-image02 {
+.home-image1 {
   width: 467px;
   height: 594px;
   align-self: center;
@@ -567,7 +553,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-image03 {
+.home-image2 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -577,14 +563,14 @@
   position: relative;
   background-color: var(--dl-color-primary-cleanslate);
 }
-.home-image04 {
+.home-image3 {
   width: 300px;
   height: 300px;
   object-fit: cover;
   transition: 0.3s;
   aspect-ratio: 1;
 }
-.home-image04:hover {
+.home-image3:hover {
   opacity: 0.2;
 }
 .home-text061 {
@@ -702,7 +688,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-image05 {
+.home-image4 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -747,7 +733,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-image06 {
+.home-image5 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -757,7 +743,7 @@
   position: relative;
   background-color: var(--dl-color-primary-cleanslate);
 }
-.home-image07 {
+.home-image6 {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -844,7 +830,7 @@
 .home-previous:hover {
   background-color: var(--dl-color-primary-mygreen);
 }
-.home-icon16 {
+.home-icon10 {
   fill: var(--dl-color-primary-whiteish);
   width: 24px;
   height: 24px;
@@ -860,7 +846,7 @@
 .home-next:hover {
   background-color: var(--dl-color-primary-mygreen);
 }
-.home-icon18 {
+.home-icon12 {
   fill: var(--dl-color-primary-whiteish);
   width: 24px;
   height: 24px;
@@ -901,7 +887,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon20 {
+.home-icon14 {
   fill: var(--dl-color-primary-submarine);
   width: 100%;
   height: 100%;
@@ -1019,7 +1005,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon22 {
+.home-icon16 {
   fill: var(--dl-color-primary-submarine);
   width: 100%;
   height: 100%;
@@ -1427,7 +1413,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon24 {
+.home-icon18 {
   fill: var(--dl-color-primary-submarine);
   width: 100%;
   height: 100%;
@@ -1565,7 +1551,7 @@
   font-size: 20px;
   font-weight: 700;
 }
-.home-image08 {
+.home-image7 {
   top: -9px;
   left: 130px;
   width: 324px;
@@ -1601,7 +1587,7 @@
 .home-text280 {
   font-size: 20px;
 }
-.home-icon26 {
+.home-icon20 {
   top: 91px;
   fill: var(--dl-color-primary-submarine);
   left: 75px;
@@ -1612,7 +1598,7 @@
 .home-link3 {
   display: contents;
 }
-.home-icon28 {
+.home-icon22 {
   top: 167px;
   fill: var(--dl-color-primary-whiteish);
   left: 374px;
@@ -1624,13 +1610,13 @@
   transition: 0.3s;
   text-decoration: none;
 }
-.home-icon28:hover {
+.home-icon22:hover {
   fill: var(--dl-color-primary-tea);
 }
 .home-link4 {
   display: contents;
 }
-.home-icon30 {
+.home-icon24 {
   top: 167px;
   fill: var(--dl-color-primary-whiteish);
   left: 425px;
@@ -1642,7 +1628,7 @@
   transition: 0.3s;
   text-decoration: none;
 }
-.home-icon30:hover {
+.home-icon24:hover {
   fill: var(--dl-color-primary-tea);
 }
 .home-footer {
@@ -1688,7 +1674,7 @@
   text-decoration: none;
   background-color: var(--dl-color-primary-bazaar);
 }
-.home-image09 {
+.home-image8 {
   width: 21px;
   object-fit: cover;
 }
@@ -1701,7 +1687,7 @@
     flex: initial;
     background-color: transparent;
   }
-  .home-image03 {
+  .home-image2 {
     width: 300px;
     height: 300px;
   }
@@ -1709,7 +1695,7 @@
     flex: initial;
     background-color: #0049ff;
   }
-  .home-image04 {
+  .home-image3 {
     width: 300px;
     height: 300px;
   }
@@ -1719,7 +1705,7 @@
     height: 100%;
     background-color: transparent;
   }
-  .home-image05 {
+  .home-image4 {
     width: 300px;
     height: 300px;
   }
@@ -1727,7 +1713,7 @@
     flex: 1;
     background-color: transparent;
   }
-  .home-image06 {
+  .home-image5 {
     width: 300px;
     height: 300px;
   }
@@ -1735,7 +1721,7 @@
     flex: 1;
     background-color: transparent;
   }
-  .home-image07 {
+  .home-image6 {
     width: 300px;
     height: 300px;
   }
@@ -1753,23 +1739,23 @@
   .home-slider {
     gap: var(--dl-space-space-twounits);
   }
-  .home-image03 {
+  .home-image2 {
     width: 100%;
     height: 120px;
   }
-  .home-image04 {
+  .home-image3 {
     width: 100%;
     height: 120px;
   }
-  .home-image05 {
+  .home-image4 {
     width: 100%;
     height: 120px;
   }
-  .home-image06 {
+  .home-image5 {
     width: 100%;
     height: 120px;
   }
-  .home-image07 {
+  .home-image6 {
     width: 100%;
     height: 120px;
   }
@@ -1906,7 +1892,15 @@
     background-color: var(--dl-color-primary-tea);
   }
   .home-mobile-menu {
+    display: none;
     padding: 16px;
+    background-color: var(--dl-color-primary-cleanslate);
+  }
+  .home-nav1 {
+    height: 516px;
+  }
+  .home-icon02 {
+    fill: var(--dl-color-primary-whiteish);
   }
   .home-hero-content {
     gap: var(--dl-space-space-threeunits);
@@ -1958,7 +1952,7 @@
   .home-container04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .home-icon10 {
+  .home-icon04 {
     margin-left: var(--dl-space-space-unit);
   }
   .home-heading1 {
@@ -1987,7 +1981,7 @@
     display: flex;
     margin-bottom: var(--dl-space-space-sixunits);
   }
-  .home-image02 {
+  .home-image1 {
     width: 337px;
     height: 477px;
   }
@@ -2005,11 +1999,11 @@
   .home-text049 {
     font-size: smaller;
   }
-  .home-image03 {
+  .home-image2 {
     width: 150px;
     height: 150px;
   }
-  .home-image04 {
+  .home-image3 {
     width: 150px;
     height: 150px;
   }
@@ -2023,7 +2017,7 @@
     height: 100%;
     font-size: smaller;
   }
-  .home-image05 {
+  .home-image4 {
     width: 150px;
     height: 150px;
   }
@@ -2078,11 +2072,11 @@
     text-transform: none;
     text-decoration: none;
   }
-  .home-image06 {
+  .home-image5 {
     width: 150px;
     height: 150px;
   }
-  .home-image07 {
+  .home-image6 {
     width: 150px;
     height: 150px;
   }
@@ -2490,7 +2484,7 @@
     left: 50px;
     bottom: 153px;
   }
-  .home-image08 {
+  .home-image7 {
     top: 0px;
     left: 0px;
     right: 0px;
@@ -2511,18 +2505,18 @@
     top: 160px;
     left: 46px;
   }
-  .home-icon26 {
+  .home-icon20 {
     top: 91px;
     left: 43px;
   }
-  .home-icon28 {
+  .home-icon22 {
     left: 275px;
     right: 49px;
     bottom: 27px;
     position: absolute;
     align-self: flex-start;
   }
-  .home-icon30 {
+  .home-icon24 {
     left: 228px;
     bottom: 27px;
     position: absolute;
