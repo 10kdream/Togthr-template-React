@@ -328,8 +328,6 @@ new BlazeSlider(el, {
     slideGap: '20px',
     loop: true,
     enableAutoplay: true,
-    autoplayInterval: 1000,
-    transitionDuration: 300,
   },
 })
 </script>`}
