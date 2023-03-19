@@ -744,7 +744,7 @@
 .home-text088 {
   top: 0px;
   left: 0px;
-  color: rgba(0, 0, 0, 0);
+  color: var(--dl-color-gray-white);
   width: 100%;
   bottom: 0px;
   height: 100%;

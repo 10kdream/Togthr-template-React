@@ -287,12 +287,14 @@ const Home = (props) => {
                   />
                   <span className="home-text088">
                     <br className="home-text089"></br>
-                    <span className="home-text090">MEMA.</span>
+                    <span className="home-text090">Sandunes</span>
                     <br className="home-text091"></br>
-                    <span className="home-text092">&apos;Estou Bem&apos;</span>
+                    <span className="home-text092">
+                      &apos;A Little While&apos;
+                    </span>
                     <br className="home-text093"></br>
                     <br className="home-text094"></br>
-                    <span className="home-text095">Mix Engineer</span>
+                    <span className="home-text095">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
