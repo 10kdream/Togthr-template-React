@@ -2274,6 +2274,12 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
+  .home-text311 {
+    z-index: 800;
+  }
+  .home-text320 {
+    z-index: 800;
+  }
   .home-footer {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3045,13 +3051,12 @@
     bottom: 153px;
   }
   .home-image12 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    top: 10px;
+    left: 53px;
     width: 282px;
-    bottom: 0px;
     height: 222px;
     margin: auto;
+    z-index: 0;
     position: absolute;
   }
   .home-text316 {
@@ -3072,12 +3077,14 @@
   .home-icon26 {
     left: 275px;
     bottom: 27px;
+    z-index: 800;
     position: absolute;
     align-self: flex-start;
   }
   .home-icon28 {
     left: 228px;
     bottom: 27px;
+    z-index: 800;
     position: absolute;
     align-self: flex-end;
   }
