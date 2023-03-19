@@ -262,12 +262,14 @@ const Home = (props) => {
                 <div data-role="current-banner" className="home-slide03 banner">
                   <span className="home-text078">
                     <br className="home-text079"></br>
-                    <span className="home-text080">MEMA.</span>
+                    <span className="home-text080">Jubilee ft. IQ</span>
                     <br className="home-text081"></br>
-                    <span className="home-text082">&apos;Estou Bem&apos;</span>
+                    <span className="home-text082">
+                      &apos;Fulla Curve&apos;
+                    </span>
                     <br className="home-text083"></br>
                     <br className="home-text084"></br>
-                    <span className="home-text085">Mix Engineer</span>
+                    <span className="home-text085">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
