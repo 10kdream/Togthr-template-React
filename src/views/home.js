@@ -11,8 +11,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Ruby Smith Audio Website</title>
-        <meta property="og:title" content="Ruby Smith Audio Website" />
+        <title>Ruby Smith | Audio Engineer</title>
+        <meta property="og:title" content="Ruby Smith | Audio Engineer" />
       </Helmet>
       <section className="home-hero">
         <header data-role="Header" className="home-header navbar">
@@ -102,23 +102,15 @@ const Home = (props) => {
               <span>
                 I’m an audio engineer with 5+ years of commercial studio
                 experience with a flexible skillset both technically and
-                personally. Engineering at Sony’s in house studios, Circle
-                Studios.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <br></br>
-              <span>
-                Recording on SSL, high end microphones, recording live sessions,
-                podcast recording &amp; mixing. While being technically
-                proficient, Smith has a knack for communicating complex ideas
-                u ercial studio experience with a flexible skillset both
-                technically and personally. Engineering at Sony’s in house
-                studios, Circle Studios.
+                personally. Growing up in small towns in Australia, my passion
+                for music grew from playing in bands with friends, before moving
+                to London in 2017, where I cut my teeth engineering across
+                multiple studios learning from the best. Now currently based in
+                Berlin, I&apos;ve continued to develop and refine my sound as a
+                mixer, combining the sleekness of modern pop records with a
+                nostalgic character, all the while feeling fresh. I&apos;m a
+                firm believer that music is better made together, and am
+                naturally collaborate, patient and curious.
               </span>
               <br></br>
             </p>
@@ -153,7 +145,10 @@ const Home = (props) => {
           </div>
           <div className="home-container07">
             <div className="home-container08">
-              <span className="home-text017">
+              <span className="home-text014">
+                <br className="home-text015"></br>
+                <br className="home-text016"></br>
+                <br className="home-text017"></br>
                 <br className="home-text018"></br>
                 <br className="home-text019"></br>
                 <br className="home-text020"></br>
@@ -179,11 +174,8 @@ const Home = (props) => {
                 <br className="home-text040"></br>
                 <br className="home-text041"></br>
                 <br className="home-text042"></br>
-                <br className="home-text043"></br>
-                <br className="home-text044"></br>
-                <br className="home-text045"></br>
-                <span className="home-text046">Photographed by</span>
-                <span className="home-text047"> Linh Nguyen</span>
+                <span className="home-text043">Photographed by</span>
+                <span className="home-text044"> Linh Nguyen</span>
                 <br></br>
               </span>
             </div>
@@ -203,11 +195,11 @@ const Home = (props) => {
             <div className="home-slider-track-container blaze-track-container">
               <div className="home-slider-track blaze-track">
                 <div data-role="current-banner" className="home-slide banner">
-                  <span className="home-text049">
-                    <br className="home-text050"></br>
-                    <span className="home-text051">Vivi Thill</span>
-                    <br className="home-text052"></br>
-                    <span className="home-text053">
+                  <span className="home-text046">
+                    <br className="home-text047"></br>
+                    <span className="home-text048">Vivi Thill</span>
+                    <br className="home-text049"></br>
+                    <span className="home-text050">
                       &apos;don&apos;t break the heart
                       <span
                         dangerouslySetInnerHTML={{
@@ -215,11 +207,11 @@ const Home = (props) => {
                         }}
                       />
                     </span>
+                    <br className="home-text051"></br>
+                    <span className="home-text052">of a songwriter&apos;</span>
+                    <br className="home-text053"></br>
                     <br className="home-text054"></br>
-                    <span className="home-text055">of a songwriter&apos;</span>
-                    <br className="home-text056"></br>
-                    <br className="home-text057"></br>
-                    <span className="home-text058">Mix Engineer</span>
+                    <span className="home-text055">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -235,29 +227,29 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image03"
                   />
-                  <span className="home-text061">
-                    <br className="home-text062"></br>
-                    <span className="home-text063">Kota Banks</span>
-                    <br className="home-text064"></br>
-                    <span className="home-text065">
+                  <span className="home-text058">
+                    <br className="home-text059"></br>
+                    <span className="home-text060">Kota Banks</span>
+                    <br className="home-text061"></br>
+                    <span className="home-text062">
                       &apos;20 Missed Calls&apos;
                     </span>
-                    <br className="home-text066"></br>
-                    <br className="home-text067"></br>
-                    <span className="home-text068">Recording Engineer</span>
+                    <br className="home-text063"></br>
+                    <br className="home-text064"></br>
+                    <span className="home-text065">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                 </div>
                 <div data-role="current-banner" className="home-slide02 banner">
-                  <span className="home-text071">
-                    <br className="home-text072"></br>
-                    <span className="home-text073">MEMA.</span>
+                  <span className="home-text068">
+                    <br className="home-text069"></br>
+                    <span className="home-text070">MEMA.</span>
+                    <br className="home-text071"></br>
+                    <span className="home-text072">&apos;Estou Bem&apos;</span>
+                    <br className="home-text073"></br>
                     <br className="home-text074"></br>
-                    <span className="home-text075">&apos;Estou Bem&apos;</span>
-                    <br className="home-text076"></br>
-                    <br className="home-text077"></br>
-                    <span className="home-text078">Mix Engineer</span>
+                    <span className="home-text075">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -268,7 +260,7 @@ const Home = (props) => {
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide03 banner">
-                  <span className="home-text081"></span>
+                  <span className="home-text078"></span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
@@ -281,16 +273,16 @@ const Home = (props) => {
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
                     className="home-image06"
                   />
-                  <span className="home-text082">
-                    <br className="home-text083"></br>
-                    <span className="home-text084">Sandunes</span>
-                    <br className="home-text085"></br>
-                    <span className="home-text086">
+                  <span className="home-text079">
+                    <br className="home-text080"></br>
+                    <span className="home-text081">Sandunes</span>
+                    <br className="home-text082"></br>
+                    <span className="home-text083">
                       &apos;A Little While&apos;
                     </span>
-                    <br className="home-text087"></br>
-                    <br className="home-text088"></br>
-                    <span className="home-text089">Recording Engineer</span>
+                    <br className="home-text084"></br>
+                    <br className="home-text085"></br>
+                    <span className="home-text086">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -342,11 +334,11 @@ new BlazeSlider(el, {
             <div className="home-slider-track-container1 blaze-track-container">
               <div className="home-slider-track1 blaze-track">
                 <div data-role="current-banner" className="home-slide05 banner">
-                  <span className="home-text092">
-                    <br className="home-text093"></br>
-                    <span className="home-text094">Vivi Thill</span>
-                    <br className="home-text095"></br>
-                    <span className="home-text096">
+                  <span className="home-text089">
+                    <br className="home-text090"></br>
+                    <span className="home-text091">Vivi Thill</span>
+                    <br className="home-text092"></br>
+                    <span className="home-text093">
                       &apos;don&apos;t break the heart
                       <span
                         dangerouslySetInnerHTML={{
@@ -354,11 +346,11 @@ new BlazeSlider(el, {
                         }}
                       />
                     </span>
+                    <br className="home-text094"></br>
+                    <span className="home-text095">of a songwriter&apos;</span>
+                    <br className="home-text096"></br>
                     <br className="home-text097"></br>
-                    <span className="home-text098">of a songwriter&apos;</span>
-                    <br className="home-text099"></br>
-                    <br className="home-text100"></br>
-                    <span className="home-text101">Mix Engineer</span>
+                    <span className="home-text098">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -374,29 +366,29 @@ new BlazeSlider(el, {
                     src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
                     className="home-image08"
                   />
-                  <span className="home-text104">
-                    <br className="home-text105"></br>
-                    <span className="home-text106">Kota Banks</span>
-                    <br className="home-text107"></br>
-                    <span className="home-text108">
+                  <span className="home-text101">
+                    <br className="home-text102"></br>
+                    <span className="home-text103">Kota Banks</span>
+                    <br className="home-text104"></br>
+                    <span className="home-text105">
                       &apos;20 Missed Calls&apos;
                     </span>
-                    <br className="home-text109"></br>
-                    <br className="home-text110"></br>
-                    <span className="home-text111">Recording Engineer</span>
+                    <br className="home-text106"></br>
+                    <br className="home-text107"></br>
+                    <span className="home-text108">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                 </div>
                 <div data-role="current-banner" className="home-slide07 banner">
-                  <span className="home-text114">
-                    <br className="home-text115"></br>
-                    <span className="home-text116">MEMA.</span>
+                  <span className="home-text111">
+                    <br className="home-text112"></br>
+                    <span className="home-text113">MEMA.</span>
+                    <br className="home-text114"></br>
+                    <span className="home-text115">&apos;Estou Bem&apos;</span>
+                    <br className="home-text116"></br>
                     <br className="home-text117"></br>
-                    <span className="home-text118">&apos;Estou Bem&apos;</span>
-                    <br className="home-text119"></br>
-                    <br className="home-text120"></br>
-                    <span className="home-text121">Mix Engineer</span>
+                    <span className="home-text118">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -407,7 +399,7 @@ new BlazeSlider(el, {
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide08 banner">
-                  <span className="home-text124"></span>
+                  <span className="home-text121"></span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
@@ -420,16 +412,16 @@ new BlazeSlider(el, {
                     src="https://freight.cargo.site/w/700/q/75/i/6f37f44aa29fbd1a7b468669f0df830a3707302244c587c365abfddf80436a66/192969776_324854565870652_5770942409640115315_n.jpeg"
                     className="home-image11"
                   />
-                  <span className="home-text125">
-                    <br className="home-text126"></br>
-                    <span className="home-text127">Sandunes</span>
-                    <br className="home-text128"></br>
-                    <span className="home-text129">
+                  <span className="home-text122">
+                    <br className="home-text123"></br>
+                    <span className="home-text124">Sandunes</span>
+                    <br className="home-text125"></br>
+                    <span className="home-text126">
                       &apos;A Little While&apos;
                     </span>
-                    <br className="home-text130"></br>
-                    <br className="home-text131"></br>
-                    <span className="home-text132">Recording Engineer</span>
+                    <br className="home-text127"></br>
+                    <br className="home-text128"></br>
+                    <span className="home-text129">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -484,7 +476,7 @@ new BlazeSlider(el, {
               </svg>
             </div>
             <h1 className="home-heading2">
-              <span className="home-text135">LISTEN</span>
+              <span className="home-text132">LISTEN</span>
               <br></br>
             </h1>
           </div>
@@ -508,7 +500,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-container13">
-            <span className="home-text137">
+            <span className="home-text134">
               Live Sessions recorded and mixed by Ruby Smith for Circle Studios
               by Sony Music
             </span>
@@ -525,127 +517,128 @@ new BlazeSlider(el, {
                 </svg>
               </div>
               <h1 className="home-heading3">
-                <span className="home-text138">WHAT I DO</span>
-                <br className="home-text139"></br>
+                <span className="home-text135">WHAT I DO</span>
+                <br className="home-text136"></br>
               </h1>
             </div>
           </div>
           <div className="home-container18">
             <div className="home-container19">
-              <span className="home-text140">
-                <span className="home-text141">RECORDING</span>
-                <br className="home-text142"></br>
-                <span className="home-text143"> Vocal Tracking</span>
-                <br className="home-text144"></br>
-                <span className="home-text145"> Full band tracking</span>
-                <br className="home-text146"></br>
-                <span className="home-text147"> Live Sessions</span>
-                <br className="home-text148"></br>
-                <span className="home-text149">
+              <span className="home-text137">
+                <span className="home-text138">RECORDING</span>
+                <br className="home-text139"></br>
+                <span className="home-text140"> Vocal Tracking</span>
+                <br className="home-text141"></br>
+                <span className="home-text142"> Full band tracking</span>
+                <br className="home-text143"></br>
+                <span className="home-text144"> Live Sessions</span>
+                <br className="home-text145"></br>
+                <span className="home-text146">
                    Podcast, Voiceover &amp; Radio IDs
                 </span>
+                <br className="home-text147"></br>
+                <span className="home-text148"> Broadcast for livestream</span>
+                <br className="home-text149"></br>
                 <br className="home-text150"></br>
-                <span className="home-text151"> Broadcast for livestream</span>
+                <span className="home-text151">SOFTWARE I USE</span>
                 <br className="home-text152"></br>
-                <br className="home-text153"></br>
-                <span className="home-text154">SOFTWARE I USE</span>
-                <br className="home-text155"></br>
-                <span className="home-text156"> Pro Tools HD</span>
-                <br className="home-text157"></br>
-                <span className="home-text158"> Logic Pro X</span>
+                <span className="home-text153"> Pro Tools HD</span>
+                <br className="home-text154"></br>
+                <span className="home-text155"> Logic Pro X</span>
+                <br className="home-text156"></br>
+                <span className="home-text157"> </span>
+                <span className="home-text158">UAD Console</span>
                 <br className="home-text159"></br>
                 <span className="home-text160"> Izotope RX</span>
                 <br className="home-text161"></br>
                 <span className="home-text162"> Fab Filter Pro</span>
                 <br className="home-text163"></br>
-                <span className="home-text164"> UAD Console</span>
+                <span className="home-text164"> Soundtoys</span>
                 <br className="home-text165"></br>
-                <span className="home-text166"> Soundtoys</span>
-                <br className="home-text167"></br>
+                <br className="home-text166"></br>
+                <span className="home-text167">HARDWARE I USE</span>
                 <br className="home-text168"></br>
-                <span className="home-text169">HARDWARE I USE</span>
+                <span className="home-text169"> SSL4000G Series</span>
                 <br className="home-text170"></br>
-                <span className="home-text171"> SSL4000G Series</span>
+                <span className="home-text171"> SSL AWS</span>
                 <br className="home-text172"></br>
-                <span className="home-text173"> SSL AWS</span>
+                <span className="home-text173">
+                   Dante Level 1 Certification
+                </span>
                 <br className="home-text174"></br>
                 <span className="home-text175">
-                   Dante Level 1 Certification
+                   Universal Audio Apollo Systems
                 </span>
                 <br className="home-text176"></br>
                 <span className="home-text177">
-                   Universal Audio Apollo Systems
+                   Wireless In Ear Monitoring Systems
                 </span>
                 <br className="home-text178"></br>
                 <span className="home-text179">
-                   Wireless In Ear Monitoring Systems
-                </span>
-                <br className="home-text180"></br>
-                <span className="home-text181">
                    Wireless Microphone Systems
                 </span>
+                <br className="home-text180"></br>
+                <span className="home-text181"> Ferrofish Converters</span>
                 <br className="home-text182"></br>
-                <span className="home-text183"> Ferrofish Converters</span>
+                <span className="home-text183"> Antelope Orion Converters</span>
                 <br className="home-text184"></br>
-                <span className="home-text185"> Antelope Orion Converters</span>
-                <br className="home-text186"></br>
               </span>
             </div>
-            <span className="home-text187">
-              <span className="home-text188">MIXING</span>
-              <br className="home-text189"></br>
-              <span className="home-text190">
+            <span className="home-text185">
+              <span className="home-text186">MIXING</span>
+              <br className="home-text187"></br>
+              <span className="home-text188">
                  Mixing for commercial music   releases
               </span>
-              <br className="home-text191"></br>
-              <span className="home-text192">
+              <br className="home-text189"></br>
+              <span className="home-text190">
                  Audio mixing for live video   sessions
               </span>
+              <br className="home-text191"></br>
+              <span className="home-text192"> Pro Tools HD</span>
               <br className="home-text193"></br>
-              <span className="home-text194"> Pro Tools HD</span>
+              <span className="home-text194"> Logic Pro X</span>
               <br className="home-text195"></br>
-              <span className="home-text196"> Logic Pro X</span>
+              <br className="home-text196"></br>
               <br className="home-text197"></br>
-              <br className="home-text198"></br>
+              <span className="home-text198">STUDIOS IVE WORKED FOR</span>
               <br className="home-text199"></br>
-              <span className="home-text200">STUDIOS IVE WORKED FOR</span>
-              <br className="home-text201"></br>
-              <span className="home-text202">
+              <span className="home-text200">
                  Circle Studios by Sony Music
               </span>
-              <br className="home-text203"></br>
-              <span className="home-text204">
+              <br className="home-text201"></br>
+              <span className="home-text202">
                  Red Bull Studios London &amp; Berlin
               </span>
+              <br className="home-text203"></br>
+              <span className="home-text204"> Strongroom Studios London</span>
               <br className="home-text205"></br>
-              <span className="home-text206"> Strongroom Studios London</span>
+              <span className="home-text206"> Noatune Studios London</span>
               <br className="home-text207"></br>
-              <span className="home-text208"> Noatune Studios London</span>
-              <br className="home-text209"></br>
+              <br className="home-text208"></br>
+              <span className="home-text209">AWARDS</span>
               <br className="home-text210"></br>
-              <span className="home-text211">AWARDS</span>
-              <br className="home-text212"></br>
-              <span className="home-text213">
+              <span className="home-text211">
                  Awarded Scholarship for Mix With   The Masters, from We Are
                 Moving   The Needle
               </span>
-              <br className="home-text214"></br>
-              <span className="home-text215">
+              <br className="home-text212"></br>
+              <span className="home-text213">
                  Overall Winner of Shure x Red   Bull’s Soundscapes Competition
               </span>
-              <br className="home-text216"></br>
-              <span className="home-text217">
+              <br className="home-text214"></br>
+              <span className="home-text215">
                  Madison Square Garden’s Up and   Coming Award
               </span>
-              <br className="home-text218"></br>
+              <br className="home-text216"></br>
+              <br className="home-text217"></br>
+              <span className="home-text218">MASTERCLASSES</span>
               <br className="home-text219"></br>
-              <span className="home-text220">MASTERCLASSES</span>
-              <br className="home-text221"></br>
-              <span className="home-text222"> P</span>
-              <span className="home-text223">
+              <span className="home-text220"> P</span>
+              <span className="home-text221">
                 op Beuro x SAE Electronic   Barcamp
               </span>
-              <br className="home-text224"></br>
+              <br className="home-text222"></br>
             </span>
           </div>
         </div>
@@ -659,16 +652,16 @@ new BlazeSlider(el, {
               </svg>
             </div>
             <h1 className="home-heading4">
-              <span className="home-text225">WHAT I DO</span>
-              <br className="home-text226"></br>
+              <span className="home-text223">WHAT I DO</span>
+              <br className="home-text224"></br>
             </h1>
           </div>
         </div>
         <div className="home-container23">
-          <span className="home-text227">
-            <span className="home-text228">RECORDING</span>
-            <br className="home-text229"></br>
-            <span className="home-text230">
+          <span className="home-text225">
+            <span className="home-text226">RECORDING</span>
+            <br className="home-text227"></br>
+            <span className="home-text228">
               Vocal Tracking
               <span
                 dangerouslySetInnerHTML={{
@@ -676,87 +669,87 @@ new BlazeSlider(el, {
                 }}
               />
             </span>
+            <br className="home-text229"></br>
+            <span className="home-text230">Full band tracking</span>
             <br className="home-text231"></br>
-            <span className="home-text232">Full band tracking</span>
-            <br className="home-text233"></br>
-            <span className="home-text234">
+            <span className="home-text232">
               Live SessionsPodcast, Voiceover &amp; Radio IDs
             </span>
+            <br className="home-text233"></br>
+            <span className="home-text234">Broadcast for livestream</span>
             <br className="home-text235"></br>
-            <span className="home-text236">Broadcast for livestream</span>
-            <br className="home-text237"></br>
+            <br className="home-text236"></br>
+            <span className="home-text237">SOFTWARE I USE</span>
             <br className="home-text238"></br>
-            <span className="home-text239">SOFTWARE I USE</span>
+            <span className="home-text239">Pro Tools HD</span>
             <br className="home-text240"></br>
-            <span className="home-text241">Pro Tools HD</span>
+            <span className="home-text241">Logic Pro XIzotope RX</span>
             <br className="home-text242"></br>
-            <span className="home-text243">Logic Pro XIzotope RX</span>
+            <span className="home-text243">Fab Filter Pro</span>
             <br className="home-text244"></br>
-            <span className="home-text245">Fab Filter Pro</span>
+            <span className="home-text245">UAD Console</span>
             <br className="home-text246"></br>
-            <span className="home-text247">UAD Console</span>
+            <span className="home-text247">Soundtoys</span>
             <br className="home-text248"></br>
-            <span className="home-text249">Soundtoys</span>
-            <br className="home-text250"></br>
+            <br className="home-text249"></br>
+            <span className="home-text250">HARDWARE I USE</span>
             <br className="home-text251"></br>
-            <span className="home-text252">HARDWARE I USE</span>
+            <span className="home-text252">SSL4000G Series</span>
             <br className="home-text253"></br>
-            <span className="home-text254">SSL4000G Series</span>
+            <span className="home-text254">SSL AWS</span>
             <br className="home-text255"></br>
-            <span className="home-text256">SSL AWS</span>
+            <span className="home-text256">Dante Level 1 Certification</span>
             <br className="home-text257"></br>
-            <span className="home-text258">Dante Level 1 Certification</span>
+            <span className="home-text258">Universal Audio Apollo Systems</span>
             <br className="home-text259"></br>
-            <span className="home-text260">Universal Audio Apollo Systems</span>
-            <br className="home-text261"></br>
-            <span className="home-text262">
+            <span className="home-text260">
               Wireless In Ear Monitoring SystemsWireless Microphone Systems
             </span>
+            <br className="home-text261"></br>
+            <span className="home-text262">Ferrofish Converters</span>
             <br className="home-text263"></br>
-            <span className="home-text264">Ferrofish Converters</span>
+            <span className="home-text264">Antelope Orion Converters</span>
             <br className="home-text265"></br>
-            <span className="home-text266">Antelope Orion Converters</span>
-            <br className="home-text267"></br>
+            <br className="home-text266"></br>
+            <span className="home-text267">MIXING</span>
             <br className="home-text268"></br>
-            <span className="home-text269">MIXING</span>
-            <br className="home-text270"></br>
-            <span className="home-text271">
+            <span className="home-text269">
               Mixing for commercial music releases
             </span>
-            <br className="home-text272"></br>
-            <span className="home-text273">
+            <br className="home-text270"></br>
+            <span className="home-text271">
               Audio mixing for live video sessions
             </span>
+            <br className="home-text272"></br>
+            <span className="home-text273">Pro Tools HDLogic Pro X</span>
             <br className="home-text274"></br>
-            <span className="home-text275">Pro Tools HDLogic Pro X</span>
-            <br className="home-text276"></br>
+            <br className="home-text275"></br>
+            <span className="home-text276">STUDIOS IVE WORKED FOR</span>
             <br className="home-text277"></br>
-            <span className="home-text278">STUDIOS IVE WORKED FOR</span>
+            <span className="home-text278">Circle Studios by Sony Music</span>
             <br className="home-text279"></br>
-            <span className="home-text280">Circle Studios by Sony Music</span>
-            <br className="home-text281"></br>
-            <span className="home-text282">
+            <span className="home-text280">
               Red Bull Studios London &amp; Berlin
             </span>
+            <br className="home-text281"></br>
+            <span className="home-text282">Noatune Studios London</span>
             <br className="home-text283"></br>
-            <span className="home-text284">Noatune Studios London</span>
+            <br className="home-text284"></br>
             <br className="home-text285"></br>
-            <br className="home-text286"></br>
+            <span className="home-text286">AWARDS</span>
             <br className="home-text287"></br>
-            <span className="home-text288">AWARDS</span>
-            <br className="home-text289"></br>
-            <span className="home-text290">
+            <span className="home-text288">
               Shure x Red Bull’s Soundscapes Competition
             </span>
-            <br className="home-text291"></br>
-            <span className="home-text292">
+            <br className="home-text289"></br>
+            <span className="home-text290">
               Madison Square Garden’s Up and Coming Award
             </span>
-            <br className="home-text293"></br>
+            <br className="home-text291"></br>
+            <br className="home-text292"></br>
+            <span className="home-text293">MASTERCLASS</span>
             <br className="home-text294"></br>
-            <span className="home-text295">MASTERCLASS</span>
-            <br className="home-text296"></br>
-            <span className="home-text297">
+            <span className="home-text295">
               Pop Beuro x SAE Elextronic Barcamp
             </span>
             <br></br>
@@ -766,7 +759,7 @@ new BlazeSlider(el, {
       </div>
       <div className="home-blog">
         <h1 id="blog" className="home-heading5">
-          <span className="home-text300">
+          <span className="home-text298">
                    
             <span
               dangerouslySetInnerHTML={{
@@ -774,8 +767,8 @@ new BlazeSlider(el, {
               }}
             />
           </span>
-          <span className="home-text301">&gt;</span>
-          <span className="home-text302">BLOG</span>
+          <span className="home-text299">&gt;</span>
+          <span className="home-text300">BLOG</span>
           <br></br>
         </h1>
       </div>
@@ -814,8 +807,8 @@ new BlazeSlider(el, {
       <section className="home-contact">
         <div className="home-content">
           <div className="home-container27">
-            <span className="home-text304">
-              <span className="home-text305">  RUBY SMITH</span>
+            <span className="home-text302">
+              <span className="home-text303">  RUBY SMITH</span>
               <br></br>
               <span>AUDIO ENGINEER</span>
               <br></br>
@@ -825,13 +818,13 @@ new BlazeSlider(el, {
               src="https://freight.cargo.site/w/400/q/75/i/7c0670ae8d6010db1918d143eb7bc3ff6c656a62b8908f3c6b0d706797758e07/New-Project-1.png"
               className="home-image12"
             />
-            <span className="home-text309">
+            <span className="home-text307">
               <br></br>
               <span>Stay in touch</span>
               <br></br>
             </span>
-            <span className="home-text313">
-              <span className="home-text314">For all enquiries:</span>
+            <span className="home-text311">
+              <span className="home-text312">For all enquiries:</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -874,7 +867,7 @@ new BlazeSlider(el, {
       <div className="home-footer">
         <div className="home-content1">
           <div className="home-bottom">
-            <span className="home-text318">
+            <span className="home-text316">
               © 2023 R. Smith - All rights reserved
             </span>
             <a
