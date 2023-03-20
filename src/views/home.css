@@ -2711,9 +2711,12 @@
     margin-left: var(--dl-space-space-unit);
   }
   .home-caption {
+    color: var(--dl-color-primary-whiteish);
     width: 366px;
     height: 341px;
+    font-size: 16px;
     margin-top: 0px;
+    line-height: 36px;
   }
   .home-container06 {
     display: none;

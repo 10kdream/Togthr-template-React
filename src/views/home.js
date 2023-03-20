@@ -110,7 +110,7 @@ const Home = (props) => {
                 mixer, combining the sleekness of modern pop records with a
                 nostalgic character, all the while feeling fresh. I&apos;m a
                 firm believer that music is better made together, and am
-                naturally collaborate, patient and curious.
+                naturally collaborative, patient and curious.
               </span>
               <br></br>
             </p>
