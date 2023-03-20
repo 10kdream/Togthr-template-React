@@ -1912,26 +1912,26 @@
   font-style: normal;
 }
 .home-text260 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text261 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text262 {
   font-style: normal;
 }
 .home-text263 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text264 {
   font-style: normal;
 }
 .home-text265 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text266 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text267 {
@@ -1955,23 +1955,23 @@
   font-style: normal;
 }
 .home-text272 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text273 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text274 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text275 {
   font-style: normal;
 }
 .home-text276 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text277 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text278 {
@@ -1987,27 +1987,35 @@
   font-style: normal;
 }
 .home-text281 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text282 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text283 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text284 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text285 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text286 {
   color: #eae1d5;
   font-style: normal;
 }
 .home-text287 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text288 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text289 {
   font-style: normal;
 }
 .home-what-i-do-mobile {
@@ -2063,7 +2071,7 @@
 .home-heading4:hover {
   color: var(--dl-color-primary-tea);
 }
-.home-text288 {
+.home-text290 {
   font-family: Raleway;
 }
 .home-container23 {
@@ -2092,14 +2100,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text363 {
+.home-text365 {
   font-size: 70px;
 }
-.home-text364 {
+.home-text366 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text365 {
+.home-text367 {
   font-size: 70px;
 }
 .home-blog1 {
@@ -2168,7 +2176,7 @@
   padding-right: var(--dl-space-space-fourunits);
   justify-content: center;
 }
-.home-text367 {
+.home-text369 {
   top: 89px;
   left: 79px;
   color: var(--dl-color-primary-whiteish);
@@ -2179,7 +2187,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text368 {
+.home-text370 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -2194,7 +2202,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text372 {
+.home-text374 {
   top: 120px;
   left: 378px;
   color: var(--dl-color-primary-whiteish);
@@ -2205,7 +2213,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text376 {
+.home-text378 {
   top: 173px;
   left: 67px;
   color: var(--dl-color-primary-whiteish);
@@ -2216,7 +2224,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text377 {
+.home-text379 {
   font-size: 20px;
 }
 .home-icon24 {
@@ -2290,7 +2298,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text381 {
+.home-text383 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -2626,10 +2634,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text367 {
+  .home-text369 {
     z-index: 800;
   }
-  .home-text376 {
+  .home-text378 {
     z-index: 800;
   }
   .home-footer {
@@ -3192,31 +3200,23 @@
     font-style: normal;
     font-weight: 500;
   }
-  .home-text288 {
+  .home-text290 {
     font-family: Raleway;
   }
-  .home-text289 {
+  .home-text291 {
     font-size: inherit;
   }
   .home-container23 {
     height: 905px;
   }
-  .home-text290 {
+  .home-text292 {
     width: 80%;
     align-self: flex-start;
   }
-  .home-text291 {
+  .home-text293 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
-  }
-  .home-text292 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text293 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
   }
   .home-text294 {
     color: var(--dl-color-primary-whiteish);
@@ -3251,17 +3251,17 @@
     font-family: Source Code Pro;
   }
   .home-text302 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text303 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text304 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text305 {
     color: var(--dl-color-primary-whiteish);
@@ -3304,17 +3304,17 @@
     font-family: Source Code Pro;
   }
   .home-text315 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text316 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text317 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text318 {
     color: var(--dl-color-primary-whiteish);
@@ -3373,17 +3373,17 @@
     font-family: Source Code Pro;
   }
   .home-text332 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text333 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text334 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text335 {
     color: var(--dl-color-primary-whiteish);
@@ -3410,17 +3410,17 @@
     font-family: Source Code Pro;
   }
   .home-text341 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text342 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text343 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text344 {
     color: var(--dl-color-primary-whiteish);
@@ -3451,17 +3451,17 @@
     font-family: Source Code Pro;
   }
   .home-text351 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text352 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text353 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text354 {
     color: var(--dl-color-primary-whiteish);
@@ -3480,15 +3480,23 @@
     font-family: Source Code Pro;
   }
   .home-text358 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text359 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text360 {
+    color: var(--dl-color-primary-submarine);
+    font-family: Source Code Pro;
+    font-weight: 700;
+  }
+  .home-text361 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text362 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
@@ -3521,7 +3529,7 @@
     padding-right: 0px;
     justify-content: center;
   }
-  .home-text367 {
+  .home-text369 {
     left: 50px;
     bottom: 153px;
   }
@@ -3534,14 +3542,14 @@
     z-index: 0;
     position: absolute;
   }
-  .home-text372 {
+  .home-text374 {
     top: 126px;
     left: 226px;
     position: absolute;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text376 {
+  .home-text378 {
     top: 160px;
     left: 46px;
   }
