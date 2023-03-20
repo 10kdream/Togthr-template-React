@@ -1758,24 +1758,24 @@
   font-style: normal;
 }
 .home-text222 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text223 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text224 {
-  font-size: 20px;
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text225 {
   font-style: normal;
 }
 .home-text226 {
-  color: #eae1d5;
-  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
 }
 .home-text227 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text228 {
@@ -1831,24 +1831,19 @@
   font-style: normal;
 }
 .home-text241 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text242 {
-  color: var(--dl-color-primary-mygreen);
-  width: 100%;
-  height: 100%;
-  font-size: 18px;
-  align-self: flex-start;
-  font-family: Source Code Pro;
-  font-weight: 300;
-  line-height: 1.2;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-sixunits);
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text243 {
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text244 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text245 {
@@ -1860,19 +1855,24 @@
   font-style: normal;
 }
 .home-text247 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text248 {
-  color: #eae1d5;
-  font-style: normal;
+  color: var(--dl-color-primary-mygreen);
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Source Code Pro;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-sixunits);
 }
 .home-text249 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text250 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text251 {
@@ -1880,18 +1880,23 @@
   font-style: normal;
 }
 .home-text252 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text253 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text254 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text255 {
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text256 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text257 {
@@ -1907,31 +1912,30 @@
   font-style: normal;
 }
 .home-text260 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text261 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text262 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text263 {
-  color: #eae1d5;
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text264 {
   font-style: normal;
 }
 .home-text265 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text266 {
-  font-weight: 500;
+  color: #eae1d5;
+  font-style: normal;
 }
 .home-text267 {
+  color: #eae1d5;
   font-style: normal;
 }
 .home-text268 {
@@ -1951,17 +1955,16 @@
   font-style: normal;
 }
 .home-text272 {
-  color: #eae1d5;
   font-style: normal;
 }
 .home-text273 {
   font-style: normal;
 }
 .home-text274 {
-  font-style: normal;
+  font-weight: 500;
 }
 .home-text275 {
-  font-weight: 500;
+  font-style: normal;
 }
 .home-text276 {
   color: #eae1d5;
@@ -1976,6 +1979,35 @@
   font-style: normal;
 }
 .home-text279 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text280 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text281 {
+  font-style: normal;
+}
+.home-text282 {
+  font-style: normal;
+}
+.home-text283 {
+  font-weight: 500;
+}
+.home-text284 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text285 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text286 {
+  color: #eae1d5;
+  font-style: normal;
+}
+.home-text287 {
   font-style: normal;
 }
 .home-what-i-do-mobile {
@@ -2031,7 +2063,7 @@
 .home-heading4:hover {
   color: var(--dl-color-primary-tea);
 }
-.home-text280 {
+.home-text288 {
   font-family: Raleway;
 }
 .home-container23 {
@@ -2060,14 +2092,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text355 {
+.home-text363 {
   font-size: 70px;
 }
-.home-text356 {
+.home-text364 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text357 {
+.home-text365 {
   font-size: 70px;
 }
 .home-blog1 {
@@ -2136,7 +2168,7 @@
   padding-right: var(--dl-space-space-fourunits);
   justify-content: center;
 }
-.home-text359 {
+.home-text367 {
   top: 89px;
   left: 79px;
   color: var(--dl-color-primary-whiteish);
@@ -2147,7 +2179,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text360 {
+.home-text368 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -2162,7 +2194,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text364 {
+.home-text372 {
   top: 120px;
   left: 378px;
   color: var(--dl-color-primary-whiteish);
@@ -2173,7 +2205,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text368 {
+.home-text376 {
   top: 173px;
   left: 67px;
   color: var(--dl-color-primary-whiteish);
@@ -2184,7 +2216,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text369 {
+.home-text377 {
   font-size: 20px;
 }
 .home-icon24 {
@@ -2258,7 +2290,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text373 {
+.home-text381 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -2594,10 +2626,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text359 {
+  .home-text367 {
     z-index: 800;
   }
-  .home-text368 {
+  .home-text376 {
     z-index: 800;
   }
   .home-footer {
@@ -3160,55 +3192,23 @@
     font-style: normal;
     font-weight: 500;
   }
-  .home-text280 {
+  .home-text288 {
     font-family: Raleway;
   }
-  .home-text281 {
+  .home-text289 {
     font-size: inherit;
   }
   .home-container23 {
     height: 905px;
   }
-  .home-text282 {
+  .home-text290 {
     width: 80%;
     align-self: flex-start;
   }
-  .home-text283 {
+  .home-text291 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
-  }
-  .home-text284 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text285 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text286 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text287 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text288 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text289 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text290 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text291 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
   }
   .home-text292 {
     color: var(--dl-color-primary-whiteish);
@@ -3219,9 +3219,8 @@
     font-family: Source Code Pro;
   }
   .home-text294 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text295 {
     color: var(--dl-color-primary-whiteish);
@@ -3252,8 +3251,9 @@
     font-family: Source Code Pro;
   }
   .home-text302 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text303 {
     color: var(--dl-color-primary-whiteish);
@@ -3272,9 +3272,8 @@
     font-family: Source Code Pro;
   }
   .home-text307 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text308 {
     color: var(--dl-color-primary-whiteish);
@@ -3305,8 +3304,9 @@
     font-family: Source Code Pro;
   }
   .home-text315 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text316 {
     color: var(--dl-color-primary-whiteish);
@@ -3341,9 +3341,8 @@
     font-family: Source Code Pro;
   }
   .home-text324 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text325 {
     color: var(--dl-color-primary-whiteish);
@@ -3374,13 +3373,13 @@
     font-family: Source Code Pro;
   }
   .home-text332 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text333 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
+  }
+  .home-text333 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
   }
   .home-text334 {
     color: var(--dl-color-primary-whiteish);
@@ -3411,17 +3410,17 @@
     font-family: Source Code Pro;
   }
   .home-text341 {
-    color: var(--dl-color-primary-whiteish);
+    color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
+    font-weight: 700;
   }
   .home-text342 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
   .home-text343 {
-    color: var(--dl-color-primary-submarine);
+    color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
-    font-weight: 700;
   }
   .home-text344 {
     color: var(--dl-color-primary-whiteish);
@@ -3448,15 +3447,48 @@
     font-family: Source Code Pro;
   }
   .home-text350 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text351 {
     color: var(--dl-color-primary-submarine);
     font-family: Source Code Pro;
     font-weight: 700;
   }
-  .home-text351 {
+  .home-text352 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
-  .home-text352 {
+  .home-text353 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text354 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text355 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text356 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text357 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text358 {
+    color: var(--dl-color-primary-submarine);
+    font-family: Source Code Pro;
+    font-weight: 700;
+  }
+  .home-text359 {
+    color: var(--dl-color-primary-whiteish);
+    font-family: Source Code Pro;
+  }
+  .home-text360 {
     color: var(--dl-color-primary-whiteish);
     font-family: Source Code Pro;
   }
@@ -3489,7 +3521,7 @@
     padding-right: 0px;
     justify-content: center;
   }
-  .home-text359 {
+  .home-text367 {
     left: 50px;
     bottom: 153px;
   }
@@ -3502,14 +3534,14 @@
     z-index: 0;
     position: absolute;
   }
-  .home-text364 {
+  .home-text372 {
     top: 126px;
     left: 226px;
     position: absolute;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text368 {
+  .home-text376 {
     top: 160px;
     left: 46px;
   }
