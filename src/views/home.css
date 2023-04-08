@@ -2077,6 +2077,7 @@
 .home-container23 {
   flex: 0 0 auto;
   width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   align-items: center;
@@ -2100,14 +2101,14 @@
   font-weight: 500;
   padding-left: var(--dl-space-space-sixunits);
 }
-.home-text365 {
+.home-text292 {
   font-size: 70px;
 }
-.home-text366 {
+.home-text293 {
   color: var(--dl-color-primary-submarine);
   font-size: 70px;
 }
-.home-text367 {
+.home-text294 {
   font-size: 70px;
 }
 .home-blog1 {
@@ -2176,7 +2177,7 @@
   padding-right: var(--dl-space-space-fourunits);
   justify-content: center;
 }
-.home-text369 {
+.home-text296 {
   top: 89px;
   left: 79px;
   color: var(--dl-color-primary-whiteish);
@@ -2187,7 +2188,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text370 {
+.home-text297 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -2202,7 +2203,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text374 {
+.home-text301 {
   top: 120px;
   left: 378px;
   color: var(--dl-color-primary-whiteish);
@@ -2213,7 +2214,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text378 {
+.home-text305 {
   top: 173px;
   left: 67px;
   color: var(--dl-color-primary-whiteish);
@@ -2224,7 +2225,7 @@
   font-family: Raleway;
   font-weight: 300;
 }
-.home-text379 {
+.home-text306 {
   font-size: 20px;
 }
 .home-icon24 {
@@ -2298,7 +2299,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text383 {
+.home-text310 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -2634,10 +2635,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text369 {
+  .home-text296 {
     z-index: 800;
   }
-  .home-text378 {
+  .home-text305 {
     z-index: 800;
   }
   .home-footer {
@@ -3210,297 +3211,6 @@
   .home-container23 {
     height: 905px;
   }
-  .home-text292 {
-    width: 80%;
-    align-self: flex-start;
-  }
-  .home-text293 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text294 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text295 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text296 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text297 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text298 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text299 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text300 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text301 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text302 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text303 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text304 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text305 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text306 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text307 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text308 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text309 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text310 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text311 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text312 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text313 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text314 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text315 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text316 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text317 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text318 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text319 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text320 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text321 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text322 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text323 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text324 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text325 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text326 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text327 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text328 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text329 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text330 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text331 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text332 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text333 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text334 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text335 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text336 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text337 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text338 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text339 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text340 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text341 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text342 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text343 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text344 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text345 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text346 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text347 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text348 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text349 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text350 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text351 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text352 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text353 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text354 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text355 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text356 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text357 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text358 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text359 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text360 {
-    color: var(--dl-color-primary-submarine);
-    font-family: Source Code Pro;
-    font-weight: 700;
-  }
-  .home-text361 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
-  .home-text362 {
-    color: var(--dl-color-primary-whiteish);
-    font-family: Source Code Pro;
-  }
   .home-blog {
     display: none;
   }
@@ -3530,7 +3240,7 @@
     padding-right: 0px;
     justify-content: center;
   }
-  .home-text369 {
+  .home-text296 {
     left: 50px;
     bottom: 153px;
   }
@@ -3543,14 +3253,14 @@
     z-index: 0;
     position: absolute;
   }
-  .home-text374 {
+  .home-text301 {
     top: 126px;
     left: 226px;
     position: absolute;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text378 {
+  .home-text305 {
     top: 160px;
     left: 46px;
   }
