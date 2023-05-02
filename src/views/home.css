@@ -729,6 +729,7 @@
 .home-text089 {
   top: 0px;
   left: 0px;
+  color: rgba(234, 225, 213, 0);
   width: 100%;
   bottom: 0px;
   height: 100%;
@@ -745,72 +746,56 @@
   background-image: linear-gradient(0deg, rgba(48, 48, 48, 0.61) 0.00%,rgb(28, 27, 27) 100.00%);
 }
 .home-text090 {
-  color: #ffffff;
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text091 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text092 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text093 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text094 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text095 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text096 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text097 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text098 {
-  color: rgba(255, 255, 255, 0);
   font-family: Raleway;
   text-transform: none;
   text-decoration: none;
 }
 .home-text099 {
-  color: rgba(255, 255, 255, 0);
   font-style: normal;
   font-family: Source Code Pro;
   font-weight: 300;
   text-transform: none;
   text-decoration: none;
-}
-.home-text100 {
-  color: #ffffff;
-}
-.home-text101 {
-  color: #ffffff;
 }
 .home-image06 {
   width: 300px;

@@ -293,8 +293,8 @@ const Home = (props) => {
                     <br className="home-text097"></br>
                     <br className="home-text098"></br>
                     <span className="home-text099">Mix Engineer</span>
-                    <br className="home-text100"></br>
-                    <br className="home-text101"></br>
+                    <br></br>
+                    <br></br>
                   </span>
                   <img
                     alt="image"
