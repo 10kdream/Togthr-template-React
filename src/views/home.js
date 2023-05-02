@@ -243,108 +243,108 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div data-role="current-banner" className="home-slide02 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/700/q/75/i/b78d017efdbb6f0800def164869b1cfad74e11074942874a47cbe8765e594223/banoffee.jpg"
-                    className="home-image04"
-                  />
                   <span className="home-text068">
                     <br className="home-text069"></br>
-                    <span className="home-text070">Banoffee</span>
+                    <span className="home-text070">MEMA.</span>
                     <br className="home-text071"></br>
-                    <span className="home-text072">
-                      &apos;One Night Stand&apos;
-                    </span>
-                    <br className="home-text073"></br>
+                    <span className="home-text072">&apos;Ligas</span>
+                    <span className="home-text073">&apos;</span>
                     <br className="home-text074"></br>
-                    <span className="home-text075">Recording Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                </div>
-                <div data-role="current-banner" className="home-slide03 banner">
-                  <span className="home-text078">
-                    <br className="home-text079"></br>
-                    <span className="home-text080">MEMA.</span>
-                    <br className="home-text081"></br>
-                    <span className="home-text082">&apos;Ligas</span>
-                    <span className="home-text083">&apos;</span>
-                    <br className="home-text084"></br>
-                    <br className="home-text085"></br>
-                    <span className="home-text086">Mix Engineer</span>
+                    <br className="home-text075"></br>
+                    <span className="home-text076">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://i1.sndcdn.com/artworks-sIuKNXKwzlGixyS5-GpR8jg-t500x500.jpg"
-                    className="home-image05"
+                    className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide04 banner">
-                  <span className="home-text089">
-                    <br className="home-text090"></br>
-                    <span className="home-text091">MEMA.</span>
-                    <br className="home-text092"></br>
-                    <span className="home-text093">&apos;Leve Escuro</span>
-                    <span className="home-text094">&apos;</span>
-                    <br className="home-text095"></br>
-                    <span className="home-text096">Album</span>
-                    <br className="home-text097"></br>
-                    <br className="home-text098"></br>
-                    <span className="home-text099">Mix Engineer</span>
+                <div data-role="current-banner" className="home-slide03 banner">
+                  <span className="home-text079">
+                    <br className="home-text080"></br>
+                    <span className="home-text081">MEMA.</span>
+                    <br className="home-text082"></br>
+                    <span className="home-text083">&apos;Leve Escuro</span>
+                    <span className="home-text084">&apos;</span>
+                    <br className="home-text085"></br>
+                    <span className="home-text086">Album</span>
+                    <br className="home-text087"></br>
+                    <br className="home-text088"></br>
+                    <span className="home-text089">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://i.scdn.co/image/ab67616d0000b2730fb8066e3c560529a4d14feb"
-                    className="home-image06"
+                    className="home-image05"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide05 banner">
-                  <span className="home-text102">
-                    <br className="home-text103"></br>
-                    <span className="home-text104">Benedict Cork</span>
-                    <br className="home-text105"></br>
-                    <span className="home-text106">
+                <div data-role="current-banner" className="home-slide04 banner">
+                  <span className="home-text092">
+                    <br className="home-text093"></br>
+                    <span className="home-text094">Benedict Cork</span>
+                    <br className="home-text095"></br>
+                    <span className="home-text096">
                       &apos;The Midnight Sessions&apos;
                     </span>
-                    <br className="home-text107"></br>
-                    <span className="home-text108">EP</span>
-                    <br className="home-text109"></br>
-                    <br className="home-text110"></br>
-                    <span className="home-text111">Mix Engineer</span>
+                    <br className="home-text097"></br>
+                    <span className="home-text098">EP</span>
+                    <br className="home-text099"></br>
+                    <br className="home-text100"></br>
+                    <span className="home-text101">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/t/original/i/f53893b9bad4bd6626c2ced53e280551bcb9dea6fe15d520313ee610ef78a547/benedict-cork.jpg"
-                    className="home-image07"
+                    className="home-image06"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide06 banner">
-                  <span className="home-text114">
-                    <br className="home-text115"></br>
-                    <span className="home-text116">
+                <div data-role="current-banner" className="home-slide05 banner">
+                  <span className="home-text104">
+                    <br className="home-text105"></br>
+                    <span className="home-text106">
                       &apos;Tower Of God&apos;
                     </span>
-                    <br className="home-text117"></br>
-                    <span className="home-text118">Soundtrack</span>
-                    <br className="home-text119"></br>
-                    <span className="home-text120">Kevin Penkin</span>
-                    <br className="home-text121"></br>
-                    <br className="home-text122"></br>
-                    <span className="home-text123">Recording Engineer</span>
+                    <br className="home-text107"></br>
+                    <span className="home-text108">Soundtrack</span>
+                    <br className="home-text109"></br>
+                    <span className="home-text110">Kevin Penkin</span>
+                    <br className="home-text111"></br>
+                    <br className="home-text112"></br>
+                    <span className="home-text113">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/t/original/i/91bb0f0a661e5d6c02ca83220c02b2b0a454dec89512036d3aa6c613c4d186d6/towerofgod.jpg"
+                    className="home-image07"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide06 banner">
+                  <img
+                    alt="image"
+                    src="https://media.pitchfork.com/photos/5e50060794f6ea0009d3f367/1:1/w_600/Look%20At%20Us%20Now%20Dad_Banoffee.jpg"
                     className="home-image08"
                   />
+                  <span className="home-text116">
+                    <br className="home-text117"></br>
+                    <span className="home-text118">Banoffee</span>
+                    <br className="home-text119"></br>
+                    <span className="home-text120">
+                      &apos;One Night Stand&apos;
+                    </span>
+                    <br className="home-text121"></br>
+                    <br className="home-text122"></br>
+                    <span className="home-text123">Recording Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
                 </div>
                 <div data-role="current-banner" className="home-slide07 banner">
                   <span className="home-text126">
