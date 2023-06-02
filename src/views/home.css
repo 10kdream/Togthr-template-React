@@ -2523,6 +2523,7 @@
   top: 173px;
   left: 67px;
   color: var(--dl-color-primary-whiteish);
+  z-index: 1000;
   position: absolute;
   align-self: flex-start;
   font-style: normal;
