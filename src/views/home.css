@@ -2626,7 +2626,7 @@
 }
 @media(max-width: 1600px) {
   .home-slider-container {
-    height: 531px;
+    height: 404px;
     position: relative;
   }
   .home-slide {
@@ -2846,8 +2846,8 @@
     position: absolute;
   }
   .home-image12 {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 120px;
   }
   .home-image13 {
     width: 100%;
