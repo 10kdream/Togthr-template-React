@@ -947,7 +947,7 @@ new BlazeSlider(el, {
           ></BlogPostCard1>
         </div>
       </div>
-      <section className="home-contact">
+      <section id="contact" className="home-contact">
         <div className="home-content">
           <div className="home-container27">
             <span className="home-text351">
