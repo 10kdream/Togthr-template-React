@@ -1004,11 +1004,7 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="home-link5 button"
             >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="home-image21"
-              />
+              <img alt="image" src="/arrow.svg" className="home-image21" />
             </a>
           </div>
         </div>
