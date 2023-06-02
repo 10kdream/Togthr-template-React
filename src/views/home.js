@@ -213,38 +213,34 @@ const Home = (props) => {
                 <div data-role="current-banner" className="home-slide banner">
                   <span className="home-text052">
                     <br className="home-text053"></br>
-                    <span className="home-text054">Benedict Cork</span>
+                    <span className="home-text054">Virgeen ft. Nenah</span>
                     <br className="home-text055"></br>
-                    <span className="home-text056">
-                      &apos;The Midnight Sessions&apos;
-                    </span>
+                    <span className="home-text056">&apos;Moonlight&apos;</span>
                     <br className="home-text057"></br>
-                    <span className="home-text058">EP</span>
-                    <br className="home-text059"></br>
-                    <br className="home-text060"></br>
-                    <span className="home-text061">Mix Engineer</span>
+                    <br className="home-text058"></br>
+                    <span className="home-text059">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
-                    src="https://freight.cargo.site/t/original/i/f53893b9bad4bd6626c2ced53e280551bcb9dea6fe15d520313ee610ef78a547/benedict-cork.jpg"
+                    src="https://freight.cargo.site/w/400/q/75/i/8a6a6f5864d1aabf875f2975d36a89e343e21a660857e36c62908c6e889ad3e1/nenah-3.jpg"
                     className="home-image02"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide01 banner">
-                  <span className="home-text064">
-                    <br className="home-text065"></br>
-                    <span className="home-text066">
+                  <span className="home-text062">
+                    <br className="home-text063"></br>
+                    <span className="home-text064">
                       &apos;Tower Of God&apos;
                     </span>
+                    <br className="home-text065"></br>
+                    <span className="home-text066">Soundtrack</span>
                     <br className="home-text067"></br>
-                    <span className="home-text068">Soundtrack</span>
+                    <span className="home-text068">Kevin Penkin</span>
                     <br className="home-text069"></br>
-                    <span className="home-text070">Kevin Penkin</span>
-                    <br className="home-text071"></br>
-                    <br className="home-text072"></br>
-                    <span className="home-text073">Recording Engineer</span>
+                    <br className="home-text070"></br>
+                    <span className="home-text071">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
@@ -255,90 +251,148 @@ const Home = (props) => {
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide02 banner">
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
-                    className="home-image04"
-                  />
-                  <span className="home-text076">
+                  <span className="home-text074">
+                    <br className="home-text075"></br>
+                    <span className="home-text076">MEMA.</span>
                     <br className="home-text077"></br>
-                    <span className="home-text078">Kota Banks</span>
-                    <br className="home-text079"></br>
-                    <span className="home-text080">
-                      &apos;20 Missed Calls&apos;
-                    </span>
+                    <span className="home-text078">&apos;Ligas</span>
+                    <span className="home-text079">&apos;</span>
+                    <br className="home-text080"></br>
                     <br className="home-text081"></br>
-                    <br className="home-text082"></br>
-                    <span className="home-text083">Recording Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                </div>
-                <div data-role="current-banner" className="home-slide03 banner">
-                  <img
-                    alt="image"
-                    src="https://media.pitchfork.com/photos/5e50060794f6ea0009d3f367/1:1/w_600/Look%20At%20Us%20Now%20Dad_Banoffee.jpg"
-                    className="home-image05"
-                  />
-                  <span className="home-text086">
-                    <br className="home-text087"></br>
-                    <span className="home-text088">Banoffee</span>
-                    <br className="home-text089"></br>
-                    <span className="home-text090">
-                      &apos;One Night Stand&apos;
-                    </span>
-                    <br className="home-text091"></br>
-                    <br className="home-text092"></br>
-                    <span className="home-text093">Recording Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                </div>
-                <div data-role="current-banner" className="home-slide04 banner">
-                  <span className="home-text096">
-                    <br className="home-text097"></br>
-                    <span className="home-text098">MEMA.</span>
-                    <br className="home-text099"></br>
-                    <span className="home-text100">&apos;Ligas</span>
-                    <span className="home-text101">&apos;</span>
-                    <br className="home-text102"></br>
-                    <br className="home-text103"></br>
-                    <span className="home-text104">Mix Engineer</span>
+                    <span className="home-text082">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://i1.sndcdn.com/artworks-sIuKNXKwzlGixyS5-GpR8jg-t500x500.jpg"
-                    className="home-image06"
+                    className="home-image04"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide05 banner">
+                <div data-role="current-banner" className="home-slide03 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/b91383f579fe82e6e3f53df93664fa43bc82a7cfd0a496885d2e650dde41bc24/BIRHTDAY-COVER--scaled.jpeg"
-                    className="home-image07"
+                    className="home-image05"
                   />
-                  <span className="home-text107">
-                    <br className="home-text108"></br>
-                    <span className="home-text109">Vivi Thill</span>
-                    <br className="home-text110"></br>
-                    <span className="home-text111">
+                  <span className="home-text085">
+                    <br className="home-text086"></br>
+                    <span className="home-text087">Vivi Thill</span>
+                    <br className="home-text088"></br>
+                    <span className="home-text089">
                       &apos;i don&apos;t like my birthday&apos;
                     </span>
-                    <br className="home-text112"></br>
-                    <br className="home-text113"></br>
-                    <span className="home-text114">Mix Engineer</span>
+                    <br className="home-text090"></br>
+                    <br className="home-text091"></br>
+                    <span className="home-text092">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                 </div>
+                <div data-role="current-banner" className="home-slide04 banner">
+                  <span className="home-text095">
+                    <br className="home-text096"></br>
+                    <span className="home-text097">Nenah</span>
+                    <br className="home-text098"></br>
+                    <span className="home-text099">&apos;Sick&apos;</span>
+                    <br className="home-text100"></br>
+                    <br className="home-text101"></br>
+                    <span className="home-text102">Recording Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/400/q/75/i/4779634ee4d87ff48ba5259c177f2edb51384ce0cf96466739d038762594406b/nenah.jpg"
+                    className="home-image06"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide05 banner">
+                  <span className="home-text105">
+                    <br className="home-text106"></br>
+                    <span className="home-text107">Jade Empress</span>
+                    <br className="home-text108"></br>
+                    <span className="home-text109">&apos;Golden Hours</span>
+                    <span className="home-text110">&apos;</span>
+                    <br className="home-text111"></br>
+                    <br className="home-text112"></br>
+                    <span className="home-text113">Mix Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/400/q/75/i/0e5057fe059eea931492eaae1fa0e3ac0bb79d75d3f8b20a815de2da90472cab/golden-hours.jpeg"
+                    className="home-image07"
+                  />
+                </div>
                 <div data-role="current-banner" className="home-slide06 banner">
-                  <span className="home-text117">
-                    <br className="home-text118"></br>
-                    <span className="home-text119">Vivi Thill</span>
-                    <br className="home-text120"></br>
-                    <span className="home-text121">
+                  <span className="home-text116">
+                    <br className="home-text117"></br>
+                    <span className="home-text118">Juliana Davis</span>
+                    <br className="home-text119"></br>
+                    <span className="home-text120">&apos;Drinking Alone</span>
+                    <span className="home-text121">&apos;</span>
+                    <br className="home-text122"></br>
+                    <br className="home-text123"></br>
+                    <span className="home-text124">Mix Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/500/q/75/i/0e2de127bc3d96174464c2abb8d6461e7abd961a823efb729f6429be20f0e825/Juliana-Drinking-Alone.jpeg"
+                    className="home-image08"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide07 banner">
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/600/q/75/i/365505ee7c320fca0cd64419a231a723720fb348bacd9a6de151f994ef3386fd/kotakotakota.png"
+                    className="home-image09"
+                  />
+                  <span className="home-text127">
+                    <br className="home-text128"></br>
+                    <span className="home-text129">Kota Banks</span>
+                    <br className="home-text130"></br>
+                    <span className="home-text131">
+                      &apos;20 Missed Calls&apos;
+                    </span>
+                    <br className="home-text132"></br>
+                    <br className="home-text133"></br>
+                    <span className="home-text134">Recording Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                </div>
+                <div data-role="current-banner" className="home-slide08 banner">
+                  <span className="home-text137">
+                    <br className="home-text138"></br>
+                    <span className="home-text139">Benedict Cork</span>
+                    <br className="home-text140"></br>
+                    <span className="home-text141">
+                      &apos;The Midnight Sessions&apos;
+                    </span>
+                    <br className="home-text142"></br>
+                    <span className="home-text143">EP</span>
+                    <br className="home-text144"></br>
+                    <br className="home-text145"></br>
+                    <span className="home-text146">Mix Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/t/original/i/f53893b9bad4bd6626c2ced53e280551bcb9dea6fe15d520313ee610ef78a547/benedict-cork.jpg"
+                    className="home-image10"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide09 banner">
+                  <span className="home-text149">
+                    <br className="home-text150"></br>
+                    <span className="home-text151">Vivi Thill</span>
+                    <br className="home-text152"></br>
+                    <span className="home-text153">
                       &apos;don&apos;t break the heart
                       <span
                         dangerouslySetInnerHTML={{
@@ -346,234 +400,180 @@ const Home = (props) => {
                         }}
                       />
                     </span>
-                    <br className="home-text122"></br>
-                    <span className="home-text123">of a songwriter&apos;</span>
-                    <br className="home-text124"></br>
-                    <br className="home-text125"></br>
-                    <span className="home-text126">Mix Engineer</span>
+                    <br className="home-text154"></br>
+                    <span className="home-text155">of a songwriter&apos;</span>
+                    <br className="home-text156"></br>
+                    <br className="home-text157"></br>
+                    <span className="home-text158">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/c27be1f3d6f7a6dd593ef7e44ca43a5b5d37df89bdcbcbc113c869bb1488bf6a/a1392942460_10.jpeg"
-                    className="home-image08"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide07 banner">
-                  <span className="home-text129">
-                    <br className="home-text130"></br>
-                    <span className="home-text131">Nenah</span>
-                    <br className="home-text132"></br>
-                    <span className="home-text133">&apos;Sick&apos;</span>
-                    <br className="home-text134"></br>
-                    <br className="home-text135"></br>
-                    <span className="home-text136">Recording Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/400/q/75/i/4779634ee4d87ff48ba5259c177f2edb51384ce0cf96466739d038762594406b/nenah.jpg"
-                    className="home-image09"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide08 banner">
-                  <span className="home-text139">
-                    <br className="home-text140"></br>
-                    <span className="home-text141">Jade Empress</span>
-                    <br className="home-text142"></br>
-                    <span className="home-text143">&apos;Golden Hours</span>
-                    <span className="home-text144">&apos;</span>
-                    <br className="home-text145"></br>
-                    <br className="home-text146"></br>
-                    <span className="home-text147">Mix Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/400/q/75/i/0e5057fe059eea931492eaae1fa0e3ac0bb79d75d3f8b20a815de2da90472cab/golden-hours.jpeg"
-                    className="home-image10"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide09 banner">
-                  <span className="home-text150">
-                    <br className="home-text151"></br>
-                    <span className="home-text152">DOEXL</span>
-                    <br className="home-text153"></br>
-                    <span className="home-text154">&apos;MORPH EP&apos;</span>
-                    <br className="home-text155"></br>
-                    <br className="home-text156"></br>
-                    <span className="home-text157">Mix Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/400/q/75/i/f70e1a868082caf0a8d36d2e26067c628b811ee8e35901f11f5653aa609411d2/a2983916112_10.jpeg"
                     className="home-image11"
                   />
                 </div>
                 <div data-role="current-banner" className="home-slide10 banner">
-                  <span className="home-text160">
-                    <br className="home-text161"></br>
-                    <span className="home-text162">Virgeen ft. Nenah</span>
-                    <br className="home-text163"></br>
-                    <span className="home-text164">&apos;Moonlight&apos;</span>
-                    <br className="home-text165"></br>
-                    <br className="home-text166"></br>
-                    <span className="home-text167">Recording Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/400/q/75/i/8a6a6f5864d1aabf875f2975d36a89e343e21a660857e36c62908c6e889ad3e1/nenah-3.jpg"
-                    className="home-image12"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide11 banner">
-                  <span className="home-text170">
-                    <br className="home-text171"></br>
-                    <span className="home-text172">ie saga</span>
-                    <br className="home-text173"></br>
-                    <span className="home-text174">&apos;Lived Too Much</span>
-                    <span className="home-text175">&apos;</span>
-                    <br className="home-text176"></br>
-                    <br className="home-text177"></br>
-                    <span className="home-text178">Mix Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/400/q/75/i/ab4f94d3e64dbb0729c198dbd15dbeb7ec5c31c1e866c34e5d2b89c9102fb00b/channels4_profile.jpeg"
-                    className="home-image13"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide12 banner">
-                  <span className="home-text181">
-                    <br className="home-text182"></br>
-                    <span className="home-text183">Juliana Davis</span>
-                    <br className="home-text184"></br>
-                    <span className="home-text185">&apos;Drinking Alone</span>
-                    <span className="home-text186">&apos;</span>
-                    <br className="home-text187"></br>
-                    <br className="home-text188"></br>
-                    <span className="home-text189">Mix Engineer</span>
-                    <br></br>
-                    <br></br>
-                  </span>
-                  <img
-                    alt="image"
-                    src="https://freight.cargo.site/w/500/q/75/i/0e2de127bc3d96174464c2abb8d6461e7abd961a823efb729f6429be20f0e825/Juliana-Drinking-Alone.jpeg"
-                    className="home-image14"
-                  />
-                </div>
-                <div data-role="current-banner" className="home-slide13 banner">
-                  <span className="home-text192">
-                    <br className="home-text193"></br>
-                    <span className="home-text194">Freddie Dickson</span>
-                    <br className="home-text195"></br>
-                    <span className="home-text196">
+                  <span className="home-text161">
+                    <br className="home-text162"></br>
+                    <span className="home-text163">Freddie Dickson</span>
+                    <br className="home-text164"></br>
+                    <span className="home-text165">
                       &apos;Idiot&apos;s Dream EP
                     </span>
-                    <span className="home-text197">&apos;</span>
-                    <br className="home-text198"></br>
-                    <br className="home-text199"></br>
-                    <span className="home-text200">Recording Engineer</span>
-                    <br className="home-text201"></br>
-                    <span className="home-text202">Mix Engineer</span>
-                    <br className="home-text203"></br>
-                    <span className="home-text204">Producer</span>
+                    <span className="home-text166">&apos;</span>
+                    <br className="home-text167"></br>
+                    <br className="home-text168"></br>
+                    <span className="home-text169">Recording Engineer</span>
+                    <br className="home-text170"></br>
+                    <span className="home-text171">Mix Engineer</span>
+                    <br className="home-text172"></br>
+                    <span className="home-text173">Producer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/1a88dc27b47e1335e29b83e5df5df0ce11e256781c827a2da02032bebd245154/150937298_1518213858372527_7338739124970066346_o.jpeg"
-                    className="home-image15"
+                    className="home-image12"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide14 banner">
-                  <span className="home-text207">
-                    <br className="home-text208"></br>
-                    <span className="home-text209">MEMA.</span>
-                    <br className="home-text210"></br>
-                    <span className="home-text211">&apos;Leve Escuro</span>
-                    <span className="home-text212">&apos;</span>
-                    <br className="home-text213"></br>
-                    <span className="home-text214">Album</span>
-                    <br className="home-text215"></br>
-                    <br className="home-text216"></br>
-                    <span className="home-text217">Mix Engineer</span>
+                <div data-role="current-banner" className="home-slide11 banner">
+                  <span className="home-text176">
+                    <br className="home-text177"></br>
+                    <span className="home-text178">MEMA.</span>
+                    <br className="home-text179"></br>
+                    <span className="home-text180">&apos;Leve Escuro</span>
+                    <span className="home-text181">&apos;</span>
+                    <br className="home-text182"></br>
+                    <span className="home-text183">Album</span>
+                    <br className="home-text184"></br>
+                    <br className="home-text185"></br>
+                    <span className="home-text186">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://i.scdn.co/image/ab67616d0000b2730fb8066e3c560529a4d14feb"
-                    className="home-image16"
+                    className="home-image13"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide15 banner">
+                <div data-role="current-banner" className="home-slide12 banner">
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/700/q/75/i/50fc70094115a398566c5333b3b3e99a3cdcd705c28778bcef0d2e27724a84b9/dancing-on-the-moon-1599217225-5lQzAHfpOq.jpg"
-                    className="home-image17"
+                    className="home-image14"
                   />
-                  <span className="home-text220">
-                    <br className="home-text221"></br>
-                    <span className="home-text222">Unknown Brain ft.</span>
-                    <br className="home-text223"></br>
-                    <span className="home-text224">Luke Burr</span>
-                    <br className="home-text225"></br>
-                    <span className="home-text226">
+                  <span className="home-text189">
+                    <br className="home-text190"></br>
+                    <span className="home-text191">Unknown Brain ft.</span>
+                    <br className="home-text192"></br>
+                    <span className="home-text193">Luke Burr</span>
+                    <br className="home-text194"></br>
+                    <span className="home-text195">
                       &apos;Dancing On The Moon&apos;
                     </span>
-                    <br className="home-text227"></br>
-                    <br className="home-text228"></br>
-                    <span className="home-text229">Recording Engineer</span>
+                    <br className="home-text196"></br>
+                    <br className="home-text197"></br>
+                    <span className="home-text198">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                 </div>
-                <div data-role="current-banner" className="home-slide16 banner">
-                  <span className="home-text232">
-                    <br className="home-text233"></br>
-                    <span className="home-text234">MEMA.</span>
-                    <br className="home-text235"></br>
-                    <span className="home-text236">&apos;Estou Bem&apos;</span>
-                    <br className="home-text237"></br>
-                    <br className="home-text238"></br>
-                    <span className="home-text239">Mix Engineer</span>
+                <div data-role="current-banner" className="home-slide13 banner">
+                  <span className="home-text201">
+                    <br className="home-text202"></br>
+                    <span className="home-text203">MEMA.</span>
+                    <br className="home-text204"></br>
+                    <span className="home-text205">&apos;Estou Bem&apos;</span>
+                    <br className="home-text206"></br>
+                    <br className="home-text207"></br>
+                    <span className="home-text208">Mix Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/7ffbe96d7bcadf082faee49e485b8ff6dbf69738fdc7b196ba26144b11ee15c9/mema-estou.jpeg"
-                    className="home-image18"
+                    className="home-image15"
                   />
                 </div>
-                <div data-role="current-banner" className="home-slide17 banner">
-                  <span className="home-text242">
-                    <br className="home-text243"></br>
-                    <span className="home-text244">Jubilee ft. IQ</span>
-                    <br className="home-text245"></br>
-                    <span className="home-text246">
+                <div data-role="current-banner" className="home-slide14 banner">
+                  <span className="home-text211">
+                    <br className="home-text212"></br>
+                    <span className="home-text213">DOEXL</span>
+                    <br className="home-text214"></br>
+                    <span className="home-text215">&apos;MORPH EP&apos;</span>
+                    <br className="home-text216"></br>
+                    <br className="home-text217"></br>
+                    <span className="home-text218">Mix Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/400/q/75/i/f70e1a868082caf0a8d36d2e26067c628b811ee8e35901f11f5653aa609411d2/a2983916112_10.jpeg"
+                    className="home-image16"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide15 banner">
+                  <img
+                    alt="image"
+                    src="https://media.pitchfork.com/photos/5e50060794f6ea0009d3f367/1:1/w_600/Look%20At%20Us%20Now%20Dad_Banoffee.jpg"
+                    className="home-image17"
+                  />
+                  <span className="home-text221">
+                    <br className="home-text222"></br>
+                    <span className="home-text223">Banoffee</span>
+                    <br className="home-text224"></br>
+                    <span className="home-text225">
+                      &apos;One Night Stand&apos;
+                    </span>
+                    <br className="home-text226"></br>
+                    <br className="home-text227"></br>
+                    <span className="home-text228">Recording Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                </div>
+                <div data-role="current-banner" className="home-slide16 banner">
+                  <span className="home-text231">
+                    <br className="home-text232"></br>
+                    <span className="home-text233">Jubilee ft. IQ</span>
+                    <br className="home-text234"></br>
+                    <span className="home-text235">
                       &apos;Fulla Curve&apos;
                     </span>
-                    <br className="home-text247"></br>
-                    <br className="home-text248"></br>
-                    <span className="home-text249">Recording Engineer</span>
+                    <br className="home-text236"></br>
+                    <br className="home-text237"></br>
+                    <span className="home-text238">Recording Engineer</span>
                     <br></br>
                     <br></br>
                   </span>
                   <img
                     alt="image"
                     src="https://freight.cargo.site/w/600/q/75/i/01d4d8ebb25c394ba53de81eef6ff759c150f1c801ebf8df5f677f7d1be4ae6a/fullacurve.jpg"
+                    className="home-image18"
+                  />
+                </div>
+                <div data-role="current-banner" className="home-slide17 banner">
+                  <span className="home-text241">
+                    <br className="home-text242"></br>
+                    <span className="home-text243">ie saga</span>
+                    <br className="home-text244"></br>
+                    <span className="home-text245">&apos;Lived Too Much</span>
+                    <span className="home-text246">&apos;</span>
+                    <br className="home-text247"></br>
+                    <br className="home-text248"></br>
+                    <span className="home-text249">Mix Engineer</span>
+                    <br></br>
+                    <br></br>
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://freight.cargo.site/w/400/q/75/i/ab4f94d3e64dbb0729c198dbd15dbeb7ec5c31c1e866c34e5d2b89c9102fb00b/channels4_profile.jpeg"
                     className="home-image19"
                   />
                 </div>
